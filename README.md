@@ -1,9 +1,7 @@
-# http://www.basvandriel.nl/ <img src="assets/images/profile-pictures/bas-pixelated-white.png" height="130px" width="130px" align="right" />
-This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.
-
-The idea initially came from that I needed to learn more about principles about object-oriented programming.
+# http://www.basvandriel.nl/ <img src="assets/images/profile-pictures/bas-pixelated-white.png" height="140px" width="140px" align="right" />
 
 
+My personal website for sharing a resume and blog
 
 ## Contribution
 Contributions to the project are currently closed - see the [CONTRIBUTION.md](CONTRIBUTION.md) file for details.
