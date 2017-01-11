@@ -1,0 +1,14 @@
+# Turn on the rewite engine
+RewriteEngine On
+
+# Let the rewrite engine listen to the root of the page
+RewriteBase /
+
+# When the file name doesn't exist, just redirect to the index.php file
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*?)$ index.php
+
+# If an error occurs, always fall back on the index.php
+FallbackResource index.php
