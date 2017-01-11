@@ -1,0 +1,15 @@
+{
+  "name": "Bas/basvandriel.nl",
+  "description": "This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Bas van Driel",
+      "email": "basvandriel94@gmail.com"
+    }
+  ],
+  "require": {
+
+  }
+}
