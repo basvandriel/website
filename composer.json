@@ -1,15 +1,12 @@
 {
-  "name": "Bas/WWW",
+  "name": "basvandriel/WWW",
   "description": "This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Bas van Driel",
       "email": "basvandriel94@gmail.com"
     }
-  ],
-  "require": {
-
-  }
+  ]
 }
