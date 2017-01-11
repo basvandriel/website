@@ -1,7 +1,8 @@
 {
   "name": "basvandriel/WWW",
   "description": "This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "license": "MIT",
   "authors": [
     {
