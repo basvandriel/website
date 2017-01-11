@@ -1,0 +1,7 @@
+# Information taken from http://www.robotstxt.org/
+
+# The "User-agent: *" means this section applies to all robots.
+User-agent: *
+
+# The "Disallow: /" tells the robot that it should not visit any pages on the site.
+Disallow: /
