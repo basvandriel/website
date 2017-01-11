@@ -1,4 +1,7 @@
 # http://www.basvandriel.nl/ <img src="assets/images/profile-pictures/bas-pixelated-white.png" height="140px" width="140px" align="right" />
+[![Build Status](https://travis-ci.org/basvandriel/WWW.svg?branch=master)](https://travis-ci.org/basvandriel/WWW)
+
+
 This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.
 
 The idea initially came from that I needed to learn more about principles about object-oriented programming.
