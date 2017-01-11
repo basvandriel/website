@@ -1,4 +1,4 @@
-# http://www.basvandriel.nl/ <img src="assets/images/profile-pictures/bas-pixelated-white.png" height="120px" width="120px" align="right" />
+# http://www.basvandriel.nl/ <img src="assets/images/profile-pictures/bas-pixelated-white.png" height="140px" width="140px" align="right" />
 
 
 My personal website for sharing a resume and blog
