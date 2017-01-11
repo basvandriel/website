@@ -8,5 +8,9 @@
       "name": "Bas van Driel",
       "email": "basvandriel94@gmail.com"
     }
-  ]
+  ],
+  "require": {
+    "psr/log": "1.0.2"
+  }
+
 }
