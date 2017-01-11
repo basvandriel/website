@@ -1,4 +1,4 @@
-<img src="assets/images/profile-pictures/bas-pixelated-white.png" align="right" />
+<img src="assets/images/profile-pictures/bas-pixelated-white.png" height="40px" width="40px" align="right" />"
 
 # http://www.basvandriel.nl/
 
