@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c39ef5a86cbe0d905df6b236cd4cf162",
+    "hash": "8b3d9b6516b79b68055e6bb92a69f408",
+    "content-hash": "ea2bfc9576c8306f76529c99ae789772",
     "packages": [
         {
             "name": "ip2location/ip2location-php",
@@ -44,7 +45,7 @@
                 "ip2location",
                 "ip2locationlite"
             ],
-            "time": "2016-10-02T02:03:58+00:00"
+            "time": "2016-10-02 02:03:58"
         },
         {
             "name": "monolog/monolog",
@@ -122,7 +123,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-11-26T00:15:39+00:00"
+            "time": "2016-11-26 00:15:39"
         },
         {
             "name": "nette/mail",
@@ -183,7 +184,7 @@
             ],
             "description": "Nette Mail: Sending E-mails",
             "homepage": "https://nette.org",
-            "time": "2016-07-31T12:06:47+00:00"
+            "time": "2016-07-31 12:06:47"
         },
         {
             "name": "nette/utils",
@@ -246,7 +247,7 @@
             ],
             "description": "Nette Utility Classes",
             "homepage": "https://nette.org",
-            "time": "2017-01-09T20:22:19+00:00"
+            "time": "2017-01-09 20:22:19"
         },
         {
             "name": "psr/log",
@@ -293,14 +294,14 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
