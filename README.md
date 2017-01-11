@@ -17,5 +17,6 @@ The project was initially created by [Bas van Driel](https://github.com/basvandr
 
 ## Links
 
+* [~~Website~~](http://www.basvandriel.nl/) _(currently offline)_
 * [Issue tracker](https://github.com/basvandriel/WWW/issues)
 * [Source code](https://github.com/basvandriel/WWW)
