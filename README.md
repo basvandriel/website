@@ -3,8 +3,6 @@ This project contains my personal website, for sharing information about who I a
 
 The idea initially came from that I needed to learn more about principles about object-oriented programming.
 
-
-
 ## Contribution
 Contributions to the project are currently closed - see the [CONTRIBUTION.md](CONTRIBUTION.md) file for details.
 
@@ -13,7 +11,7 @@ Contributions to the project are currently closed - see the [CONTRIBUTION.md](CO
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
 ## Authors
-The project was initially created by [Bas van Driel](https://github.com/basvandriel "Personal GitHub page") ([@bvandriel](https://twitter.com/bvandriel "Personal Twitter page")), where [these people](https://github.com/basvandriel/WWW/graphs/contributors) contributed to it.
+This project was initially created by [Bas van Driel](https://github.com/basvandriel "GitHub page") ([@bvandriel](https://twitter.com/bvandriel "Twitter page")), where [these people](https://github.com/basvandriel/WWW/graphs/contributors) contributed to it.
 
 ## Links
 
