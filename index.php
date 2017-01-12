@@ -27,8 +27,11 @@
     <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- JavaScript scripts -->
-    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Bootstrap JavaScript script -->
+    <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- jQuery JavaScript script -->
+    <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
 
     <title>Bas van Driel</title>
 </head>
