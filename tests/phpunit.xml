@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<phpunit bootstrap="./vendor/autoload.php"
+<phpunit bootstrap="./test-bootstrap.php"
          color="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
@@ -7,8 +7,8 @@
          stopOnFailures="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Unit Tests">
-            <directory>./test</directory>
+        <testsuite name="WWW Unit Tests">
+            <directory>./WWW</directory>
         </testsuite>
     </testsuites>
 </phpunit>
