@@ -1,11 +1,12 @@
 {
-  "name": "WWW",
+  "name": "www",
   "description": "This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.",
   "main": "",
   "license": "MIT",
   "homepage": "",
   "private": true,
   "dependencies": {
+    "bootstrap": "*",
     "jquery": "*"
   },
   "ignore": [
