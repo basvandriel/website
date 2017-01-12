@@ -6,6 +6,13 @@
          convertWarningsToExceptions="true"
          stopOnFailures="false"
          syntaxCheck="false">
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../src/basvandriel/WWW/</directory>
+        </whitelist>
+    </filter>
+
     <testsuites>
         <testsuite name="WWW Unit Tests">
             <directory>./WWW</directory>
