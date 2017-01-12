@@ -27,5 +27,13 @@
     "psr/log": "1.0.2",
     "monolog/monolog": "1.22.0",
     "ip2location/ip2location-php": "8.0.2"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "bower install"
+    ],
+    "post-update-cmd": [
+      "bower install"
+    ]
   }
 }
