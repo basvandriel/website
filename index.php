@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap-theme.min.css">
     <!-- The bootstrap CSS file    -->
-    <link rel="stylesheet" href="assets/styles/bootstrap.css">
+    <link rel="stylesheet" href="var/public/assets/styles/bootstrap.css">
 
     <!-- Favicon collection for most devices -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
