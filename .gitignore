@@ -3,7 +3,7 @@ composer.phar
 vendor/
 
 # Bower
-bower_components/
+assets/scripts/bower/
 
 
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
