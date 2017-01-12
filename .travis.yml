@@ -1,0 +1,22 @@
+language: php
+
+# All PHP versions to test against
+php:
+  # Aliased to a recent 5.6.x version
+  - 5.6
+
+  # Aliased to a recent 7.0.x version
+  - 7.0
+
+  # Aliased to a recent 7.1.x version
+  - 7.1
+
+before_install:
+  - composer self-update
+
+before_script:
+  - composer install
+
+script:
+  - phpunit --configuration phpunit.xml --coverage-text
+
