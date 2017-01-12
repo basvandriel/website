@@ -5,6 +5,9 @@
   "license": "MIT",
   "homepage": "",
   "private": true,
+  "dependencies": {
+    "jquery": "*"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
