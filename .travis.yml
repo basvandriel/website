@@ -17,6 +17,10 @@ before_install:
 before_script:
   - composer install
 
+notifications:
+    # Turn of emails when a notification appears
+    email: false
+
 script:
   - phpunit --configuration tests/phpunit.xml --coverage-text
 
