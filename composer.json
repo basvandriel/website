@@ -10,14 +10,22 @@
       "email": "basvandriel94@gmail.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "WWW\\": "src/basvandriel/WWW"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WWW\\Test\\": "tests/WWW/Test"
+    }
+  },
   "require": {
     "phpunit/phpunit-mock-objects": "3.0",
     "phpunit/php-code-coverage": "3.0.2",
     "phpunit/phpunit": "^5",
-
     "psr/log": "1.0.2",
     "monolog/monolog": "1.22.0",
     "ip2location/ip2location-php": "8.0.2"
   }
-
 }
