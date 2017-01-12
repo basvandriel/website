@@ -1,0 +1,15 @@
+{
+  "name": "WWW",
+  "description": "This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
