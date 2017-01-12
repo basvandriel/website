@@ -26,6 +26,7 @@
     "phpunit/phpunit": "^5",
     "psr/log": "1.0.2",
     "monolog/monolog": "1.22.0",
-    "ip2location/ip2location-php": "8.0.2"
+    "ip2location/ip2location-php": "8.0.2",
+    "twbs/bootstrap": "^3.3"
   }
 }
