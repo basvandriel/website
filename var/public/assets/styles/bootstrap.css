@@ -30,9 +30,9 @@ html, body {
     width: auto;
 }
 
-.fullscreen-container > .container {
-    position: relative;
-    z-index: 1;
+/* Navigation */
+.fullscreen-container > .navigation-container {
+    float: right;
 }
 
 .about-me-container {

@@ -41,6 +41,22 @@
 <body>
 <div class="fullscreen-container">
 
+    <div class="navigation-container">
+        <nav class="collapse navbar-collapse bs-navbar-collapse " role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#about-me-container">About</a>
+                </li>
+                <li>
+                    <a href="/work">Work</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -66,7 +82,7 @@
     </video>
 </div>
 
-<div class="about-me-container">
+<div id="about-me-container">
 
 </div>
 
