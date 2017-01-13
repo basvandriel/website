@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- jQuery JavaScript script -->
+    <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript script -->
+    <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap-theme.min.css">
     <!-- The bootstrap CSS file    -->
@@ -27,27 +36,40 @@
     <meta name="msapplication-TileImage" content="var/public/assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Bootstrap JavaScript script -->
-    <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <!-- jQuery JavaScript script -->
-    <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
-
     <title>Bas van Driel</title>
 </head>
 <body>
-<div class="row">
-    <div class="small-6 columns">
-        <span>Hey, this is me, my name is Bas.</span>
-        <br>
-        <p>I’m a programmer who strives to deliver creative solutions. I am mainly focused in
-            back-end web development and new technologies.</p>
+<div class="fullscreen-container">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="display-1">
+                    Bas van Driel
+                </h1>
+
+                <h2 class="display-2">
+                    <small class="text-muted">A programmer who strives to deliver creative solutions. I am mainly
+                        focused in
+                        back-end web development and new technologies.
+                    </small>
+                </h2>
+            </div>
+        </div>
     </div>
-    <div class="small-6 columns">6 columns</div>
+
+
+    <video autoplay="" loop="" class="fillWidth fadeIn animated"
+           poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
+        <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
 </div>
 
-<img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png">
+<div class="about-me-container">
 
-<p>You can send me an email on <a href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a></p>
+</div>
+
+
 </body>
 </html>

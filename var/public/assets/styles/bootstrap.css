@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.fullscreen-container {
+    position: relative;
+
+    height: auto;
+    width: auto;
+
+    min-height: 100%;
+    min-width: 100%;
+
+    overflow: hidden;
+
+    /*background-color: #1b6d85;*/
+}
+
+.fullscreen-container > #video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+
+    height: auto;
+    width: auto;
+}
+
+.fullscreen-container > .container {
+    position: relative;
+    z-index: 1;
+}
+
+.about-me-container {
+    position: relative;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: "Segoe UI", Arial, serif;
+    color: snow;
+}
