@@ -36,10 +36,17 @@ html, body {
 
     float: right;
 
-    font-size: 30px;
+    font-size: 28px;
 
     margin-top: 10px;
     margin-right: 10px;
+
+    /* TODO Change to other font */
+    font-family: "Segoe UI", sans-serif;
+}
+
+.fullscreen-container > .navigation-container a {
+    color: white;
 }
 
 .about-me-container {
