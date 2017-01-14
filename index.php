@@ -48,7 +48,7 @@
                     <a href="#about-me-container">About</a>
                 </li>
                 <li>
-                    <a href="/work">Work</a>
+                    <a href="/work">Portfolio</a>
                 </li>
                 <li>
                     <a href="/contact">Contact</a>
