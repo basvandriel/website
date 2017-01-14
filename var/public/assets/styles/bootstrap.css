@@ -15,8 +15,6 @@ html, body {
     min-width: 100%;
 
     overflow: hidden;
-
-    /*background-color: #1b6d85;*/
 }
 
 .fullscreen-container > #video-background {
@@ -32,7 +30,16 @@ html, body {
 
 /* Navigation */
 .fullscreen-container > .navigation-container {
+    position: relative;
+    top: 0;
+    right: 0;
+
     float: right;
+
+    font-size: 30px;
+
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .about-me-container {

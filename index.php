@@ -42,7 +42,7 @@
 <div class="fullscreen-container">
 
     <div class="navigation-container">
-        <nav class="collapse navbar-collapse bs-navbar-collapse " role="navigation">
+        <nav class="" role="navigation">
             <ul class="nav navbar-nav">
                 <li>
                     <a href="#about-me-container">About</a>
@@ -83,7 +83,7 @@
 </div>
 
 <div id="about-me-container">
-
+    <div class="jumbotron">HEY</div>
 </div>
 
 
