@@ -57,18 +57,15 @@
         </nav>
     </div>
 
-    <div class="container">
+    <div class="title-container">
         <div class="row">
-            <div class="col-sm-6">
-                <h1 class="display-1">
+            <div class="">
+                <h1 class="main-title">
                     Bas van Driel
                 </h1>
 
-                <h2 class="display-2">
-                    <small class="text-muted">A programmer who strives to deliver creative solutions. I am mainly
-                        focused in
-                        back-end web development and new technologies.
-                    </small>
+                <h2 class="sub-title">
+                    Application developer
                 </h2>
             </div>
         </div>

@@ -28,6 +28,25 @@ html, body {
     width: auto;
 }
 
+.fullscreen-container > .title-container {
+    height: auto;
+    width: auto;
+
+    padding: 10px;
+}
+
+.fullscreen-container > .title-container .main-title {
+    font-size: 100px;
+    font-family: "Segoe UI", Arial, serif;
+    color: #fbf6f6;
+}
+
+.fullscreen-container > .title-container .sub-title {
+    font-size: 40px;
+    font-family: "Segoe UI", Arial, serif;
+    color: rgba(122, 117, 117, 0.78);
+}
+
 /* Navigation */
 .fullscreen-container > .navigation-container {
     position: relative;
@@ -51,10 +70,4 @@ html, body {
 
 .about-me-container {
     position: relative;
-}
-
-h1 {
-    font-size: 80px;
-    font-family: "Segoe UI", Arial, serif;
-    color: snow;
 }
