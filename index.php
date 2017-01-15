@@ -44,9 +44,9 @@
     <div class="navigation-container">
         <nav class="" role="navigation">
             <ul class="nav navbar-nav">
-                <li>
+<!--                <li>
                     <a href="#about-me-container">ABOUT</a>
-                </li>
+                </li>-->
                 <!-- TODO Create portfolio page -->
                 <li>
                     <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
@@ -81,10 +81,10 @@
     </video>
 </div>
 
-<div id="about-me-container">
+<!--<div id="about-me-container">
     <div class="jumbotron">HEY</div>
 </div>
-
+-->
 
 </body>
 </html>
