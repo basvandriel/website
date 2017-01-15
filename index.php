@@ -65,7 +65,7 @@
                 </h1>
 
                 <h2 class="sub-title">
-                    Application developer
+                    APPLICATION DEVELOPER
                 </h2>
             </div>
 

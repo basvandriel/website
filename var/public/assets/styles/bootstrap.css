@@ -42,16 +42,20 @@ html, body {
 
 }
 
-.fullscreen-container > .title-container .main-title {
+.fullscreen-container > .title-container h1.main-title {
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid white;
+
     font-size: 105px;
     font-family: "Segoe UI", Arial, serif;
     color: #fbf6f6;
 }
 
-.fullscreen-container > .title-container .sub-title {
-    font-size: 40px;
+.fullscreen-container > .title-container h2.sub-title {
+    font-size: 30px;
     font-family: "Segoe UI", Arial, serif;
-    color: rgba(122, 117, 117, 0.78);
+    color: #e6e1e1;
 }
 
 /* Navigation */
