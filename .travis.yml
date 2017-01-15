@@ -15,8 +15,14 @@ before_install:
   - composer self-update
 
 before_script:
+  - npm install -g bower
+  - bower install
   - composer install
 
+notifications:
+    # Turn of emails when a notification appears
+    email: false
+
 script:
-  - phpunit --configuration phpunit.xml --coverage-text
+  - phpunit --configuration tests/phpunit.xml --coverage-text
 

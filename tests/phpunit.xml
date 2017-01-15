@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<phpunit bootstrap="./vendor/autoload.php"
+<phpunit bootstrap="./test-bootstrap.php"
          color="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          stopOnFailures="false"
          syntaxCheck="false">
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../src/basvandriel/WWW/</directory>
+        </whitelist>
+    </filter>
+
     <testsuites>
-        <testsuite name="Unit Tests">
-            <directory>./test</directory>
+        <testsuite name="WWW Unit Tests">
+            <directory>./WWW</directory>
         </testsuite>
     </testsuites>
 </phpunit>
