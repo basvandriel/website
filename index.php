@@ -44,9 +44,9 @@
     <div class="navigation-container">
         <nav class="" role="navigation">
             <ul class="nav navbar-nav">
-                <!--                <li>
-                                    <a href="#about-me-container">ABOUT</a>
-                                </li>-->
+                <li>
+                    <a href="#about-me-container">ABOUT</a>
+                </li>
                 <!-- TODO Create portfolio page -->
                 <li>
                     <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
@@ -94,6 +94,11 @@
 
     <div class="about-me-content-container">
 
+
+        <div class="container introduction-container">
+            <h1>ABOUT</h1>
+            <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt="" class="pixelated-image">
+        </div>
     </div>
 
 </div>
