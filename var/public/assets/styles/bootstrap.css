@@ -31,7 +31,6 @@ html, body {
 .fullscreen-container .title-container {
     position: absolute;
 
-
     top: 35%;
 
     width: 100%;
@@ -79,6 +78,38 @@ html, body {
     color: white;
 }
 
-.about-me-container {
+#about-me-container {
     position: relative;
+
+    min-height: 500px;
+    margin-top: -90px;
+
+    height: auto;
+    width: 100%;
+}
+
+#about-me-container > .svg-container {
+    position: relative;
+
+    width:  100%;
+    height: 90px;
+
+
+}
+
+#about-me-container > .about-me-content-container {
+    position: relative;
+
+    height: 2000px;
+    width:  100%;
+
+}
+
+
+#footer-container {
+    position: relative;
+
+    height: 300px;
+    width: 100%;
+    background: #e6e1e1;
 }
