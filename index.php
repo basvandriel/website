@@ -44,9 +44,9 @@
     <div class="navigation-container">
         <nav class="" role="navigation">
             <ul class="nav navbar-nav">
-<!--                <li>
+                <li>
                     <a href="#about-me-container">ABOUT</a>
-                </li>-->
+                </li>
                 <!-- TODO Create portfolio page -->
                 <li>
                     <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
@@ -81,10 +81,31 @@
     </video>
 </div>
 
-<!--<div id="about-me-container">
-    <div class="jumbotron">HEY</div>
-</div>
--->
+<div id="about-me-container">
+    <div class="svg-container">
+        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
+            <path
+                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                    fill-opacity="null" fill="#fff">
+            </path>
+        </svg>
+    </div>
+
+    <div class="about-me-content-container">
+
+
+        <div class="container introduction-container">
+            <h1>ABOUT</h1>
+            <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt="" class="pixelated-image">
+        </div>
+    </div>
+
+</div>
+
+
+<div id="footer-container">
+
+</div>
 </body>
 </html>
