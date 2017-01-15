@@ -28,15 +28,13 @@ html, body {
     width: auto;
 }
 
-.fullscreen-container > .title-container {
-    height: auto;
-    width: auto;
+.fullscreen-container .title-container {
+    text-align: center;
 
-    padding: 10px;
 }
 
 .fullscreen-container > .title-container .main-title {
-    font-size: 100px;
+    font-size: 105px;
     font-family: "Segoe UI", Arial, serif;
     color: #fbf6f6;
 }

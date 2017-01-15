@@ -58,8 +58,8 @@
     </div>
 
     <div class="title-container">
-        <div class="row">
-            <div class="">
+        <div class="row centered-form center-block">
+            <div class="container col-md-10 col-md-offset-1">
                 <h1 class="main-title">
                     Bas van Driel
                 </h1>
@@ -70,6 +70,17 @@
             </div>
         </div>
     </div>
+
+
+    <!--    <div class="container title-container">
+            <h1 class="main-title">
+                Bas van Driel
+            </h1>
+
+            <h2 class="sub-title">
+                Application developer
+            </h2>
+        </div>-->
 
 
     <video autoplay="" loop="" class="fillWidth fadeIn animated"
