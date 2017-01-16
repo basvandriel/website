@@ -116,8 +116,8 @@
                         <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a>, learning more about
                             object-oriented programming, database essentials and project-management.</p>
 
-                        <p>This project has been created for learning more about web development, here I mostly
-                            focused on designing a modern style website with it's needed resources. This project is also open-source and can be found <a
+                        <p>This project has been created for learning more about modern web development, where I mostly
+                            focused on designing it with a modern with it's needed resources. This project is also open-source and can be found <a
                                     href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
                     </div>
                     <div class="col-md-offset-2"></div>
