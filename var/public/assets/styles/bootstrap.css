@@ -102,9 +102,7 @@ html, body {
     height: auto;
     width: auto;
 
-
-
-    min-height: 2000px;
+    padding-bottom: 200px;
 
     margin-top: 50px;
 
@@ -127,10 +125,11 @@ html, body {
 }
 
 #personality-container p {
-
+    margin: 0 0 15px;
     font-size: 25px;
     text-align: right;
 }
+
 #about-me-container > #about-me-content-container img.pixelated-image {
     position: relative;
 

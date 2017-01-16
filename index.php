@@ -100,8 +100,8 @@
             <div id="introduction-text-container">
                 <h1>ABOUT ME</h1>
 
-                <h2>I’m an enthusiast application developer who strives to deliver creative solutions, mainly focused on back-end
-                    web
+                <h2>I’m an enthusiast web and application developer who always strives to deliver creative solutions,
+                    mainly focused on back-end
                     development and new technologies.
                 </h2>
             </div>
@@ -113,7 +113,12 @@
                         <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
                             Netherlands.</p>
 
-                        <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a></p>
+                        <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a>, learning more about
+                            object-oriented programming, database essentials and project-management.</p>
+
+                        <p>This project has been created for learning more about web development, here I mostly
+                            focused on designing a modern style website with it's needed resources. This project is also open-source and can be found <a
+                                    href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
                     </div>
                     <div class="col-md-offset-2"></div>
                     <div class="col-md-5">
@@ -130,6 +135,7 @@
 
 
 <div id="footer-container">
+
 
 </div>
 </body>
