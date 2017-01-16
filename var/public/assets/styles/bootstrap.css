@@ -96,7 +96,7 @@ html, body {
 
 }
 
-#about-me-container > .about-me-content-container {
+#about-me-container > #about-me-content-container {
     position: relative;
 
     height: auto;
@@ -106,16 +106,38 @@ html, body {
 
     min-height: 2000px;
 
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 
-#about-me-container > .about-me-content-container img.pixelated-image {
+#about-me-container > #about-me-content-container #introduction-container {
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+#about-me-container > #about-me-content-container #introduction-container h1 {
+    font-size: 39px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+#personality-container {
+    margin-top: 40px;
+
+}
+
+#personality-container p {
+
+    font-size: 25px;
+    text-align: right;
+}
+#about-me-container > #about-me-content-container img.pixelated-image {
     position: relative;
 
     height: 350px;
     width: 350px;
 
+    overflow: hidden;
 }
 
 #footer-container {

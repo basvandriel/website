@@ -45,7 +45,7 @@
         <nav class="" role="navigation">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#about-me-container">ABOUT</a>
+                    <a href="#about-me-content-container">ABOUT</a>
                 </li>
                 <!-- TODO Create portfolio page -->
                 <li>
@@ -92,12 +92,37 @@
         </svg>
     </div>
 
-    <div class="about-me-content-container">
+    <div id="about-me-content-container">
 
 
-        <div class="container introduction-container">
-            <h1>ABOUT</h1>
-            <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt="" class="pixelated-image">
+        <div class="container" id="introduction-container">
+
+            <div id="introduction-text-container">
+                <h1>ABOUT ME</h1>
+
+                <h2>I’m an enthusiast application developer who strives to deliver creative solutions, mainly focused on back-end
+                    web
+                    development and new technologies.
+                </h2>
+            </div>
+
+
+            <div id="personality-container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
+                            Netherlands.</p>
+
+                        <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a></p>
+                    </div>
+                    <div class="col-md-offset-2"></div>
+                    <div class="col-md-5">
+                        <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt=""
+                             class="pixelated-image">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
