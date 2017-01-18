@@ -96,7 +96,6 @@
 
 
         <div class="container" id="introduction-container">
-
             <div id="introduction-text-container">
                 <h1>ABOUT ME</h1>
 
@@ -105,8 +104,6 @@
                     development and new technologies.
                 </h2>
             </div>
-
-
             <div id="personality-container">
                 <div class="row">
                     <div class="col-md-7">
@@ -117,7 +114,8 @@
                             object-oriented programming, database essentials and project-management.</p>
 
                         <p>This project is created for learning more about modern web development, where I am mostly
-                            focusing on the design and JavaScript programming. This project is also open-source and can be found <a
+                            focusing on the design and JavaScript programming. This project is also open-source and can
+                            be found <a
                                     href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
                     </div>
                     <div class="col-md-offset-2"></div>
@@ -126,6 +124,10 @@
                              class="pixelated-image">
                     </div>
                 </div>
+            </div>
+
+            <div id="resume-container">
+
             </div>
 
         </div>
