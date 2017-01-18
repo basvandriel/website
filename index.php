@@ -139,7 +139,7 @@
 
 
             <div id="education-container">
-                <div class="container">
+                <div class="container-fluid">
                     <h1>EDUCATION</h1>
                     <div class="table-responsive">
                         <table class="table">
@@ -200,7 +200,7 @@
             </div>
 
             <div id="jobs-container">
-                <div class="container">
+                <div class="container-fluid">
                     <h1>WORK EXPERIENCES</h1>
                     <h2>I'll describe my job descriptions and internships</h2>
 
