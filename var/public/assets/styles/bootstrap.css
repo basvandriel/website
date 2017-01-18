@@ -117,6 +117,8 @@ html, body {
 #about-me-container > #about-me-content-container #introduction-container {
     text-align: center;
     font-family: "Segoe UI", sans-serif;
+
+    margin-bottom: 40px;
 }
 
 #about-me-container > #about-me-content-container #introduction-container h1 {
@@ -143,6 +145,20 @@ html, body {
     width: 350px;
 
     overflow: hidden;
+}
+
+#about-me-container #resume-container {
+    background-color: rgba(0, 255, 192, 0.35);
+
+    min-height: 200px;
+}
+
+#about-me-container #resume-container h1 {
+    font-family: "Segoe UI", sans-serif;
+}
+
+#about-me-container #resume-container table tr {
+    height: 125px;
 }
 
 #footer-container {

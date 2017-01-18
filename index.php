@@ -105,7 +105,7 @@
                 </h2>
             </div>
             <div id="personality-container">
-            <div class="row">
+                <div class="row">
                     <div class="col-md-7">
                         <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
                             Netherlands.</p>
@@ -130,15 +130,100 @@
                     </div>
                 </div>
             </div>
-            <hr>
-
         </div>
 
         <div id="resume-container">
 
-            <div class="container">
+            <div id="education-container" class="container">
+                <h1>EDUCATION</h1>
+                <h2>I'll describe my job descriptions and internships</h2>
 
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Vlissingen, Netherlands <br>
+                                2016<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Terneuzen, Netherlands <br>
+                                2015 - 2016<br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Terneuzen, Netherlands <br>
+                                2014 - 2015
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Terneuzen, Netherlands<br>
+                                2013 - 2014
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </div>
             </div>
+
+            <div id="jobs-container" class="container">
+                <h1>Work experiences</h1>
+                <h2>I'll describe my job descriptions and internships</h2>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Vlissingen, Netherlands <br>
+                                2016<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Terneuzen, Netherlands <br>
+                                2015 - 2016<br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Terneuzen, Netherlands <br>
+                                2014 - 2015
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Scalda, "College voor Techniek en Design" <br>
+                                Terneuzen, Netherlands<br>
+                                2013 - 2014
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
         </div>
     </div>
 
