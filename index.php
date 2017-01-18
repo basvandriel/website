@@ -105,18 +105,23 @@
                 </h2>
             </div>
             <div id="personality-container">
-                <div class="row">
+            <div class="row">
                     <div class="col-md-7">
                         <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
                             Netherlands.</p>
+
+                        <p>I stand for quality, little details, structure and perfection in all my work I do.</p>
+
+                        <p>For my hobbies I love to make and listen to music, interest myself in new technologies and a
+                            play some games
+                            once in a while.</p>
 
                         <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a>, learning more about
                             object-oriented programming, database essentials and project-management.</p>
 
                         <p>This project is created for learning more about modern web development, where I am mostly
                             focusing on the design and JavaScript programming. This project is also open-source and can
-                            be found <a
-                                    href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
+                            be found <a href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
                     </div>
                     <div class="col-md-offset-2"></div>
                     <div class="col-md-5">
@@ -125,11 +130,15 @@
                     </div>
                 </div>
             </div>
+            <hr>
 
         </div>
 
         <div id="resume-container">
 
+            <div class="container">
+
+            </div>
         </div>
     </div>
 
