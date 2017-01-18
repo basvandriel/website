@@ -149,14 +149,18 @@ html, body {
 
 #about-me-container #education-container {
     background-color: rgba(0, 255, 192, 0.15);
+    margin-bottom: 50px;
 }
 
 #about-me-container #resume-container h1 {
+    font-size: 38px;
     font-family: "Segoe UI", sans-serif;
 }
 
 #about-me-container #resume-container table tr {
-    height: 125px;
+    height: 140px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #about-me-container #resume-container #jobs-container {
@@ -172,5 +176,5 @@ html, body {
 
     height: 300px;
     width: 100%;
-    background: #e6e1e1;
+    background-color: rgba(51, 51, 51, 0.45);
 }

@@ -138,7 +138,69 @@
             <div id="education-container">
                 <div class="container">
                     <h1>EDUCATION</h1>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td class="education-course-info">
+                                    <p class="course-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="course-location">Vlissingen, Netherlands</p>
+                                    <p class="course-year">2016</p>
+                                </td>
+                                <td class="education-details">
+                                    Information about this education<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="education-course-info">
+                                    <p class="course-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="course-location">Terneuzen, Netherlands</p>
+                                    <p class="course-year">2016</p>
+                                </td>
+
+                                <td class="education-details">
+                                    Information about this education<br>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="education-course-info">
+                                    <p class="course-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="course-location">Terneuzen, Netherlands</p>
+                                    <p class="course-year">2016</p>
+                                </td>
+
+                                <td class="education-details">
+                                    Information about this education<br>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="education-course-info">
+                                    <p class="course-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="course-location">Terneuzen, Netherlands</p>
+                                    <p class="course-year">2016</p>
+                                </td>
+
+                                <td class="education-details">
+                                    Information about this education<br>
+                                </td>
+                            </tr>
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="jobs-container">
+                <div class="container">
+                    <h1>WORK EXPERIENCES</h1>
                     <h2>I'll describe my job descriptions and internships</h2>
+
                     <div class="table-responsive">
                         <table class="table">
                             <tbody>
@@ -179,51 +241,7 @@
 
                     </div>
                 </div>
-            </div>
 
-            <div id="jobs-container" class="container">
-                <h1>WORK EXPERIENCES</h1>
-                <h2>I'll describe my job descriptions and internships</h2>
-
-                <div class="table-responsive">
-                    <table class="table">
-                        <tbody>
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Vlissingen, Netherlands <br>
-                                2016<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Terneuzen, Netherlands <br>
-                                2015 - 2016<br>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Terneuzen, Netherlands <br>
-                                2014 - 2015
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Terneuzen, Netherlands<br>
-                                2013 - 2014
-                            </td>
-                        </tr>
-
-
-                        </tbody>
-                    </table>
-
-                </div>
             </div>
 
         </div>
