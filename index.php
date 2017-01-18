@@ -134,48 +134,50 @@
 
         <div id="resume-container">
 
-            <div id="education-container" class="container">
-                <h1>EDUCATION</h1>
-                <h2>I'll describe my job descriptions and internships</h2>
 
-                <div class="table-responsive">
-                    <table class="table">
-                        <tbody>
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Vlissingen, Netherlands <br>
-                                2016<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Terneuzen, Netherlands <br>
-                                2015 - 2016<br>
-                            </td>
-                        </tr>
+            <div id="education-container">
+                <div class="container">
+                    <h1>EDUCATION</h1>
+                    <h2>I'll describe my job descriptions and internships</h2>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    Scalda, "College voor Techniek en Design" <br>
+                                    Vlissingen, Netherlands <br>
+                                    2016<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Scalda, "College voor Techniek en Design" <br>
+                                    Terneuzen, Netherlands <br>
+                                    2015 - 2016<br>
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Terneuzen, Netherlands <br>
-                                2014 - 2015
-                            </td>
-                        </tr>
+                            <tr>
+                                <td>
+                                    Scalda, "College voor Techniek en Design" <br>
+                                    Terneuzen, Netherlands <br>
+                                    2014 - 2015
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td>
-                                Scalda, "College voor Techniek en Design" <br>
-                                Terneuzen, Netherlands<br>
-                                2013 - 2014
-                            </td>
-                        </tr>
+                            <tr>
+                                <td>
+                                    Scalda, "College voor Techniek en Design" <br>
+                                    Terneuzen, Netherlands<br>
+                                    2013 - 2014
+                                </td>
+                            </tr>
 
 
-                        </tbody>
-                    </table>
+                            </tbody>
+                        </table>
 
+                    </div>
                 </div>
             </div>
 

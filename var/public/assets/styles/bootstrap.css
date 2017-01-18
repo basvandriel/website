@@ -147,14 +147,20 @@ html, body {
     overflow: hidden;
 }
 
-#about-me-container #resume-container {
-    background-color: rgba(0, 255, 192, 0.35);
-
-    min-height: 200px;
+#about-me-container #education-container {
+    background-color: rgba(0, 255, 192, 0.15);
 }
 
 #about-me-container #resume-container h1 {
     font-family: "Segoe UI", sans-serif;
+}
+
+#about-me-container #resume-container table tr {
+    height: 125px;
+}
+
+#about-me-container #resume-container #jobs-container {
+    text-align: right;
 }
 
 #about-me-container #resume-container table tr {
