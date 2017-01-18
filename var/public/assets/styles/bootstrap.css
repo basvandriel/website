@@ -1,3 +1,8 @@
+@font-face {
+    src: url("../fonts/TalkingToTheMoon.ttf");
+    font-family: "TalkingToTheMoon";
+}
+
 html, body {
     height: 100%;
 
@@ -42,12 +47,13 @@ html, body {
 }
 
 .fullscreen-container > .title-container h1.main-title {
-    padding-bottom: 10px;
+    /*padding-bottom: 5px;*/
 
     border-bottom: 1px solid white;
 
     font-size: 105px;
-    font-family: "Segoe UI", Arial, serif;
+    font-family: "TalkingToTheMoon", Arial, serif;
+    font-weight: bold;
     color: #fbf6f6;
 }
 
