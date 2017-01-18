@@ -126,11 +126,15 @@
                 </div>
             </div>
 
-            <div id="resume-container">
+        </div>
 
-            </div>
+        <div id="resume-container">
 
         </div>
+    </div>
+
+    <div id="contact-container">
+
     </div>
 
 </div>
