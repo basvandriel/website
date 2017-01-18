@@ -44,9 +44,9 @@
     <div class="navigation-container">
         <nav class="" role="navigation">
             <ul class="nav navbar-nav">
-<!--                <li>
-                    <a href="#about-me-container">ABOUT</a>
-                </li>-->
+                <li>
+                    <a href="#about-me-content-container">ABOUT</a>
+                </li>
                 <!-- TODO Create portfolio page -->
                 <li>
                     <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
@@ -60,7 +60,7 @@
 
     <div class="title-container">
         <div class="row">
-            <div class="center-block col-md-4" style="float: none;">
+            <div class="center-block col-md-5" style="float: none;">
                 <h1 class="main-title">
                     Bas van Driel
                 </h1>
@@ -81,10 +81,77 @@
     </video>
 </div>
 
-<!--<div id="about-me-container">
-    <div class="jumbotron">HEY</div>
-</div>
--->
+<div id="about-me-container">
+    <div class="svg-container">
+        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
+            <path
+                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                    fill-opacity="null" fill="#fff">
+            </path>
+        </svg>
+    </div>
+
+    <div id="about-me-content-container">
+
+
+        <div class="container" id="introduction-container">
+            <div id="introduction-text-container">
+                <h1>ABOUT ME</h1>
+
+                <h2>I’m an enthusiast web and application developer who always strives to deliver creative solutions,
+                    mainly focused on back-end
+                    development and new technologies.
+                </h2>
+            </div>
+            <div id="personality-container">
+            <div class="row">
+                    <div class="col-md-7">
+                        <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
+                            Netherlands.</p>
+
+                        <p>I stand for quality, little details, structure and perfection in all my work I do.</p>
+
+                        <p>For my hobbies I love to make and listen to music, interest myself in new technologies and a
+                            play some games
+                            once in a while.</p>
+
+                        <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a>, learning more about
+                            object-oriented programming, database essentials and project-management.</p>
+
+                        <p>This project is created for learning more about modern web development, where I am mostly
+                            focusing on the design and JavaScript programming. This project is also open-source and can
+                            be found <a href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
+                    </div>
+                    <div class="col-md-offset-2"></div>
+                    <div class="col-md-5">
+                        <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt=""
+                             class="pixelated-image">
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+
+        <div id="resume-container">
+
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-container">
+
+    </div>
+
+</div>
+
+
+<div id="footer-container">
+
+
+</div>
 </body>
 </html>
