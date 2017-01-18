@@ -60,7 +60,7 @@
 
     <div class="title-container">
         <div class="row">
-            <div class="center-block col-md-4" style="float: none;">
+            <div class="center-block col-md-5" style="float: none;">
                 <h1 class="main-title">
                     Bas van Driel
                 </h1>
