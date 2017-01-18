@@ -110,7 +110,10 @@
                         <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
                             Netherlands.</p>
 
-                        <p>I stand for quality, little details, structure and perfection in all my work I do.</p>
+                        <p>I stand for quality, little details, structure and perfection in all my work I do. For my
+                            preference I like working together in a group, it gives me the ability to be more
+                            precise in my work. I'm always in to show commitment, initiative and flexibility whenever I
+                            can.</p>
 
                         <p>For my hobbies I love to make and listen to music, interest myself in new technologies and a
                             play some games
