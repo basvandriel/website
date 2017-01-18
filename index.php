@@ -182,7 +182,7 @@
             </div>
 
             <div id="jobs-container" class="container">
-                <h1>Work experiences</h1>
+                <h1>WORK EXPERIENCES</h1>
                 <h2>I'll describe my job descriptions and internships</h2>
 
                 <div class="table-responsive">
