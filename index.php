@@ -119,7 +119,7 @@
                             play some games
                             once in a while.</p>
 
-                        <p>I'm currently studying at <a href="https://www.scalda.nl">Scalda</a>, learning more about
+                        <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                             object-oriented programming, database essentials and project-management.</p>
 
                         <p>This project is created for learning more about modern web development, where I am mostly
