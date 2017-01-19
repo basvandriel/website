@@ -142,7 +142,7 @@
                 <div class="container-fluid">
                     <h1>EDUCATION</h1>
                     <div class="table-responsive">
-                        <table class="table">
+                        <table class="table education-courses">
                             <tbody>
                             <tr>
                                 <td class="education-course-info">
@@ -205,40 +205,49 @@
                     <h2>I'll describe my job descriptions and internships</h2>
 
                     <div class="table-responsive">
-                        <table class="table">
+                        <table class="table education-courses">
                             <tbody>
                             <tr>
-                                <td>
-                                    Scalda, "College voor Techniek en Design" <br>
-                                    Vlissingen, Netherlands <br>
-                                    2016<br>
+                                <td class="job-info">
+                                    <p class="job-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="job-location">Vlissingen, Netherlands</p>
+                                    <p class="job-year">2016</p>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Scalda, "College voor Techniek en Design" <br>
-                                    Terneuzen, Netherlands <br>
-                                    2015 - 2016<br>
+                                <td class="job-details">
+                                    Information about this education<br>
                                 </td>
                             </tr>
 
                             <tr>
-                                <td>
-                                    Scalda, "College voor Techniek en Design" <br>
-                                    Terneuzen, Netherlands <br>
-                                    2014 - 2015
+                                <td class="job-info">
+                                    <p class="job-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="job-location">Vlissingen, Netherlands</p>
+                                    <p class="job-year">2016</p>
+                                </td>
+                                <td class="job-details">
+                                    Information about this education<br>
                                 </td>
                             </tr>
-
                             <tr>
-                                <td>
-                                    Scalda, "College voor Techniek en Design" <br>
-                                    Terneuzen, Netherlands<br>
-                                    2013 - 2014
+                                <td class="job-info">
+                                    <p class="job-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="job-location">Vlissingen, Netherlands</p>
+                                    <p class="job-year">2016</p>
+                                </td>
+                                <td class="job-details">
+                                    Information about this education<br>
                                 </td>
                             </tr>
-
-
+                            <tr>
+                                <td class="job-info">
+                                    <p class="job-header">Scalda, "College voor Techniek en Design"</p>
+                                    <p class="job-location">Vlissingen, Netherlands</p>
+                                    <p class="job-year">2016</p>
+                                </td>
+                                <td class="job-details">
+                                    Information about this education<br>
+                                </td>
+                            </tr>
                             </tbody>
                         </table>
 

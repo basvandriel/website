@@ -152,20 +152,27 @@ html, body {
     margin-bottom: 50px;
 }
 
-#about-me-container #education-container table .education-course-info {
-    margin-bottom: 50px;
+#about-me-container #education-container .education-courses {
+
 }
 
-#about-me-container #education-container table .education-course-info p {
+#about-me-container table tr td {
     font-family: "Segoe UI", sans-serif;
     font-size: 24px;
     margin-bottom: 4px;
 }
 
+#about-me-container table tr td {
+    border: 0;
+}
+
+#about-me-container #education-container table .education-course-info {
+    margin-bottom: 50px;
+}
+
 #about-me-container #education-container table .education-course-info p.course-header {
     font-weight: 500;
     font-size: 25px;
-    /*margin-bottom: 5px;*/
 }
 
 #about-me-container #resume-container h1 {
