@@ -12,6 +12,9 @@
     <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
+    <!-- Font awesome-->
+    <link rel="stylesheet" href="var/public/bower/components-font-awesome/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap-theme.min.css">
     <!-- The bootstrap CSS file    -->
@@ -151,8 +154,12 @@
                                     <tr>
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location">Vlissingen, Netherlands</p>
-                                            <p class="course-year">2016</p>
+                                            <p class="course-location"><i class="fa fa-map-marker"
+                                                                          aria-hidden="true"></i> Vlissingen,
+                                                                                                  Netherlands
+                                            </p>
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016 - until now
+                                            </p>
                                         </td>
                                         <td class="education-details">
                                             <p class="education-details-header">Application and media development</p>
@@ -176,13 +183,76 @@
                                     </tr>
                                     <tr>
                                         <td class="education-course-info">
-                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location">Terneuzen, Netherlands</p>
-                                            <p class="course-year">2016</p>
+                                            <p class="course-header">Cisco</p>
+                                            <p class="course-location"><i class="fa fa-map-marker"
+                                                                          aria-hidden="true"></i> Online</p>
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
+                                            </p>
                                         </td>
 
                                         <td class="education-details">
-                                            <p class="education-details-header">Application and media development</p>
+                                            <p class="education-details-header">CCNA Routing and Switching: Introduction to Networks</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="education-course-info">
+                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
+                                            <p class="course-location"><i class="fa fa-map-marker"
+                                                                          aria-hidden="true"></i> Terneuzen,
+                                                                                                  Netherlands
+                                            </p>
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
+                                            </p>
+                                        </td>
+
+                                        <td class="education-details">
+                                            <p class="education-details-header">Medewerker Beheer ICT</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p></td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td class="education-course-info">
+                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
+                                            <p class="course-location"><i class="fa fa-map-marker"
+                                                                          aria-hidden="true"></i> Terneuzen,
+                                                                                                  Netherlands
+                                            </p>
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
+                                            </p>
+                                        </td>
+
+                                        <td class="education-details">
+                                            <p class="education-details-header">Microsoft Office 2013 Professional: Scalda Certificaat</p>
                                             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
                                                sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
@@ -203,12 +273,16 @@
                                     <tr>
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location">Terneuzen, Netherlands</p>
-                                            <p class="course-year">2016</p>
+                                            <p class="course-location"><i class="fa fa-map-marker"
+                                                                          aria-hidden="true"></i> Terneuzen,
+                                                                                                  Netherlands
+                                            </p>
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
+                                            </p>
                                         </td>
 
                                         <td class="education-details">
-                                            <p class="education-details-header">Application and media development</p>
+                                            <p class="education-details-header">Medewerker ICT</p>
                                             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
                                                sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
@@ -224,18 +298,24 @@
                                                 Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
                                                 zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
                                             </p></td>
-
                                     </tr>
 
                                     <tr>
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location">Terneuzen, Netherlands</p>
-                                            <p class="course-year">2016</p>
+                                            <p class="course-location"><i class="fa fa-map-marker"
+                                                                          aria-hidden="true"></i> Terneuzen,
+                                                                                                  Netherlands
+                                            </p>
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2012
+                                                                                                                    -
+                                                                                                                    2013
+                                            </p>
                                         </td>
 
                                         <td class="education-details">
-                                            <p class="education-details-header">Application and media development</p>
+                                            <p class="education-details-header">Arbeidsmarkt Gekwalificeerd
+                                                                                Assistent</p>
                                             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
                                                sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
@@ -304,9 +384,9 @@
                                     </tr>
                                     <tr>
                                         <td class="job-info">
-                                            <p class="job-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="job-location">Vlissingen, Netherlands</p>
-                                            <p class="job-year">2016</p>
+                                            <p class="job-header">AREK</p>
+                                            <p class="job-location">Terneuzen, Netherlands</p>
+                                            <p class="job-year">2011 - 2016</p>
                                         </td>
                                         <td class="job-details">
                                             Information about this education<br>

@@ -199,22 +199,29 @@ html, body {
     font-size:   25px;
 }
 
+#about-me-container #education-container table .education-course-info > p > i.fa {
+    font-weight: 500;
+    font-size:24px;
+}
+
+
 #about-me-container #education-container table .education-details {
     font-size: 23px;
 }
 
 
 #about-me-container #education-container table .education-details > p {
-    margin-bottom: 3px;
+
 }
 
 #about-me-container #education-container table .education-details p.education-details-header{
     font-weight: 500;
     font-size: 25px;
+    margin-bottom: 3px;
 }
 
 #about-me-container #resume-container #jobs-container {
-    text-align: right;
+    /*text-align: right;*/
 }
 
 #footer-container {
