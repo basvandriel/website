@@ -96,8 +96,6 @@
         </div>
 
         <div id="about-me-content-container">
-
-
             <div class="container" id="introduction-container">
                 <div id="introduction-text-container">
                     <h1>ABOUT ME</h1>
@@ -143,8 +141,6 @@
             </div>
 
             <div id="resume-container">
-
-
                 <div id="education-container">
                     <div class="container">
                         <h1>EDUCATION</h1>
@@ -158,7 +154,10 @@
                                                                           aria-hidden="true"></i> Vlissingen,
                                                                                                   Netherlands
                                             </p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016 - until now
+                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
+                                                                                                                    -
+                                                                                                                    until
+                                                                                                                    now
                                             </p>
                                         </td>
                                         <td class="education-details">
@@ -191,7 +190,8 @@
                                         </td>
 
                                         <td class="education-details">
-                                            <p class="education-details-header">CCNA Routing and Switching: Introduction to Networks</p>
+                                            <p class="education-details-header">CCNA Routing and Switching: Introduction
+                                                                                to Networks</p>
                                             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
                                                sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
@@ -252,7 +252,8 @@
                                         </td>
 
                                         <td class="education-details">
-                                            <p class="education-details-header">Microsoft Office 2013 Professional: Scalda Certificaat</p>
+                                            <p class="education-details-header">Microsoft Office 2013 Professional:
+                                                                                Scalda Certificaat</p>
                                             <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
                                                sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
@@ -344,52 +345,121 @@
                 <div id="jobs-container">
                     <div class="container">
                         <h1>WORK EXPERIENCES</h1>
-                        <h2>I'll describe my job descriptions and internships</h2>
-
                         <div class="table-responsive">
-                            <table class="table education-courses">
+                            <table class="table jobs-table">
                                 <tbody>
                                     <tr>
                                         <td class="job-info">
                                             <p class="job-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="job-location">Vlissingen, Netherlands</p>
-                                            <p class="job-year">2016</p>
+                                            <p class="job-location"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Terneuzen, Netherlands</p>
+                                            <p class="job-year"><i class="fa fa-clock-o" aria-hidden="true"> 2015 - 2016
+                                            </p>
                                         </td>
                                         <td class="job-details">
+                                            <p class="job-details-header">Service Support</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
 
-
-                                            Information about this education<br>
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td class="job-info">
                                             <p class="job-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="job-location">Vlissingen, Netherlands</p>
-                                            <p class="job-year">2016</p>
+                                            <p class="job-location"><i class="fa fa-map-marker"
+                                                                       aria-hidden="true"></i> Terneuzen, Netherlands
+                                            </p>
+                                            <p class="job-year"><i class="fa fa-clock-o" aria-hidden="true"> 2015 - 2016
+                                            </p>
                                         </td>
                                         <td class="job-details">
-                                            Information about this education<br>
+                                            <p class="job-details-header">Service Support</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
                                         </td>
                                     </tr>
+
                                     <tr>
                                         <td class="job-info">
                                             <p class="job-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="job-location">Vlissingen, Netherlands</p>
-                                            <p class="job-year">2016</p>
+                                            <p class="job-location"><i class="fa fa-map-marker"
+                                                                       aria-hidden="true"></i> Terneuzen, Netherlands
+                                            </p>
+                                            <p class="job-year"><i class="fa fa-clock-o" aria-hidden="true"> 2015 - 2016
+                                            </p>
                                         </td>
                                         <td class="job-details">
-                                            Information about this education<br>
+                                            <p class="job-details-header">Service Support Medewerker</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
                                         </td>
                                     </tr>
+
                                     <tr>
                                         <td class="job-info">
-                                            <p class="job-header">AREK</p>
-                                            <p class="job-location">Terneuzen, Netherlands</p>
-                                            <p class="job-year">2011 - 2016</p>
+                                            <p class="job-header">Scalda, "College voor Techniek en Design"</p>
+                                            <p class="job-location"><i class="fa fa-map-marker"
+                                                                       aria-hidden="true"></i> Terneuzen, Netherlands
+                                            </p>
+                                            <p class="job-year"><i class="fa fa-clock-o" aria-hidden="true"> 2015 - 2016
+                                            </p>
                                         </td>
                                         <td class="job-details">
-                                            Information about this education<br>
+                                            <p class="job-details-header">Service Support Medewerker</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -403,12 +473,14 @@
             </div>
         </div>
 
-        <div id="contact-container">
-
-        </div>
 
     </div>
 
+    <!--    <div id="contact-container">
+            <div class="container">
+
+            </div>
+        </div>-->
 
     <div id="footer-container">
 

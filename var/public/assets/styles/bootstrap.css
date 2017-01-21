@@ -152,7 +152,8 @@ html, body {
     margin-bottom:    40px;
 }
 
-#about-me-container #education-container .education-courses {
+#about-me-container #education-container .education-courses,
+#about-me-container #education-container .jobs-table {
     margin-bottom: 0;
 }
 
@@ -166,14 +167,14 @@ html, body {
     border: 0;
 }
 
-
 #resume-container h1 {
-    font-size:   38px;
+    font-size:     38px;
     margin-bottom: 6px;
-    font-family: "Segoe UI", sans-serif;
+    font-family:   "Segoe UI", sans-serif;
 }
 
-#about-me-container #resume-container > div > .container {
+#about-me-container #resume-container > div > .container,
+#contact-container > .container {
     width:   80%;
     padding: 0;
 }
@@ -183,51 +184,61 @@ html, body {
     max-height: 450px;
 }
 
-#about-me-container #education-container table tr td.education-course-info {
+#about-me-container #education-container table tr td.education-course-info,
+#about-me-container #jobs-container table tr td.job-info {
     width:         40%;
     padding-left:  0;
     padding-right: 0;
     margin-bottom: 50px;
 }
 
-#about-me-container #education-container table .education-course-info > p {
+#about-me-container #education-container table .education-course-info > p,
+#about-me-container #jobs-container table .job-info > p {
     margin-bottom: 3px;
 }
 
-#about-me-container #education-container table .education-course-info > p.course-header {
+#about-me-container #education-container table .education-course-info > p.course-header,
+#about-me-container #jobs-container table .job-info > p.job-header {
     font-weight: 500;
     font-size:   25px;
 }
 
-#about-me-container #education-container table .education-course-info > p > i.fa {
+#about-me-container #education-container table .education-course-info > p > i.fa,
+#about-me-container #jobs-container table .job-info > p > i.fa {
     font-weight: 500;
-    font-size:24px;
+    font-size:   24px;
 }
 
-
-#about-me-container #education-container table .education-details {
+#about-me-container #education-container table .education-details,
+#about-me-container #jobs-container table .job-details {
     font-size: 23px;
 }
 
+#about-me-container #education-container table .education-details p.education-details-header,
+#about-me-container #jobs-container table .job-details-header p.job-details-header {
+    font-weight:   500;
+    font-size:     25px;
+    margin-bottom: 3px;
+}
 
 #about-me-container #education-container table .education-details > p {
 
-}
-
-#about-me-container #education-container table .education-details p.education-details-header{
-    font-weight: 500;
-    font-size: 25px;
-    margin-bottom: 3px;
 }
 
 #about-me-container #resume-container #jobs-container {
     /*text-align: right;*/
 }
 
+#contact-container {
+    height:           200px;
+
+    background-color: rgba(0, 255, 192, 0.15);
+}
+
 #footer-container {
     position:         relative;
 
-    height:           300px;
+    height:           350px;
     width:            100%;
-    background-color: rgba(51, 51, 51, 0.45);
+    background-color: rgba(0, 255, 192, 0.15)
 }
