@@ -77,9 +77,8 @@
         </div>
 
 
-        <video autoplay="" loop="" class="fillWidth fadeIn animated"
-               poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">
+        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted="true">
+            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4" >
             Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </div>
