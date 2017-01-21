@@ -343,7 +343,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div id="jobs-container">
                     <div class="container">
                         <h1>WORK EXPERIENCES</h1>
@@ -441,6 +440,11 @@
                         </div>
                     </div>
 
+                </div>
+                <div id="skills-container">
+                    <div class="container">
+                        
+                    </div>
                 </div>
 
             </div>
