@@ -77,8 +77,8 @@
         </div>
 
 
-        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted="true">
-            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4" >
+        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
+            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
             Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </div>
@@ -121,6 +121,8 @@
                                and a
                                play some games
                                once in a while.</p>
+
+                            <p>I mainly have experience in PHP, Java, HTML5, SCSS, CSS and a bit of JavaScript.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                                object-oriented programming, database essentials and project-management.</p>
@@ -376,6 +378,63 @@
                                             </p>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td class="job-info">
+                                            <p class="job-header">OVET</p>
+                                            <p class="job-location"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Terneuzen, Netherlands</p>
+                                            <p class="job-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2015 -
+                                                                                                                 2015
+                                            </p>
+                                        </td>
+                                        <td class="job-details">
+                                            <p class="job-details-header">ICT Servicedesk</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="job-info">
+                                            <p class="job-header">AREK</p>
+                                            <p class="job-location"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Terneuzen, Netherlands</p>
+                                            <p class="job-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2011 -
+                                                                                                                 2016
+                                            </p>
+                                        </td>
+                                        <td class="job-details">
+                                            <p class="job-details-header">Krantenbezorger</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
 
@@ -390,11 +449,11 @@
 
     </div>
 
-    <!--    <div id="contact-container">
-            <div class="container">
+    <div id="contact-container">
+        <div class="container">
 
-            </div>
-        </div>-->
+        </div>
+    </div>
 
     <div id="footer-container">
 
