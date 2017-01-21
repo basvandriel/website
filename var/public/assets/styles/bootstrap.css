@@ -149,11 +149,11 @@ html, body {
 
 #about-me-container #education-container {
     background-color: rgba(0, 255, 192, 0.15);
-    margin-bottom:    50px;
+    margin-bottom:    40px;
 }
 
 #about-me-container #education-container .education-courses {
-
+    margin-bottom: 0;
 }
 
 #about-me-container table tr td {
@@ -166,32 +166,55 @@ html, body {
     border: 0;
 }
 
-#about-me-container #education-container table .education-course-info {
+
+#resume-container h1 {
+    font-size:   38px;
+    margin-bottom: 6px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+#about-me-container #resume-container > div > .container {
+    width:   80%;
+    padding: 0;
+}
+
+#about-me-container #resume-container table tbody tr {
+    height:     450px;
+    max-height: 450px;
+}
+
+#about-me-container #education-container table tr td.education-course-info {
+    width:         40%;
+    padding-left:  0;
+    padding-right: 0;
     margin-bottom: 50px;
 }
 
-#about-me-container #education-container table .education-course-info p.course-header {
+#about-me-container #education-container table .education-course-info > p {
+    margin-bottom: 3px;
+}
+
+#about-me-container #education-container table .education-course-info > p.course-header {
     font-weight: 500;
     font-size:   25px;
 }
 
-#about-me-container #resume-container h1 {
-    font-size:   38px;
-    font-family: "Segoe UI", sans-serif;
+#about-me-container #education-container table .education-details {
+    font-size: 23px;
 }
 
-#about-me-container #resume-container table tr {
-    height:         140px;
-    padding-bottom: 10px;
-    padding-top:    10px;
+
+#about-me-container #education-container table .education-details > p {
+    margin-bottom: 3px;
+}
+
+#about-me-container #education-container table .education-details p.education-details-header{
+    font-weight: 500;
+    font-size: 25px;
 }
 
 #about-me-container #resume-container #jobs-container {
     text-align: right;
-}
-
-#about-me-container #resume-container table tr {
-    height: 125px;
 }
 
 #footer-container {

@@ -143,7 +143,7 @@
 
 
                 <div id="education-container">
-                    <div class="container-fluid">
+                    <div class="container">
                         <h1>EDUCATION</h1>
                         <div class="table-responsive">
                             <table class="table education-courses">
@@ -155,7 +155,23 @@
                                             <p class="course-year">2016</p>
                                         </td>
                                         <td class="education-details">
-                                            Information about this education<br>
+                                            <p class="education-details-header">Application and media development</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p>
+
                                         </td>
                                     </tr>
                                     <tr>
@@ -166,8 +182,22 @@
                                         </td>
 
                                         <td class="education-details">
-                                            Information about this education<br>
-                                        </td>
+                                            <p class="education-details-header">Application and media development</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p></td>
                                     </tr>
 
                                     <tr>
@@ -178,8 +208,22 @@
                                         </td>
 
                                         <td class="education-details">
-                                            Information about this education<br>
-                                        </td>
+                                            <p class="education-details-header">Application and media development</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p></td>
 
                                     </tr>
 
@@ -191,8 +235,22 @@
                                         </td>
 
                                         <td class="education-details">
-                                            Information about this education<br>
-                                        </td>
+                                            <p class="education-details-header">Application and media development</p>
+                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
+                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
+                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
+                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
+                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
+                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
+                                               passages en meer recentelijk door desktop publishing software zoals Aldus
+                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            </p>
+
+                                            <p>
+                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
+                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                            </p></td>
                                     </tr>
 
 
@@ -204,7 +262,7 @@
                 </div>
 
                 <div id="jobs-container">
-                    <div class="container-fluid">
+                    <div class="container">
                         <h1>WORK EXPERIENCES</h1>
                         <h2>I'll describe my job descriptions and internships</h2>
 
@@ -218,6 +276,8 @@
                                             <p class="job-year">2016</p>
                                         </td>
                                         <td class="job-details">
+
+
                                             Information about this education<br>
                                         </td>
                                     </tr>
