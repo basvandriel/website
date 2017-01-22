@@ -201,14 +201,16 @@
                                             <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
                                             </p>
                                         </td>
-
                                         <td class="education-details">
                                             <p class="education-details-header">CCNA Routing and Switching: Introduction
                                                                                 to Networks</p>
-                                            <p>This online course teached me how to set up and configure a
+                                            <p>This course teached me how to set up and configure a
                                                network. I learnt
                                                how to configure network equipment such as routers, switches, hubs and
-                                               the workstation itself for working in the corresponding network.
+                                               the workstation itself for working in the corresponding network. I also
+                                               learnt how to make network cables (cross-over, straight
+                                               through) for a specific
+                                               network configuration.
                                             </p>
 
                                             <p>
@@ -217,11 +219,15 @@
                                                 network the assignment wanted me to build.
                                             </p>
 
+                                            <p>During the training, I mostly configured networks for using sub-networks
+                                               and
+                                               security essentials. For the actual exam I had to do all this with actual
+                                               Cisco equipment.</p>
+
                                             <p>
-                                                This training belonged to the Medewerker Beheer ICT course.
+                                                This training belonged to the Medewerker Beheer ICT training.
                                             </p></td>
                                     </tr>
-
                                     <tr>
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
@@ -252,13 +258,11 @@
                                             </p></td>
 
                                     </tr>
-
                                     <tr>
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
                                             <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Terneuzen,
-                                                                                                  Netherlands
+                                                                          aria-hidden="true"></i> Online
                                             </p>
                                             <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
                                             </p>
@@ -266,24 +270,21 @@
 
                                         <td class="education-details">
                                             <p class="education-details-header">Microsoft Office 2013 Professional:
-                                                                                Scalda Certificaat</p>
-                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
-                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
-                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
-                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
-                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
-                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
-                                               passages en meer recentelijk door desktop publishing software zoals Aldus
-                                               PageMaker die versies van Lorem Ipsum bevatten.
-                                            </p>
+                                                                                Scalda Certificate</p>
+                                            <p>This course was about learning how to work with the basics and the more
+                                               advanced
+                                               functions of Office 2013. The programs I learned to work with were
+                                               Word, Excel, PowerPoint and Outlook.</p>
+
+                                            <p>During the assignments it gave me a better understanding of the
+                                               software and made me more
+                                               productive because of all the functions I didn't know about.</p>
 
                                             <p>
-                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
-                                            </p></td>
+                                                This course belonged to the Medewerker ICT training.
+                                            </p>
+                                        </td>
                                     </tr>
-
                                     <tr>
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
@@ -294,26 +295,36 @@
                                             <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
                                             </p>
                                         </td>
-
                                         <td class="education-details">
                                             <p class="education-details-header">Medewerker ICT</p>
-                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
-                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
-                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
-                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
-                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
-                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
-                                               passages en meer recentelijk door desktop publishing software zoals Aldus
-                                               PageMaker die versies van Lorem Ipsum bevatten.
+
+                                            <p>
+                                                This training was focused on teaching the basics of solving
+                                                IT related problems customers have. This included correctly building a
+                                                computer and knowing the parts
+                                                that are in it. I learnt this by working at a service desk.
+                                            </p>
+
+                                            <p>I learnt the general knowledge of working with common used software. This
+                                               gave me the the ability to be more productive in my own working
+                                               environment and help others with their IT problems.</p>
+
+                                            <p>
+                                                Within this training, I had to do 2 internships. These were
+                                                mostly focused on learning how to work with actual customers in a
+                                                real-world working environment on a service desk.
+                                                The first internship
+                                                was 10 weeks long and was aimed at orientating at the job itself.
+
+                                                The second internship was 20 weeks long was for my examination.
                                             </p>
 
                                             <p>
-                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
-                                            </p></td>
+                                                This training is based on
+                                                level 2 MBO.
+                                            </p>
+                                        </td>
                                     </tr>
-
                                     <tr class="last-row">
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
@@ -347,8 +358,6 @@
                                             </p>
                                         </td>
                                     </tr>
-
-
                                 </tbody>
                             </table>
 

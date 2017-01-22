@@ -148,7 +148,7 @@ html, body {
 }
 
 #about-me-container #education-container {
-    background-color: rgba(0, 255, 192, 0.15);
+    background-color: rgba(0, 255, 192, 0.125);
     margin-bottom:    15px;
 }
 
@@ -177,6 +177,12 @@ html, body {
     padding: 0;
 }
 
+#about-me-container #education-container h1,
+#about-me-container #jobs-container h1 {
+    padding-bottom: 8px;
+    border-bottom:  1px solid rgb(156, 156, 156);
+}
+
 #about-me-container #education-container table tr,
 #about-me-container #jobs-container table tr {
     border-bottom: 1px solid rgb(156, 156, 156);
@@ -186,7 +192,6 @@ html, body {
 #about-me-container #jobs-container table tr.last-row {
     border-bottom: none;
 }
-
 
 #about-me-container #education-container table tr td.education-course-info,
 #about-me-container #jobs-container table tr td.job-info {
