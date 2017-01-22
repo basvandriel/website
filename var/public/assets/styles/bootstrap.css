@@ -158,13 +158,11 @@ html, body {
 }
 
 #about-me-container table tr td {
-    font-family:   "Segoe UI", sans-serif;
-    font-size:     24px;
-    margin-bottom: 4px;
-}
+    font-family: "Segoe UI", sans-serif;
+    font-size:   24px;
 
-#about-me-container table tr td {
-    border: 0;
+    border:      0;
+    padding:     14px 0 0;
 }
 
 #resume-container h1 {
@@ -179,17 +177,25 @@ html, body {
     padding: 0;
 }
 
-#about-me-container #resume-container table tbody tr {
-    height:     450px;
-    max-height: 450px;
+#about-me-container #education-container table tr,
+#about-me-container #jobs-container table tr {
+    border-bottom: 1px solid rgb(156, 156, 156);
 }
+
+#about-me-container #education-container table tr.last-row,
+#about-me-container #jobs-container table tr.last-row {
+    border-bottom: none;
+}
+
 
 #about-me-container #education-container table tr td.education-course-info,
 #about-me-container #jobs-container table tr td.job-info {
-    width:         40%;
-    padding-left:  0;
-    padding-right: 0;
-    margin-bottom: 50px;
+    width: 40%;
+}
+
+#about-me-container #education-container table tr > td,
+#about-me-container #jobs-container table tr > td {
+    height: 485px;
 }
 
 #about-me-container #education-container table .education-course-info > p,

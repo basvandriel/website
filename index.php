@@ -171,7 +171,7 @@
                                                projects
                                                within a team of
                                                other students. In these projects the students also learns to use the
-                                               necessary tools for building the application.</p>
+                                               necessary too ls for building the application.</p>
 
                                             <p>Besides programming the students also learn the essentials of using
                                                databases and project-management using SCRUM.</p>
@@ -205,20 +205,20 @@
                                         <td class="education-details">
                                             <p class="education-details-header">CCNA Routing and Switching: Introduction
                                                                                 to Networks</p>
-                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
-                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
-                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
-                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
-                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
-                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
-                                               passages en meer recentelijk door desktop publishing software zoals Aldus
-                                               PageMaker die versies van Lorem Ipsum bevatten.
+                                            <p>This online course teached me how to set up and configure a
+                                               network. I learnt
+                                               how to configure network equipment such as routers, switches, hubs and
+                                               the workstation itself for working in the corresponding network.
                                             </p>
 
                                             <p>
-                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
+                                                This by
+                                                doing assignments in the Cisco Packet Tracer software for simulating the
+                                                network the assignment wanted me to build.
+                                            </p>
+
+                                            <p>
+                                                This training belonged to the Medewerker Beheer ICT course.
                                             </p></td>
                                     </tr>
 
@@ -314,7 +314,7 @@
                                             </p></td>
                                     </tr>
 
-                                    <tr>
+                                    <tr class="last-row">
                                         <td class="education-course-info">
                                             <p class="course-header">Scalda, "College voor Techniek en Design"</p>
                                             <p class="course-location"><i class="fa fa-map-marker"
