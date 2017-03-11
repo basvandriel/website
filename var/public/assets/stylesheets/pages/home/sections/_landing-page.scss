@@ -2,6 +2,23 @@ html, body {
   height: 100%;
 }
 
+.fixed-fullscreen-video-container {
+  position:   fixed;
+
+  height:     auto;
+  width:      auto;
+
+  min-height: 100%;
+  min-width:  100%;
+
+  top:        0;
+  left:       0;
+
+  z-index:    -1;
+
+  overflow:   hidden;
+}
+
 .fullscreen-container {
   position:   relative;
 
