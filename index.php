@@ -8,9 +8,14 @@
     <!-- jQuery JavaScript script -->
     <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
 
-    <!-- Bootstrap JavaScript script -->
+    <!-- Bootstrap library JavaScript script -->
     <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!-- particles.js library JavaScript script -->
+    <script src="var/public/bower/particles.js/particles.js"></script>
+
+    <!-- Bootstrap JavaScript script -->
+    <script src="var/public/assets/scripts/bootstrap.js"></script>
 
     <!-- Font awesome-->
     <link rel="stylesheet" href="var/public/bower/components-font-awesome/css/font-awesome.min.css">
@@ -46,6 +51,7 @@
 </head>
 <body>
     <div class="fixed-fullscreen-video-container">
+
         <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
             <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
             Your browser does not support the video tag. I suggest you upgrade your browser.
@@ -53,6 +59,11 @@
     </div>
 
     <div class="fullscreen-container">
+        <div class="particles-container">
+            <div id="particles-js"></div>
+
+        </div>
+
         <div class="navigation-container">
             <nav class="" role="navigation">
                 <ul class="nav navbar-nav">
@@ -69,6 +80,7 @@
                 </ul>
             </nav>
         </div>
+
 
         <div class="title-container">
             <div class="row">
@@ -489,5 +501,6 @@
 
 
     </div>
+
 </body>
 </html>
