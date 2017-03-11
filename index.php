@@ -20,6 +20,9 @@
     <!-- The bootstrap CSS file    -->
     <link rel="stylesheet" href="var/public/assets/style/bootstrap.css">
 
+    <!-- The specific page CSS file    -->
+    <link rel="stylesheet" href="var/public/assets/style/pages/home/home.css">
+
     <!-- Favicon collection for most devices -->
     <link rel="apple-touch-icon" sizes="57x57" href="var/public/assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="var/public/assets/images/favicon/apple-icon-60x60.png">
