@@ -2,44 +2,25 @@ html, body {
   height: 100%;
 }
 
+.fixed-fullscreen-video-container, .fullscreen-container {
+  position: relative;
+
+  height:     auto;
+  width:      auto;
+
+  min-height: 100%;
+  min-width:  100%;
+
+  overflow:   hidden;
+}
+
 .fixed-fullscreen-video-container {
-  position:   fixed;
+  position: fixed;
 
-  height:     auto;
-  width:      auto;
-
-  min-height: 100%;
-  min-width:  100%;
-
-  top:        0;
-  left:       0;
-
-  z-index:    -1;
-
-  overflow:   hidden;
-}
-
-.fullscreen-container {
-  position:   relative;
-
-  height:     auto;
-  width:      auto;
-
-  min-height: 100%;
-  min-width:  100%;
-
-  overflow:   hidden;
-}
-
-.fullscreen-container > #video-background {
-  position: absolute;
   top:      0;
   left:     0;
 
   z-index:  -1;
-
-  height:   auto;
-  width:    auto;
 }
 
 .fullscreen-container .title-container {
