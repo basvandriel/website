@@ -17,7 +17,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "WWW\\Test\\": "tests/WWW/Test"
+      "WWW\\": "tests/basvandriel/WWW"
     }
   },
   "require": {

@@ -1,6 +1,6 @@
 <?php
 
-    namespace WWW\Test;
+    namespace WWW;
 
     class PHPUnitTest extends \PHPUnit_Framework_TestCase
     {
