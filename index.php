@@ -18,10 +18,10 @@
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap-theme.min.css">
     <!-- The bootstrap CSS file    -->
-    <link rel="stylesheet" href="var/public/assets/style/bootstrap.css">
+    <link rel="stylesheet" href="var/public/assets/stylesheets/bootstrap.css">
 
     <!-- The specific page CSS file    -->
-    <link rel="stylesheet" href="var/public/assets/style/pages/home/home.css">
+    <link rel="stylesheet" href="var/public/assets/stylesheets/pages/home/home.css">
 
     <!-- Favicon collection for most devices -->
     <link rel="apple-touch-icon" sizes="57x57" href="var/public/assets/images/favicon/apple-icon-57x57.png">
