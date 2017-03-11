@@ -2,9 +2,6 @@ language: php
 
 # All PHP versions to test against
 php:
-  # Aliased to a recent 5.6.x version
-  - 5.6
-
   # Aliased to a recent 7.0.x version
   - 7.0
 
