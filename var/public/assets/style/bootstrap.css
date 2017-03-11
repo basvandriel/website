@@ -172,14 +172,4 @@ html, body {
 #about-me-container #resume-container #jobs-container {
   /*text-align: right;*/ }
 
-#contact-container {
-  height: 200px;
-  background-color: rgba(0, 255, 192, 0.15); }
-
-#footer-container {
-  position: relative;
-  height: 350px;
-  width: 100%;
-  background-color: rgba(0, 255, 192, 0.15); }
-
 /*# sourceMappingURL=bootstrap.css.map */
