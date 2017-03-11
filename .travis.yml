@@ -22,4 +22,3 @@ notifications:
 
 script:
   - phpunit --configuration phpunit.xml --coverage-text
-
