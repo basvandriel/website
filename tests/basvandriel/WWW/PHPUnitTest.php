@@ -2,9 +2,7 @@
 
     namespace WWW\Test;
 
-    use WWW\TestCase;
-
-    class PHPUnitTest extends TestCase
+    class PHPUnitTest extends \PHPUnit_Framework_TestCase
     {
         public function testPHPUnit()
         {
