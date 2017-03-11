@@ -86,16 +86,18 @@
         </div>
     </div>
 
-    <div id="about-me-container">
-        <div class="svg-container">
-            <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
+    <div class="svg-container">
+        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
-                <path
-                        d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
-                        fill-opacity="null" fill="#fff">
-                </path>
-            </svg>
-        </div>
+            <path
+                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                    fill-opacity="null" fill="#fff">
+            </path>
+        </svg>
+    </div>
+
+    <div id="about-me-container">
+
 
         <div id="about-me-content-container">
             <div class="container" id="introduction-container">
