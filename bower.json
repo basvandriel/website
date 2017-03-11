@@ -8,7 +8,8 @@
   "dependencies": {
     "bootstrap": "*",
     "jquery": "*",
-    "components-font-awesome": "*"
+    "components-font-awesome": "*",
+    "normalize-css": "^5.0.0"
   },
   "ignore": [
     "**/.*",
