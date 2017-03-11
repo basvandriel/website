@@ -2,10 +2,11 @@
 
     namespace WWW;
 
-    class PHPUnitTest extends \PHPUnit_Framework_TestCase
+    class PHPUnitTest extends \PHPUnit\Framework\TestCase
     {
         public function testPHPUnit()
         {
-            self::assertTrue(true);
+            $expected = is_a($this, "\\PHPUnit\\Framework\\TestCase");
+            $this->assertTrue($expected);
         }
     }
