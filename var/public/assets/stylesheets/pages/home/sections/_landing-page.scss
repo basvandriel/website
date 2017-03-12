@@ -2,6 +2,10 @@ html, body {
   height: 100%;
 }
 
+$navigationFontSize: 24px;
+$navigationFontColor: white;
+$navigationBarWidth: 650px;
+
 .fixed-fullscreen-video-container, .fullscreen-container {
   position:   relative;
 
@@ -55,40 +59,69 @@ html, body {
 
 /* Navigation */
 .fullscreen-container > .navigation-container {
-  position:     relative;
-  top:          0;
-  right:        0;
+  position:    relative;
+  top:         0;
+  right:       0;
 
-  float:        right;
+  float:       right;
 
-  font-size:    24px;
-
-  margin-top:   10px;
   margin-right: 10px;
 
-  list-style:   none;
+  font-size:   $navigationFontSize;
+
+  margin-top:  10px;
+
+  list-style:  none;
 
   /* TODO Change to other font */
-  font-family:  "Segoe UI", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 
   > ul.navigation-bar {
-    float: left;
+    float:   right;
+    padding: 0;
 
     li {
-      display: inline;
+      display: inline-block;
       margin:  0 10px;
 
       > a {
-        color: white;
+        color: $navigationFontColor;
+      }
+
+      > ul.sub-navigation-bar {
+        display:    none;
+        position:   absolute;
+
+        right:      0;
+
+        z-index:    1;
+
+        padding:    0;
+
+        text-align: left;
+
+        li {
+          display:   inline-block;
+          font-size: $navigationFontSize - 3;
+
+          > a {
+            color: darken($navigationFontColor, 2.5%);
+          }
+        }
       }
     }
+
+    li:hover ul.sub-navigation-bar {
+      display: inline-block;
+    }
+
   }
 
   &.sticky-navigation {
-    position: fixed;
-    z-index:  1;
+    position:     fixed;
+    z-index:      1;
 
-    margin-top: 0;
+    margin-top:   0;
     margin-right: 25px;
 
     > ul.navigation-bar {

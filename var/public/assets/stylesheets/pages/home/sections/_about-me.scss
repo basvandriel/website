@@ -4,7 +4,7 @@
   min-height:       500px;
   margin-top:       -50px;
 
-  z-index: 0;
+  z-index:          0;
 
   height:           auto;
   width:            100%;
@@ -39,13 +39,57 @@
 
 #personality-container {
   margin-top: 40px;
-
 }
 
 #personality-container p {
   margin:     0 0 15px;
   font-size:  25px;
   text-align: right;
+}
+
+#skills-container {
+  margin-top: 20px;
+
+  p {
+    font-size:  25px;
+    text-align: center;
+  }
+
+  .skill-tags-container {
+    display:    block;
+    margin-top: 15px;
+
+    div {
+      margin-bottom: 10px;
+
+      span {
+        display: inline-block;
+      }
+    }
+
+  }
+}
+
+.skill-tag {
+  font-size:          25px;
+  padding:            5px 12.5px;
+
+  margin:             0 5px;
+
+  background-color:   rgba(0, 255, 192, 0.1875);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+
+  border-radius:      10px;
+
+  vertical-align:     middle;
+  text-align:         center;
+
+  &:hover {
+    background-color: rgba(0, 255, 192, 0.25);
+  }
 }
 
 #about-me-container > #about-me-content-container img.pixelated-image {

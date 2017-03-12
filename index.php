@@ -65,9 +65,17 @@
             <ul class="navigation-bar">
                 <li>
                     <a href="#about-me-content-container">ABOUT ME</a>
+                    <ul class="sub-navigation-bar">
+                        <li><a href="#">BIOGRAPHY</a></li>
+                        <li><a href="#">SKILLS</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#about-me-content-container">EXPERIENCES</a>
+                    <ul class="sub-navigation-bar">
+                        <li><a href="#">EDUCATIONS</a></li>
+                        <li><a href="#">WORK EXPERIENCES</a></li>
+                    </ul>
                 </li>
                 <!-- TODO Create portfolio page -->
                 <li>
@@ -132,25 +140,51 @@
                                I
                                can.</p>
 
-                            <p>For my hobbies I love to make and listen to music, interest myself in new technologies
-                               and a
+                            <p>For my hobbies I love to make music, interest myself in new technologies
+                               and
                                play some games
                                once in a while.</p>
-
-                            <p>I mainly have experience in PHP, Java, HTML5, SCSS, CSS and a bit of JavaScript.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                                object-oriented programming, database essentials and project-management.</p>
 
                             <p>This project is created for learning more about modern web development, where I am mostly
                                focusing on the design and JavaScript programming. This project is also open-source and
-                               can
-                               be found <a href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
+                                <a href="http://www.github.com/basvandriel/WWW">can be found on GitHub.</a></p>
                         </div>
                         <div class="col-md-offset-2"></div>
                         <div class="col-md-5">
                             <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt=""
                                  class="pixelated-image">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="skills-container">
+                    <div class="row">
+                        <h2>SKILLS</h2>
+
+                        <p>I have common knowledge with the following technologies</p>
+                        <div class="skill-tags-container">
+                            <div>
+                                <span class="skill-tag">PHP7</span>
+                                <span class="skill-tag">PHP5</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">SCSS</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+
+                            <div>
+                                <span class="skill-tag">JSON</span>
+                                <span class="skill-tag">XML</span>
+                                <span class="skill-tag">YAML</span>
+                            </div>
+
                         </div>
                     </div>
                 </div>
