@@ -80,6 +80,11 @@
                 <!-- TODO Create portfolio page -->
                 <li>
                     <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
+                    <ul class="sub-navigation-bar">
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">ASSIGNMENTS</a></li>
+                        <li><a href="#">SCRAPBOARD</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="mailto:basvandriel94@gmail.com">CONTACT</a>

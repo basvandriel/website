@@ -38,23 +38,23 @@ $navigationBarWidth: 650px;
   margin:     0 auto;
   text-align: center;
 
-}
+  h1.main-title {
+    /*padding-bottom: 5px;*/
 
-.fullscreen-container > .title-container h1.main-title {
-  /*padding-bottom: 5px;*/
+    border-bottom: 1px solid white;
 
-  border-bottom: 1px solid white;
+    font-size:     115px;
+    font-family:   "TalkingToTheMoon", Arial, serif;
+    font-weight:   bold;
+    color:         #FBF6F6;
+  }
 
-  font-size:     115px;
-  font-family:   "TalkingToTheMoon", Arial, serif;
-  font-weight:   bold;
-  color:         #FBF6F6;
-}
+  h2.sub-title {
+    font-size:   30px;
+    font-family: "Segoe UI", Arial, serif;
+    color:       #E6E1E1;
+  }
 
-.fullscreen-container > .title-container h2.sub-title {
-  font-size:   30px;
-  font-family: "Segoe UI", Arial, serif;
-  color:       #E6E1E1;
 }
 
 /* Navigation */
@@ -99,7 +99,9 @@ $navigationBarWidth: 650px;
 
       > ul.sub-navigation-bar {
         display:    none;
-        position:   absolute;
+        position:   relative;
+
+        top:        35px;
 
         z-index:    1;
         padding:    0;
@@ -107,17 +109,13 @@ $navigationBarWidth: 650px;
         text-align: left;
 
         li {
-          display:   inline-block;
-          font-size: $navigationFontSize - 2;
+          display:   inline;
+          font-size: $navigationFontSize - 4;
 
           > a {
             color: darken($navigationFontColor, 2.5%);
           }
         }
-      }
-
-      &:hover ul.sub-navigation-bar {
-        display: inline-block;
       }
     }
 
