@@ -8,8 +8,13 @@ $(document).on("scroll", function () {
     console.log('scroll top : ' + $(window).scrollTop());
 
     if ($(window).scrollTop() >= $(".fullscreen-container").height() - 50) {
-        console.log("stickay");
         $(".navigation-container").addClass("sticky-navigation");
+
+/*        $(".navigation-container ul.navigation-bar li a[href=\"#about-me-content-container\"").parent().append(
+            "<li>Skills<li>"
+        );*/
+
+
     }
 
     if ($(window).scrollTop() < $(".fullscreen-container").height() - 50) {
