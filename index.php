@@ -65,7 +65,10 @@
             <nav class="" role="navigation">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about-me-content-container">ABOUT</a>
+                        <a href="#about-me-content-container">ABOUT ME</a>
+                    </li>
+                    <li>
+                        <a href="#about-me-content-container">EXPERIENCES</a>
                     </li>
                     <!-- TODO Create portfolio page -->
                     <li>
