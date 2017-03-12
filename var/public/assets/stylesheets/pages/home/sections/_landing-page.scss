@@ -57,6 +57,47 @@ $navigationBarWidth: 650px;
 
 }
 
+.fullscreen-container {
+  > .navigation-button {
+    display:          none;
+    position:         fixed;
+
+    z-index:          1;
+
+    right:            0;
+
+    background-color: rgba(0, 255, 192, 0.25);
+
+    width:            55px;
+    height:           55px;
+
+    border-radius:    10px;
+
+    margin-right:     50px;
+    margin-top:       40px;
+
+    font-size:        26px;
+    text-align:       center; //a
+    line-height:      55px;
+
+    &:hover {
+      background-color:   rgba(0, 255, 192, 0.5);
+
+      -webkit-transition: ease-in 0.25s;
+      -moz-transition:    ease-in 0.25s;
+      -ms-transition:     ease-in 0.25s;
+      -o-transition:      ease-in 0.25s;
+      transition:         ease-in 0.25s;
+
+      cursor:             pointer;
+    }
+
+    i.fa.fa-bars {
+      color: black;
+    }
+  }
+}
+
 /* Navigation */
 .fullscreen-container > .navigation-container {
   position:     relative;
@@ -101,19 +142,20 @@ $navigationBarWidth: 650px;
         display:    none;
         position:   relative;
 
-        top:        35px;
-
         z-index:    1;
         padding:    0;
+
+        margin-top: 10px;
 
         text-align: left;
 
         li {
-          display:   inline;
+          display:   block;
           font-size: $navigationFontSize - 4;
+          margin:    2px 0;
 
           > a {
-            color: darken($navigationFontColor, 2.5%);
+            color: black;
           }
         }
       }
@@ -133,7 +175,7 @@ $navigationBarWidth: 650px;
 
       li {
         display: block;
-        margin:  20px 0;
+        margin:  15px 0;
 
         > a {
           color: black;

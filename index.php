@@ -61,6 +61,7 @@
     <div class="fullscreen-container">
         <div id="particles-js"></div>
 
+        <div class="navigation-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
         <div class="navigation-container">
             <ul class="navigation-bar">
                 <li>
