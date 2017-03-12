@@ -8,9 +8,14 @@
     <!-- jQuery JavaScript script -->
     <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
 
-    <!-- Bootstrap JavaScript script -->
+    <!-- Bootstrap library JavaScript script -->
     <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!-- particles.js library JavaScript script -->
+    <script src="var/public/bower/particles.js/particles.js"></script>
+
+    <!-- Bootstrap JavaScript script -->
+    <script src="var/public/assets/scripts/bootstrap.js"></script>
 
     <!-- Font awesome-->
     <link rel="stylesheet" href="var/public/bower/components-font-awesome/css/font-awesome.min.css">
@@ -45,24 +50,35 @@
     <title>Bas van Driel</title>
 </head>
 <body>
+    <div class="fixed-fullscreen-video-container">
+
+        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
+            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+
     <div class="fullscreen-container">
+        <div id="particles-js"></div>
 
         <div class="navigation-container">
-            <nav class="" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about-me-content-container">ABOUT</a>
-                    </li>
-                    <!-- TODO Create portfolio page -->
-                    <li>
-                        <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a href="mailto:basvandriel94@gmail.com">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="navigation-bar">
+                <li>
+                    <a href="#about-me-content-container">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#about-me-content-container">EXPERIENCES</a>
+                </li>
+                <!-- TODO Create portfolio page -->
+                <li>
+                    <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="mailto:basvandriel94@gmail.com">CONTACT</a>
+                </li>
+            </ul>
         </div>
+
 
         <div class="title-container">
             <div class="row">
@@ -78,24 +94,20 @@
 
             </div>
         </div>
+    </div>
 
+    <div class="svg-container">
+        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
-        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
-            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
-            Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+            <path
+                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                    fill-opacity="null" fill="#fff">
+            </path>
+        </svg>
     </div>
 
     <div id="about-me-container">
-        <div class="svg-container">
-            <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
-                <path
-                        d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
-                        fill-opacity="null" fill="#fff">
-                </path>
-            </svg>
-        </div>
 
         <div id="about-me-content-container">
             <div class="container" id="introduction-container">
@@ -487,5 +499,6 @@
 
 
     </div>
+
 </body>
 </html>

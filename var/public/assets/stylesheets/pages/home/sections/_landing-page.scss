@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 
-.fullscreen-container {
+.fixed-fullscreen-video-container, .fullscreen-container {
   position:   relative;
 
   height:     auto;
@@ -14,15 +14,13 @@ html, body {
   overflow:   hidden;
 }
 
-.fullscreen-container > #video-background {
-  position: absolute;
+.fixed-fullscreen-video-container {
+  position: fixed;
+
   top:      0;
   left:     0;
 
   z-index:  -1;
-
-  height:   auto;
-  width:    auto;
 }
 
 .fullscreen-container .title-container {
@@ -68,10 +66,70 @@ html, body {
   margin-top:   10px;
   margin-right: 10px;
 
+  list-style:   none;
+
   /* TODO Change to other font */
   font-family:  "Segoe UI", sans-serif;
+
+  > ul.navigation-bar {
+    float: left;
+
+    li {
+      display: inline;
+      margin:  0 10px;
+
+      > a {
+        color: white;
+      }
+    }
+  }
+
+  &.sticky-navigation {
+    position: fixed;
+    z-index:  1;
+
+    margin-top: 0;
+    margin-right: 25px;
+
+    > ul.navigation-bar {
+      float: left;
+
+      li {
+        display: block;
+        margin:  20px 0;
+
+        > a {
+          color: black;
+        }
+      }
+    }
+  }
 }
 
-.fullscreen-container > .navigation-container a {
-  color: white;
+#particles-js {
+  position:   fixed;
+
+  top:        0;
+  right:      0;
+  bottom:     0;
+  left:       0;
+  z-index:    0;
+
+  max-height: 100%;
+  max-width:  100%;
+
+  overflow:   hidden;
+}
+
+.svg-container {
+  background-color: transparent;
+
+  position:         relative;
+
+  width:            100%;
+  height:           90px;
+
+  margin-top:       -90px;
+
+  z-index:          0;
 }
