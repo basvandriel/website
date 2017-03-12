@@ -62,23 +62,21 @@
         <div id="particles-js"></div>
 
         <div class="navigation-container">
-            <nav class="" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about-me-content-container">ABOUT ME</a>
-                    </li>
-                    <li>
-                        <a href="#about-me-content-container">EXPERIENCES</a>
-                    </li>
-                    <!-- TODO Create portfolio page -->
-                    <li>
-                        <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a href="mailto:basvandriel94@gmail.com">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="navigation-bar">
+                <li>
+                    <a href="#about-me-content-container">ABOUT ME</a>
+                </li>
+                <li>
+                    <a href="#about-me-content-container">EXPERIENCES</a>
+                </li>
+                <!-- TODO Create portfolio page -->
+                <li>
+                    <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
+                </li>
+                <li>
+                    <a href="mailto:basvandriel94@gmail.com">CONTACT</a>
+                </li>
+            </ul>
         </div>
 
 

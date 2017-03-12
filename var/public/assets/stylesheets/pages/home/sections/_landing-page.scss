@@ -66,12 +66,44 @@ html, body {
   margin-top:   10px;
   margin-right: 10px;
 
+  list-style:   none;
+
   /* TODO Change to other font */
   font-family:  "Segoe UI", sans-serif;
-}
 
-.fullscreen-container > .navigation-container a {
-  color: white;
+  > ul.navigation-bar {
+    float: left;
+
+    li {
+      display: inline;
+      margin:  0 10px;
+
+      > a {
+        color: white;
+      }
+    }
+  }
+
+  &.sticky-navigation {
+    position: fixed;
+    z-index:  1;
+
+    margin-top: 0;
+    margin-right: 25px;
+
+    > ul.navigation-bar {
+      float: left;
+
+      li {
+        display: block;
+        margin:  20px 0;
+
+        > a {
+          color: black;
+        }
+      }
+    }
+  }
 }
 
 #particles-js {
@@ -98,4 +130,6 @@ html, body {
   height:           90px;
 
   margin-top:       -90px;
+
+  z-index:          0;
 }
