@@ -59,22 +59,22 @@ $navigationBarWidth: 650px;
 
 /* Navigation */
 .fullscreen-container > .navigation-container {
-  position:    relative;
-  top:         0;
-  right:       0;
+  position:     relative;
+  top:          0;
+  right:        0;
 
-  float:       right;
+  float:        right;
 
   margin-right: 10px;
 
-  font-size:   $navigationFontSize;
+  font-size:    $navigationFontSize;
 
-  margin-top:  10px;
+  margin-top:   10px;
 
-  list-style:  none;
+  list-style:   none;
 
   /* TODO Change to other font */
-  font-family: "Segoe UI", sans-serif;
+  font-family:  "Segoe UI", sans-serif;
 
   > ul.navigation-bar {
     float:   right;
@@ -85,34 +85,40 @@ $navigationBarWidth: 650px;
       margin:  0 10px;
 
       > a {
-        color: $navigationFontColor;
+        font-weight: 400;
+        color:       $navigationFontColor;
+
+        &:link, &:visited, &:hover, &:active {
+          text-decoration: none;
+        }
+
+        &:hover {
+          color: darken($navigationFontColor, 5%);
+        }
       }
 
       > ul.sub-navigation-bar {
         display:    none;
         position:   absolute;
 
-        right:      0;
-
         z-index:    1;
-
         padding:    0;
 
         text-align: left;
 
         li {
           display:   inline-block;
-          font-size: $navigationFontSize - 3;
+          font-size: $navigationFontSize - 2;
 
           > a {
             color: darken($navigationFontColor, 2.5%);
           }
         }
       }
-    }
 
-    li:hover ul.sub-navigation-bar {
-      display: inline-block;
+      &:hover ul.sub-navigation-bar {
+        display: inline-block;
+      }
     }
 
   }
