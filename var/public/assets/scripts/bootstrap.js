@@ -10,14 +10,13 @@ $(document).on("scroll", function () {
     if ($(window).scrollTop() >= $(".fullscreen-container").height() - 50) {
         $(".navigation-container").addClass("sticky-navigation");
 
-/*        $(".navigation-container ul.navigation-bar li a[href=\"#about-me-content-container\"").parent().append(
-            "<li>Skills<li>"
-        );*/
-
-
-    }
-
-    if ($(window).scrollTop() < $(".fullscreen-container").height() - 50) {
+        /*        $(".navigation-container ul.navigation-bar li a[href=\"#about-me-content-container\"").parent().append(
+         "<li>Skills<li>"
+         );*/
+    } else {
         $(".navigation-container").removeClass("sticky-navigation");
     }
+
+/*    if ($(window).scrollTop() < $(".fullscreen-container").height() - 50) {
+    }*/
 });
