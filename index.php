@@ -59,10 +59,7 @@
     </div>
 
     <div class="fullscreen-container">
-        <div class="particles-container">
-            <div id="particles-js"></div>
-
-        </div>
+        <div id="particles-js"></div>
 
         <div class="navigation-container">
             <nav class="" role="navigation">
