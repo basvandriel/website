@@ -59,27 +59,31 @@ $navigationBarWidth: 650px;
 
 .fullscreen-container {
   > .navigation-button {
-    display:          none;
-    position:         fixed;
+    display:       none;
+    position:      fixed;
 
-    z-index:          2;
+    z-index:       2;
 
-    right:            0;
+    right:         0;
 
-    width:            55px;
-    height:           55px;
+    width:         55px;
+    height:        55px;
 
-    border-radius:    10px;
+    border-radius: 10px;
 
-    margin-right:     50px;
-    margin-top:       35px;
+    margin-right:  50px;
+    margin-top:    35px;
 
-    font-size:        26px;
-    text-align:       center; //a
-    line-height:      55px;
+    font-size:     26px;
+    text-align:    center; //a
+    line-height:   55px;
+
+    &.active:hover {
+      background-color: transparent;
+    }
 
     &:hover {
-      background-color:   rgba(0, 255, 192, 0.5);
+      background-color:   rgba(0, 255, 192, 0.25);
 
       -webkit-transition: ease-in 0.25s;
       -moz-transition:    ease-in 0.25s;
