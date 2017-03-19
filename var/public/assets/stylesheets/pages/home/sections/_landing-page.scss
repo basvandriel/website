@@ -62,7 +62,7 @@ $navigationBarWidth: 650px;
     display:          none;
     position:         fixed;
 
-    z-index:          1;
+    z-index:          2;
 
     right:            0;
 
@@ -164,11 +164,20 @@ $navigationBarWidth: 650px;
   }
 
   &.sticky-navigation {
-    position:     fixed;
-    z-index:      1;
+    position:              fixed;
+    z-index:               1;
 
-    margin-top:   0;
-    margin-right: 25px;
+    margin-top:            20px;
+    margin-right:          20px;
+
+    padding-right:         100px;
+    padding-left:          20px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius:    10px;
+    border-radius:         10px;
+
+    background-color:      rgba(0, 255, 192, 0.25);
 
     > ul.navigation-bar {
       float: left;

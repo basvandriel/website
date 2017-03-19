@@ -25,11 +25,15 @@ $(document).ready(function () {
      */
     $(".navigation-button").on("click", function () {
         if ($(this).hasClass("active")) {
+            console.log("I;M ACTIVE");
             $(".navigation-container").removeClass("sticky-navigation");
             $(".navigation-container ul.sub-navigation-bar").hide();
+            $(this).removeClass("active");
+        } else {
+            console.log("no");
+            $(this).addClass("active");
+            $(".navigation-container").addClass("sticky-navigation");
+            $(".navigation-container ul.sub-navigation-bar").show();
         }
-        $(this).addClass("active");
-        $(".navigation-container").addClass("sticky-navigation");
-        $(".navigation-container ul.sub-navigation-bar").show();
     });
 });
