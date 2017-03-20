@@ -25,6 +25,11 @@ $navigationBarWidth: 650px;
   left:     0;
 
   z-index:  -1;
+
+  video {
+    width: 100% !important;
+    height: auto;
+  }
 }
 
 .fullscreen-container .title-container {

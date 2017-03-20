@@ -1,7 +1,5 @@
 /* Fixed navigation */
 $(document).on("scroll", function () {
-    console.log('scroll top : ' + $(window).scrollTop());
-
     if ($(window).scrollTop() >= $(".fullscreen-container").height() - 50) {
         $(".navigation-button").show();
     } else {
