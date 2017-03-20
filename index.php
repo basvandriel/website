@@ -14,6 +14,8 @@
     <!-- particles.js library JavaScript script -->
     <script src="var/public/bower/particles.js/particles.js"></script>
 
+    <script src="var/public/bower/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
+
     <!-- Bootstrap JavaScript script -->
     <script src="var/public/assets/scripts/bootstrap.js"></script>
 
@@ -65,17 +67,17 @@
         <div class="navigation-container">
             <ul class="navigation-bar">
                 <li>
-                    <a href="#about-me-content-container">ABOUT ME</a>
+                    <a href="#about-me-container">ABOUT ME</a>
                     <ul class="sub-navigation-bar">
-                        <li><a href="#">BIOGRAPHY</a></li>
-                        <li><a href="#">SKILLS</a></li>
+                        <li><a href="#about-me-container">BIOGRAPHY</a></li>
+                        <li><a href="#skills-container">SKILLS</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#about-me-content-container">EXPERIENCES</a>
+                    <a href="#resume-container">EXPERIENCES</a>
                     <ul class="sub-navigation-bar">
-                        <li><a href="#">EDUCATIONS</a></li>
-                        <li><a href="#">WORK EXPERIENCES</a></li>
+                        <li><a href="#education-container">EDUCATIONS</a></li>
+                        <li><a href="#jobs-container">WORK EXPERIENCES</a></li>
                     </ul>
                 </li>
                 <!-- TODO Create portfolio page -->
@@ -88,7 +90,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="mailto:basvandriel94@gmail.com">CONTACT</a>
+                    <a href="#contact-container">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -127,7 +129,6 @@
             <div class="container" id="introduction-container">
                 <div id="introduction-text-container">
                     <h1>ABOUT ME</h1>
-
                     <h2>I’m an enthusiast web and application developer who always strives to deliver creative
                         solutions,
                         mainly focused on back-end
@@ -516,11 +517,6 @@
                         </div>
                     </div>
 
-                </div>
-                <div id="skills-container">
-                    <div class="container">
-
-                    </div>
                 </div>
 
             </div>
