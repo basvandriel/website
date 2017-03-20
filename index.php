@@ -14,8 +14,6 @@
     <!-- particles.js library JavaScript script -->
     <script src="var/public/bower/particles.js/particles.js"></script>
 
-    <script src="var/public/bower/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
-
     <!-- Bootstrap JavaScript script -->
     <script src="var/public/assets/scripts/bootstrap.js"></script>
 
