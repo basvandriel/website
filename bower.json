@@ -10,8 +10,7 @@
     "jquery": "*",
     "components-font-awesome": "*",
     "normalize-css": "^5.0.0",
-    "particles.js": "^2.0.0",
-    "jquery-smooth-scroll": "^2.1.2"
+    "particles.js": "^2.0.0"
   },
   "ignore": [
     "**/.*",
