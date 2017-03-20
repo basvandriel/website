@@ -8,9 +8,14 @@
     <!-- jQuery JavaScript script -->
     <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
 
-    <!-- Bootstrap JavaScript script -->
+    <!-- Bootstrap library JavaScript script -->
     <script src="var/public/bower/bootstrap/dist/js/bootstrap.min.js"></script>
 
+    <!-- particles.js library JavaScript script -->
+    <script src="var/public/bower/particles.js/particles.js"></script>
+
+    <!-- Bootstrap JavaScript script -->
+    <script src="var/public/assets/scripts/bootstrap.js"></script>
 
     <!-- Font awesome-->
     <link rel="stylesheet" href="var/public/bower/components-font-awesome/css/font-awesome.min.css">
@@ -45,24 +50,49 @@
     <title>Bas van Driel</title>
 </head>
 <body>
-    <div class="fullscreen-container">
+    <div class="fixed-fullscreen-video-container">
 
+        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
+            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
+
+    <div class="fullscreen-container">
+        <div id="particles-js"></div>
+
+        <div class="navigation-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
         <div class="navigation-container">
-            <nav class="" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about-me-content-container">ABOUT</a>
-                    </li>
-                    <!-- TODO Create portfolio page -->
-                    <li>
-                        <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a href="mailto:basvandriel94@gmail.com">CONTACT</a>
-                    </li>
-                </ul>
-            </nav>
+            <ul class="navigation-bar">
+                <li>
+                    <a href="#about-me-container">ABOUT ME</a>
+                    <ul class="sub-navigation-bar">
+                        <li><a href="#about-me-container">BIOGRAPHY</a></li>
+                        <li><a href="#skills-container">SKILLS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#resume-container">EXPERIENCES</a>
+                    <ul class="sub-navigation-bar">
+                        <li><a href="#education-container">EDUCATIONS</a></li>
+                        <li><a href="#jobs-container">WORK EXPERIENCES</a></li>
+                    </ul>
+                </li>
+                <!-- TODO Create portfolio page -->
+                <li>
+                    <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
+                    <ul class="sub-navigation-bar">
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">ASSIGNMENTS</a></li>
+                        <li><a href="#">SCRAPBOARD</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#contact-container">CONTACT</a>
+                </li>
+            </ul>
         </div>
+
 
         <div class="title-container">
             <div class="row">
@@ -78,30 +108,25 @@
 
             </div>
         </div>
+    </div>
 
+    <div class="svg-container">
+        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
-        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
-            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
-            Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+            <path
+                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                    fill-opacity="null" fill="#fff">
+            </path>
+        </svg>
     </div>
 
     <div id="about-me-container">
-        <div class="svg-container">
-            <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
-                <path
-                        d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
-                        fill-opacity="null" fill="#fff">
-                </path>
-            </svg>
-        </div>
 
         <div id="about-me-content-container">
             <div class="container" id="introduction-container">
                 <div id="introduction-text-container">
                     <h1>ABOUT ME</h1>
-
                     <h2>I’m an enthusiast web and application developer who always strives to deliver creative
                         solutions,
                         mainly focused on back-end
@@ -120,25 +145,51 @@
                                I
                                can.</p>
 
-                            <p>For my hobbies I love to make and listen to music, interest myself in new technologies
-                               and a
+                            <p>For my hobbies I love to make music, interest myself in new technologies
+                               and
                                play some games
                                once in a while.</p>
-
-                            <p>I mainly have experience in PHP, Java, HTML5, SCSS, CSS and a bit of JavaScript.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                                object-oriented programming, database essentials and project-management.</p>
 
                             <p>This project is created for learning more about modern web development, where I am mostly
                                focusing on the design and JavaScript programming. This project is also open-source and
-                               can
-                               be found <a href="http://www.github.com/basvandriel.nl/WWW">on GitHub.</a></p>
+                                <a href="http://www.github.com/basvandriel/WWW">can be found on GitHub.</a></p>
                         </div>
                         <div class="col-md-offset-2"></div>
                         <div class="col-md-5">
                             <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt=""
                                  class="pixelated-image">
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="skills-container">
+                    <div class="row">
+                        <h2>SKILLS</h2>
+
+                        <p>I have common knowledge with the following technologies</p>
+                        <div class="skill-tags-container">
+                            <div>
+                                <span class="skill-tag">PHP7</span>
+                                <span class="skill-tag">PHP5</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">SCSS</span>
+                                <span class="skill-tag">MySQL</span>
+                            </div>
+
+                            <div>
+                                <span class="skill-tag">JSON</span>
+                                <span class="skill-tag">XML</span>
+                                <span class="skill-tag">YAML</span>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -465,11 +516,6 @@
                     </div>
 
                 </div>
-                <div id="skills-container">
-                    <div class="container">
-
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -487,5 +533,6 @@
 
 
     </div>
+
 </body>
 </html>
