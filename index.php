@@ -127,7 +127,7 @@
             <div class="container" id="introduction-container">
                 <div id="introduction-text-container">
                     <h1>ABOUT ME</h1>
-                    <h2>I’m an enthusiast web and application developer who always strives to deliver creative
+                    <h2>I am an enthusiastic web and application developer who always strives to deliver creative
                         solutions,
                         mainly focused on back-end
                         development and new technologies.
@@ -139,13 +139,14 @@
                             <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
                                Netherlands.</p>
 
-                            <p>I stand for quality, little details, structure and perfection in all my work I do. For my
+                            <p>I stand for quality, little details, structure and perfection in all the work I do. For
+                               my
                                preference I like working together in a group, it gives me the ability to be more
                                precise in my work. I'm always in to show commitment, initiative and flexibility whenever
                                I
                                can.</p>
 
-                            <p>For my hobbies I love to make music, interest myself in new technologies
+                            <p>For my hobbies I love to make music, interest myself in IT technologies, do sports
                                and
                                play some games
                                once in a while.</p>
