@@ -2,6 +2,7 @@
   Experiences container
  */
 #experiences-container {
+  overflow: hidden;
 
   h1.experience-section-name {
     font-size:   38px;
@@ -50,7 +51,7 @@
   }
 
   div.education-course-info {
-    margin-top:        22.5px;
+    margin-top:    22.5px;
     font-size:     22px;
     color:         #4F4F4F;
     padding-right: 22.5px;
