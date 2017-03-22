@@ -165,7 +165,6 @@
                         </div>
                     </div>
 
-
                 </div>
 
                 <div id="skills-container">
@@ -193,6 +192,22 @@
 
                         </div>
                     </div>
+                </div>
+
+                <div class="row social-links">
+                    <h2>LINKS</h2>
+
+                    <p>I can also be found on the following links:</p>
+                    <a class="social-icon" href="http://www.github.com/basvandriel"><i class="fa fa-github"
+                                                                                       aria-hidden="true"></i></a>
+                    <a class="social-icon" href="https://bitbucket.org/basvandriel94/"><i class="fa fa-bitbucket"
+                                                                                       aria-hidden="true"></i></a>
+                    <a class="social-icon" href="http://stackoverflow.com/users/2989034/"><i class="fa fa-stack-overflow"
+                                                                                       aria-hidden="true"></i></a>
+                    <a class="social-icon" href="http://www.twitter.com/bvandriel"><i class="fa fa-twitter"
+                                                                                       aria-hidden="true"></i></a>
+                    <a class="social-icon" href="http://www.linkedin.com/in/basvandriel"><i class="fa fa-linkedin"
+                                                                                       aria-hidden="true"></i></a>
                 </div>
             </div>
 
