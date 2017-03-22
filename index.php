@@ -196,244 +196,232 @@
                 </div>
             </div>
 
-            <div id="resume-container">
+            <div id="experiences-container">
                 <div id="education-container">
                     <div class="container">
-                        <div class="row">
+                        <div class="col-md-3">
+                            <h1 class="experience-section-name">EDUCATION</h1>
+                        </div>
+
+                        <div class="col-md-7 col-md-offset-2" style="padding: 0">
+
+                            <!-- Application and media developer course -->
                             <div class="education-course">
-                                <!-- First one has information about the container-->
-                                <div class="col-md-4">
-                                    <h1 class="resume-section-name">EDUCATION</h1>
+                                <div class="education-course-header">
+                                    <h2 class="education-course-name">Application and media development</h2>
+                                    <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
+                                                                          Design"</h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
+                                                                             aria-hidden="true"></i> Vlissingen,
+                                                                                                     Netherlands
+                                    </h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
+                                                                             aria-hidden="true"></i> 2016 - until
+                                                                                                     now
+                                    </h3>
                                 </div>
+                                <div class="education-course-info">
+                                    <p>This training is teaching the technical part of
+                                       application
+                                       development. It starts with learning the syntax of the Java programming
+                                       language using small assignments. After that the student learns
+                                       best practices for object-oriented programming by doing real-world
+                                       projects
+                                       within a team of
+                                       other students. In these projects the students also learns to use the
+                                       necessary too ls for building the application.</p>
 
-                                <div class="col-md-6 col-md-offset-2">
-                                    <h2>Application and media development</h2>
-                                    <h3>Scalda, "College voor Techniek en Design"</h3>
-                                    <h3><i class="fa fa-map-marker"
-                                           aria-hidden="true"></i> Vlissingen, Netherlands</h3>
-                                    <h3><i class="fa fa-clock-o" aria-hidden="true"></i> 2016 - until now</h3>
+                                    <p>Besides programming the students also learn the essentials of using
+                                       databases and project-management using SCRUM.</p>
 
+                                    <p>
+                                        Within this training, the students have to do 2 internships. These are
+                                        mostly focused on learning the technical part of application
+                                        development In a real-world working environment.
+                                        The first internship
+                                        is 10 weeks and is aimed at orientating at the job itself.
+
+                                        The second internship is for the examination of the student.
+                                    </p>
+
+                                    <p>
+                                        This training is based on
+                                        level 4 MBO (secondary vocational education).
+                                    </p>
                                 </div>
                             </div>
 
-                        </div>
-                        <h1>EDUCATION</h1>
-                        <div class="table-responsive">
-                            <table class="table education-courses">
-                                <tbody>
-                                    <tr>
-                                        <td class="education-course-info">
-                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Vlissingen,
-                                                                                                  Netherlands
-                                            </p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
-                                                                                                                    -
-                                                                                                                    until
-                                                                                                                    now
-                                            </p>
-                                        </td>
-                                        <td class="education-details">
-                                            <p class="education-details-header">Application and media development</p>
-                                            <p>This training is teaching the technical part of
-                                               application
-                                               development. It starts with learning the syntax of the Java programming
-                                               language using small assignments. After that the student learns
-                                               best practices for object-oriented programming by doing real-world
-                                               projects
-                                               within a team of
-                                               other students. In these projects the students also learns to use the
-                                               necessary too ls for building the application.</p>
 
-                                            <p>Besides programming the students also learn the essentials of using
-                                               databases and project-management using SCRUM.</p>
+                            <hr class="horizontal-line">
 
-                                            <p>
-                                                Within this training, the students have to do 2 internships. These are
-                                                mostly focused on learning the technical part of application
-                                                development In a real-world working environment.
-                                                The first internship
-                                                is 10 weeks and is aimed at orientating at the job itself.
+                            <!-- CCNA Routing and Switching: Introduction to Networks course -->
+                            <div class="education-course">
+                                <div class="education-course-header">
+                                    <h2 class="education-course-name">CCNA Routing and Switching: Introduction
+                                                                      to Networks</h2>
+                                    <h3 class="education-course-subtitle">Cisco</h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
+                                                                             aria-hidden="true"></i> Online
+                                    </h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
+                                                                             aria-hidden="true"></i> 2016
+                                    </h3>
+                                </div>
+                                <div class="education-course-info">
+                                    <p>This course taught me how to set up and configure a
+                                       network. I learnt
+                                       how to configure network equipment such as routers, switches, hubs and
+                                       the workstation itself for working in the corresponding network. I also
+                                       learnt how to make network cables (cross-over, straight
+                                       through) for a specific
+                                       network configuration.
+                                    </p>
 
-                                                The second internship is for the examination of the student.
-                                            </p>
+                                    <p>
+                                        This by
+                                        doing assignments in the Cisco Packet Tracer software for simulating the
+                                        network the assignment wanted me to build.
+                                    </p>
 
-                                            <p>
-                                                This training is based on
-                                                level 4 MBO (secondary vocational education).
-                                            </p>
+                                    <p>During the training, I mostly configured networks for using sub-networks
+                                       and
+                                       security essentials. For the actual exam I had to do all this with actual
+                                       Cisco equipment.</p>
 
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="education-course-info">
-                                            <p class="course-header">Cisco</p>
-                                            <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Online</p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
-                                            </p>
-                                        </td>
-                                        <td class="education-details">
-                                            <p class="education-details-header">CCNA Routing and Switching: Introduction
-                                                                                to Networks</p>
-                                            <p>This course teached me how to set up and configure a
-                                               network. I learnt
-                                               how to configure network equipment such as routers, switches, hubs and
-                                               the workstation itself for working in the corresponding network. I also
-                                               learnt how to make network cables (cross-over, straight
-                                               through) for a specific
-                                               network configuration.
-                                            </p>
+                                    <p>
+                                        This training belonged to the Medewerker Beheer ICT training.
+                                    </p>
+                                </div>
+                            </div>
 
-                                            <p>
-                                                This by
-                                                doing assignments in the Cisco Packet Tracer software for simulating the
-                                                network the assignment wanted me to build.
-                                            </p>
+                            <hr class="horizontal-line">
 
-                                            <p>During the training, I mostly configured networks for using sub-networks
-                                               and
-                                               security essentials. For the actual exam I had to do all this with actual
-                                               Cisco equipment.</p>
+                            <!-- Medewerker Beheer ICT course -->
+                            <div class="education-course">
+                                <div class="education-course-header">
+                                    <h2 class="education-course-name">Medewerker Beheer ICT</h2>
+                                    <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
+                                                                          Design"</h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
+                                                                             aria-hidden="true"></i> Terneuzen,
+                                                                                                     Netherlands
+                                    </h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
+                                                                             aria-hidden="true"></i> 2016
+                                    </h3>
+                                </div>
+                                <div class="education-course-info">
+                                    <!-- TODO Write content for this course -->
+                                    <p>
+                                        This training is based on
+                                        level 3 MBO.
+                                    </p>
+                                </div>
+                            </div>
 
-                                            <p>
-                                                This training belonged to the Medewerker Beheer ICT training.
-                                            </p></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="education-course-info">
-                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Terneuzen,
-                                                                                                  Netherlands
-                                            </p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
-                                            </p>
-                                        </td>
+                            <hr class="horizontal-line">
 
-                                        <td class="education-details">
-                                            <p class="education-details-header">Medewerker Beheer ICT</p>
-                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
-                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
-                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
-                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
-                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
-                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
-                                               passages en meer recentelijk door desktop publishing software zoals Aldus
-                                               PageMaker die versies van Lorem Ipsum bevatten.
-                                            </p>
+                            <!-- Microsoft Office 2013 Professional: Scalda Certificate -->
+                            <div class="education-course">
+                                <div class="education-course-header">
+                                    <h2 class="education-course-name">Microsoft Office 2013 Professional: Scalda
+                                                                      Certificate</h2>
+                                    <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
+                                                                          Design"</h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
+                                                                             aria-hidden="true"></i> Online
+                                    </h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
+                                                                             aria-hidden="true"></i> 2015
+                                    </h3>
+                                </div>
+                                <div class="education-course-info">
+                                    <p>This course was about learning how to work with the basics and the more
+                                       advanced
+                                       functions of Office 2013. The programs I learned to work with were
+                                       Word, Excel, PowerPoint and Outlook.</p>
 
-                                            <p>
-                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
-                                            </p></td>
+                                    <p>During the assignments it gave me a better understanding of the
+                                       software and made me more
+                                       productive because of all the functions I didn't know about.</p>
 
-                                    </tr>
-                                    <tr>
-                                        <td class="education-course-info">
-                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Online
-                                            </p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
-                                            </p>
-                                        </td>
+                                    <p>
+                                        This course belonged to the Medewerker ICT training.
+                                    </p>
+                                </div>
+                            </div>
 
-                                        <td class="education-details">
-                                            <p class="education-details-header">Microsoft Office 2013 Professional:
-                                                                                Scalda Certificate</p>
-                                            <p>This course was about learning how to work with the basics and the more
-                                               advanced
-                                               functions of Office 2013. The programs I learned to work with were
-                                               Word, Excel, PowerPoint and Outlook.</p>
+                            <hr class="horizontal-line">
 
-                                            <p>During the assignments it gave me a better understanding of the
-                                               software and made me more
-                                               productive because of all the functions I didn't know about.</p>
+                            <!-- Medewerker ICT course -->
+                            <div class="education-course">
+                                <div class="education-course-header">
+                                    <h2 class="education-course-name">Medewerker ICT</h2>
+                                    <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
+                                                                          Design"</h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
+                                                                             aria-hidden="true"></i> Terneuzen,
+                                                                                                     Netherlands
+                                    </h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
+                                                                             aria-hidden="true"></i> 2014 - 2016
+                                    </h3>
+                                </div>
+                                <div class="education-course-info">
+                                    <p>
+                                        This training was focused on teaching the basics of solving
+                                        IT related problems customers have. This included correctly building a
+                                        computer and knowing the parts
+                                        that are in it. I learnt this by working at a service desk.
+                                    </p>
 
-                                            <p>
-                                                This course belonged to the Medewerker ICT training.
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="education-course-info">
-                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Terneuzen,
-                                                                                                  Netherlands
-                                            </p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2016
-                                            </p>
-                                        </td>
-                                        <td class="education-details">
-                                            <p class="education-details-header">Medewerker ICT</p>
+                                    <p>I learnt the general knowledge of working with common used software. This
+                                       gave me the the ability to be more productive in my own working
+                                       environment and help others with their IT problems.</p>
 
-                                            <p>
-                                                This training was focused on teaching the basics of solving
-                                                IT related problems customers have. This included correctly building a
-                                                computer and knowing the parts
-                                                that are in it. I learnt this by working at a service desk.
-                                            </p>
+                                    <p>
+                                        Within this training, I had to do 2 internships. These were
+                                        mostly focused on learning how to work with actual customers in a
+                                        real-world working environment on a service desk.
+                                        The first internship
+                                        was 10 weeks long and was aimed at orientating at the job itself.
 
-                                            <p>I learnt the general knowledge of working with common used software. This
-                                               gave me the the ability to be more productive in my own working
-                                               environment and help others with their IT problems.</p>
+                                        The second internship was 20 weeks long was for my examination.
+                                    </p>
 
-                                            <p>
-                                                Within this training, I had to do 2 internships. These were
-                                                mostly focused on learning how to work with actual customers in a
-                                                real-world working environment on a service desk.
-                                                The first internship
-                                                was 10 weeks long and was aimed at orientating at the job itself.
+                                    <p>
+                                        This training is based on
+                                        level 2 MBO.
+                                    </p>
+                                </div>
+                            </div>
 
-                                                The second internship was 20 weeks long was for my examination.
-                                            </p>
+                            <hr class="horizontal-line">
 
-                                            <p>
-                                                This training is based on
-                                                level 2 MBO.
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr class="last-row">
-                                        <td class="education-course-info">
-                                            <p class="course-header">Scalda, "College voor Techniek en Design"</p>
-                                            <p class="course-location"><i class="fa fa-map-marker"
-                                                                          aria-hidden="true"></i> Terneuzen,
-                                                                                                  Netherlands
-                                            </p>
-                                            <p class="course-year"><i class="fa fa-clock-o" aria-hidden="true"></i> 2012
-                                                                                                                    -
-                                                                                                                    2013
-                                            </p>
-                                        </td>
+                            <!-- Arbeidsmarkt Gekwalificeerd Assistent course -->
+                            <div class="education-course">
+                                <div class="education-course-header">
+                                    <h2 class="education-course-name">Arbeidsmarkt Gekwalificeerd Assistent, Handel</h2>
+                                    <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
+                                                                          Design"</h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
+                                                                             aria-hidden="true"></i> Terneuzen,
+                                                                                                     Netherlands
+                                    </h3>
+                                    <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
+                                                                             aria-hidden="true"></i> 2012 - 2013
+                                    </h3>
+                                </div>
+                                <div class="education-course-info">
 
-                                        <td class="education-details">
-                                            <p class="education-details-header">Arbeidsmarkt Gekwalificeerd
-                                                                                Assistent</p>
-                                            <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                               zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak
-                                               sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam
-                                               en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet
-                                               alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd,
-                                               overgenomen in elektronische letterzetting. Het is in de jaren '60
-                                               populair geworden met de introductie van Letraset vellen met Lorem Ipsum
-                                               passages en meer recentelijk door desktop publishing software zoals Aldus
-                                               PageMaker die versies van Lorem Ipsum bevatten.
-                                            </p>
+                                    <!-- TODO Write content for this course -->
 
-                                            <p>
-                                                Lorem Ipsum is slechts een proeftekst uit het drukkerij- en
-                                                zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze
-                                            </p>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
+                                    <p>
+                                        This training is based on
+                                        level 1 MBO.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

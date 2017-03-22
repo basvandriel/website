@@ -1,0 +1,59 @@
+/*
+  Experiences container
+ */
+#experiences-container {
+
+  h1.experience-section-name {
+    font-size:   38px;
+    font-weight: 500;
+    text-align:  left;
+  }
+
+  div.row {
+    margin: 0;
+  }
+
+  hr.horizontal-line {
+    border-top: 1.25px solid #9C9C9C;
+  }
+}
+
+#education-container {
+
+  .container {
+    width:   75%;
+    padding: 0;
+  }
+}
+
+/*
+  Education courses
+ */
+.education-course {
+  text-align: left;
+
+  .education-course-header {
+    > h2.education-course-name {
+      font-family: "Segoe UI", Arial, serif;
+      font-size:   33px;
+      font-weight: 400;
+      color:       #333333;
+    }
+
+    > h3.education-course-subtitle {
+      font-family: "Segoe UI", Arial, serif;
+      font-size:   25px;
+      color:       #6B6B6B;
+
+      margin:      11px 0;
+    }
+  }
+
+  div.education-course-info {
+    margin-top:        22.5px;
+    font-size:     22px;
+    color:         #4F4F4F;
+    padding-right: 22.5px;
+  }
+
+}
