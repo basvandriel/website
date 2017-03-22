@@ -178,6 +178,7 @@
                                 <span class="skill-tag">PHP5</span>
                                 <span class="skill-tag">Java</span>
                                 <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">jQuery</span>
                                 <span class="skill-tag">HTML5</span>
                                 <span class="skill-tag">CSS</span>
                                 <span class="skill-tag">SCSS</span>
@@ -188,6 +189,11 @@
                                 <span class="skill-tag">JSON</span>
                                 <span class="skill-tag">XML</span>
                                 <span class="skill-tag">YAML</span>
+                                <span class="skill-tag">GIT</span>
+
+                            </div>
+
+                            <div>
                             </div>
 
                         </div>
