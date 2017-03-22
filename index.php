@@ -199,6 +199,24 @@
             <div id="resume-container">
                 <div id="education-container">
                     <div class="container">
+                        <div class="row">
+                            <div class="education-course">
+                                <!-- First one has information about the container-->
+                                <div class="col-md-4">
+                                    <h1 class="resume-section-name">EDUCATION</h1>
+                                </div>
+
+                                <div class="col-md-6 col-md-offset-2">
+                                    <h2>Application and media development</h2>
+                                    <h3>Scalda, "College voor Techniek en Design"</h3>
+                                    <h3><i class="fa fa-map-marker"
+                                           aria-hidden="true"></i> Vlissingen, Netherlands</h3>
+                                    <h3><i class="fa fa-clock-o" aria-hidden="true"></i> 2016 - until now</h3>
+
+                                </div>
+                            </div>
+
+                        </div>
                         <h1>EDUCATION</h1>
                         <div class="table-responsive">
                             <table class="table education-courses">
