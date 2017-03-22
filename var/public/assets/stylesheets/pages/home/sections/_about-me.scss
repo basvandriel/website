@@ -97,8 +97,12 @@
 #about-me-container > #about-me-content-container img.pixelated-image {
   position: relative;
 
+  //TODO fix because it makes page more width
   height:   350px;
   width:    350px;
+
+  margin: 0;
+  padding: 0;
 
   overflow: hidden;
 }
