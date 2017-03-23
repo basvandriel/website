@@ -1,27 +1,45 @@
 #about-me-container {
-  position:         relative;
+  position:   relative;
 
-  min-height:       500px;
-  margin-top:       -50px;
+  min-height: 500px;
+  margin-top: -50px;
 
-  z-index:          0;
+  z-index:    0;
 
-  height:           auto;
-  width:            100%;
+  height:     auto;
+  width:      100%;
 
-  background-color: white;
+  div.title-container {
+    height:           200px;
+    width:            100%;
+
+    background-color: transparent;
+
+    h1 {
+      font-size:   48px;
+      text-align:  center;
+      font-weight: 600;
+      font-family: "Segoe UI", Arial, serif;
+      color:       #FBF6F6;
+      line-height: 200px;
+      margin:      0;
+
+    }
+  }
+
 }
 
 #about-me-container > #about-me-content-container {
-  position:       relative;
+  position:         relative;
 
-  height:         auto;
-  width:          auto;
+  height:           auto;
+  width:            auto;
 
-  padding-bottom: 200px;
+  padding-bottom:   200px;
 
-  margin-top:     50px;
+  margin-top:       50px;
 
+  background-color: white;
 }
 
 #about-me-container > #about-me-content-container #introduction-container {
@@ -108,8 +126,7 @@
     // TODO color them
     font-size: 60px;
     margin:    7.5px;
-    color: #333333; //a
-
+    color:     #333333; //a
 
     &:link, &:visited, &:active {
       color: #333333;
@@ -136,6 +153,5 @@
 }
 
 #about-me-container #education-container {
-  background-color: rgba(0, 255, 192, 0.125);
-  margin-bottom:    15px;
+  margin-bottom: 15px;
 }
