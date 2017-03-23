@@ -207,13 +207,14 @@
                     <a class="social-icon" href="http://www.github.com/basvandriel"><i class="fa fa-github"
                                                                                        aria-hidden="true"></i></a>
                     <a class="social-icon" href="https://bitbucket.org/basvandriel94/"><i class="fa fa-bitbucket"
-                                                                                       aria-hidden="true"></i></a>
-                    <a class="social-icon" href="http://stackoverflow.com/users/2989034/"><i class="fa fa-stack-overflow"
-                                                                                       aria-hidden="true"></i></a>
+                                                                                          aria-hidden="true"></i></a>
+                    <a class="social-icon" href="http://stackoverflow.com/users/2989034/"><i
+                                class="fa fa-stack-overflow"
+                                aria-hidden="true"></i></a>
                     <a class="social-icon" href="http://www.twitter.com/bvandriel"><i class="fa fa-twitter"
-                                                                                       aria-hidden="true"></i></a>
+                                                                                      aria-hidden="true"></i></a>
                     <a class="social-icon" href="http://www.linkedin.com/in/basvandriel"><i class="fa fa-linkedin"
-                                                                                       aria-hidden="true"></i></a>
+                                                                                            aria-hidden="true"></i></a>
                 </div>
             </div>
 
@@ -320,7 +321,7 @@
                             <!-- Medewerker Beheer ICT course -->
                             <div class="education-course">
                                 <div class="education-course-header">
-                                    <h2 class="education-course-name">Medewerker Beheer ICT</h2>
+                                    <h2 class="education-course-name">Medewerker beheer ICT</h2>
                                     <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
                                                                           Design"</h3>
                                     <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
@@ -332,7 +333,19 @@
                                     </h3>
                                 </div>
                                 <div class="education-course-info">
-                                    <!-- TODO Write content for this course -->
+                                    <p>This training is a continuation of the Medewerker ICT course and is focused on
+                                       teaching the
+                                       more advanced parts of IT related technologies.
+                                    </p>
+
+                                    <p>
+                                        I learnt more about networking,
+                                        computer hardware and solving software problems with in-depth knowledge of them.
+                                    </p>
+
+                                    <p>Within this training I had to do 1 internship for 20 weeks. This internship was
+                                       focused on getting better in-depth knowledge about IT related technologies and
+                                       getting more experience on a service desk. </p>
                                     <p>
                                         This training is based on
                                         level 3 MBO.
@@ -435,7 +448,11 @@
                                 </div>
                                 <div class="education-course-info">
 
-                                    <!-- TODO Write content for this course -->
+                                    <p>This training was focused on teaching the essentials of working in a store and maintaining
+                                       the administration for this.</p>
+
+                                    <p>Within this training I worked as an intern for 2 days a week. This was part of the examination of the
+                                       training.</p>
 
                                     <p>
                                         This training is based on
@@ -443,6 +460,7 @@
                                     </p>
                                 </div>
                             </div>
+                            <hr class="horizontal-line">
                         </div>
                     </div>
                 </div>
