@@ -25,6 +25,7 @@
       margin:      0;
 
     }
+
   }
 
 }
@@ -47,22 +48,28 @@
   font-family:   "Segoe UI", sans-serif;
 
   margin-bottom: 40px;
+
+  h1 {
+    font-size:   39px;
+    text-align:  center;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
 }
 
-#about-me-container > #about-me-content-container #introduction-container h1 {
-  font-size:   39px;
-  text-align:  center;
-  font-family: "Segoe UI", sans-serif;
-}
-
+#about-me-container > #about-me-content-container #introduction-container
 #personality-container {
   margin-top: 40px;
-}
 
-#personality-container p {
-  margin:     0 0 15px;
-  font-size:  25px;
-  text-align: right;
+  p {
+    margin:     0 0 15px;
+    font-size:  25px;
+    text-align: right;
+  }
+
 }
 
 #skills-container {

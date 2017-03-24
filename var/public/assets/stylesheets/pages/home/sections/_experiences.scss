@@ -1,10 +1,9 @@
 /*
-  Experiences container
+  Experiences container and work experience container
  */
 #experiences-container {
   background-color: white;
-  overflow: hidden;
-
+  overflow:         hidden;
 
   h1.experience-section-name {
     font-family: "Segoe UI", Arial, serif;
@@ -33,18 +32,20 @@
 /*
   Education courses
  */
-.education-course {
+.education-course, .work-experience {
   text-align: left;
 
-  .education-course-header {
-    > h2.education-course-name {
+  .education-course-header, .work-experience-header {
+    > h2.education-course-name,
+    > h2.work-experience-name {
       font-family: "Segoe UI", Arial, serif;
       font-size:   33px;
       font-weight: 400;
       color:       #333333;
     }
 
-    > h3.education-course-subtitle {
+    > h3.education-course-subtitle,
+    > h3.work-experience-subtitle {
       font-family: "Segoe UI", Arial, serif;
       font-size:   25px;
       color:       #6B6B6B;
@@ -53,7 +54,8 @@
     }
   }
 
-  div.education-course-info {
+  div.education-course-info,
+  div.work-experience-info {
     margin-top:    20px;
     font-size:     21px;
     color:         #4F4F4F;
