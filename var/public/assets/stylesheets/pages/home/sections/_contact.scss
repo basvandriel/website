@@ -1,5 +1,15 @@
 .contact-container {
   background-color: white;
 
+  padding-top: 25px;
   padding-bottom: 25px;
+
+
+  input.form-control {
+    height: 50px;
+  }
+
+  textarea.form-control {
+    height: 225px;
+  }
 }
