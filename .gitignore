@@ -1,13 +1,9 @@
 # SCSS output
-*.css
 *.css.map
 
 # Composer
 composer.phar
 vendor/
-
-# Bower
-var/public/bower/
 
 ## IDE specific files
 
