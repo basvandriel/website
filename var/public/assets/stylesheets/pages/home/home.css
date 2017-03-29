@@ -154,44 +154,47 @@ html, body {
   z-index: 0;
   height: auto;
   width: 100%; }
-  #about-me-container div.title-container {
-    height: 200px;
-    width: 100%;
-    background-color: transparent; }
-    #about-me-container div.title-container h1 {
-      font-size: 48px;
-      text-align: center;
-      font-weight: 600;
-      font-family: "Segoe UI", Arial, serif;
-      color: #FBF6F6;
-      line-height: 200px;
-      margin: 0; }
+
+div.title-container {
+  height: 200px;
+  width: 100%;
+  background-color: transparent; }
+  div.title-container h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Segoe UI", Arial, serif;
+    color: #FBF6F6;
+    line-height: 200px;
+    margin: 0; }
 
 #about-me-container > #about-me-content-container {
   position: relative;
   height: auto;
   width: auto;
-  padding-bottom: 200px;
   margin-top: 50px;
+  padding-bottom: 25px;
   background-color: white; }
 
 #about-me-container > #about-me-content-container #introduction-container {
   text-align: center;
   font-family: "Segoe UI", sans-serif;
   margin-bottom: 40px; }
+  #about-me-container > #about-me-content-container #introduction-container h1 {
+    font-size: 39px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif; }
+  #about-me-container > #about-me-content-container #introduction-container h2 {
+    font-size: 27px; }
 
-#about-me-container > #about-me-content-container #introduction-container h1 {
-  font-size: 39px;
-  text-align: center;
-  font-family: "Segoe UI", sans-serif; }
-
+#about-me-container > #about-me-content-container #introduction-container
 #personality-container {
   margin-top: 40px; }
-
-#personality-container p {
-  margin: 0 0 15px;
-  font-size: 25px;
-  text-align: right; }
+  #about-me-container > #about-me-content-container #introduction-container
+  #personality-container p {
+    margin: 0 0 15px;
+    font-size: 25px;
+    text-align: right; }
 
 #skills-container {
   margin-top: 20px; }
@@ -249,11 +252,12 @@ html, body {
   margin-bottom: 15px; }
 
 /*
-  Experiences container
+  Experiences container and work experience container
  */
 #experiences-container {
   background-color: white;
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 25px; }
   #experiences-container h1.experience-section-name {
     font-family: "Segoe UI", Arial, serif;
     font-size: 38px;
@@ -264,34 +268,44 @@ html, body {
   #experiences-container hr.horizontal-line {
     border-top: 1.25px solid #9C9C9C; }
 
-#education-container .container {
+#education-container .container, #work-experience-container .container {
   width: 75%;
   padding: 0; }
 
 /*
   Education courses
  */
-.education-course {
+.education-course, .work-experience {
   text-align: left; }
-  .education-course .education-course-header > h2.education-course-name {
+  .education-course .education-course-header > h2.education-course-name,
+  .education-course .education-course-header > h2.work-experience-name, .education-course .work-experience-header > h2.education-course-name,
+  .education-course .work-experience-header > h2.work-experience-name, .work-experience .education-course-header > h2.education-course-name,
+  .work-experience .education-course-header > h2.work-experience-name, .work-experience .work-experience-header > h2.education-course-name,
+  .work-experience .work-experience-header > h2.work-experience-name {
     font-family: "Segoe UI", Arial, serif;
     font-size: 33px;
     font-weight: 400;
     color: #333333; }
-  .education-course .education-course-header > h3.education-course-subtitle {
+  .education-course .education-course-header > h3.education-course-subtitle,
+  .education-course .education-course-header > h3.work-experience-subtitle, .education-course .work-experience-header > h3.education-course-subtitle,
+  .education-course .work-experience-header > h3.work-experience-subtitle, .work-experience .education-course-header > h3.education-course-subtitle,
+  .work-experience .education-course-header > h3.work-experience-subtitle, .work-experience .work-experience-header > h3.education-course-subtitle,
+  .work-experience .work-experience-header > h3.work-experience-subtitle {
     font-family: "Segoe UI", Arial, serif;
     font-size: 25px;
     color: #6B6B6B;
     margin: 11px 0; }
-  .education-course div.education-course-info {
+  .education-course div.education-course-info,
+  .education-course div.work-experience-info, .work-experience div.education-course-info,
+  .work-experience div.work-experience-info {
     margin-top: 20px;
     font-size: 21px;
     color: #4F4F4F;
     padding-right: 22.5px; }
 
-#contact-container {
-  height: 200px;
-  background-color: rgba(0, 255, 192, 0.15); }
+.contact-container {
+  background-color: white;
+  padding-bottom: 25px; }
 
 #footer-container {
   position: relative;
