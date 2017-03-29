@@ -72,21 +72,21 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#resume-container">EXPERIENCE</a>
+                    <a href="#experiences-title-container">EXPERIENCE</a>
                     <ul class="sub-navigation-bar">
                         <li><a href="#education-container">EDUCATIONS</a></li>
                         <li><a href="#jobs-container">WORK EXPERIENCE</a></li>
                     </ul>
                 </li>
                 <!-- TODO Create portfolio page -->
-                <li>
+<!--                <li>
                     <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
                     <ul class="sub-navigation-bar">
                         <li><a href="#">PROJECTS</a></li>
                         <li><a href="#">ASSIGNMENTS</a></li>
                         <li><a href="#">SCRAPBOARD</a></li>
                     </ul>
-                </li>
+                </li>-->
                 <li>
                     <a href="#contact-container">CONTACT</a>
                 </li>
@@ -220,7 +220,7 @@
 
         </div>
 
-        <div class="title-container">
+        <div class="title-container" id="experiences-title-container">
             <h1>EXPERIENCE</h1>
             <h2></h2>
         </div>
@@ -580,8 +580,6 @@
                             </div>
                         </div>
 
-                        <hr class="horizontal-line">
-
                         <!-- Gemeente Terneuzen internship work experience                       -->
                         <!--                        <div class="work-experience">
                                                     <div class="work-experience-header">
@@ -608,10 +606,12 @@
 
                 </div>
             </div>
+
+            <hr class="horizontal-line">
         </div>
     </div>
 
-    <div id="contact-container">
+    <div id="contact">
         <div class="container">
 
         </div>
