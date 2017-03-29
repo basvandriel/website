@@ -1,0 +1,302 @@
+html, body {
+  height: 100%; }
+
+.fixed-fullscreen-video-container, .fullscreen-container {
+  position: relative;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden; }
+
+.fixed-fullscreen-video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+  .fixed-fullscreen-video-container video {
+    height: 100% !important;
+    width: auto;
+    overflow: hidden; }
+
+.fullscreen-container .title-container {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+  .fullscreen-container .title-container h1.main-title {
+    /*padding-bottom: 5px;*/
+    border-bottom: 1px solid white;
+    font-size: 115px;
+    font-family: "TalkingToTheMoon", Arial, serif;
+    font-weight: bold;
+    color: #FBF6F6; }
+  .fullscreen-container .title-container h2.sub-title {
+    font-size: 30px;
+    font-family: "Segoe UI", Arial, serif;
+    color: #E6E1E1; }
+
+.fullscreen-container > .navigation-button {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-top: 35px;
+  font-size: 26px;
+  text-align: center;
+  line-height: 55px; }
+  .fullscreen-container > .navigation-button.active:hover {
+    background-color: transparent; }
+  .fullscreen-container > .navigation-button:hover {
+    background-color: rgba(0, 255, 192, 0.25);
+    -webkit-transition: ease-in 0.25s;
+    -moz-transition: ease-in 0.25s;
+    -ms-transition: ease-in 0.25s;
+    -o-transition: ease-in 0.25s;
+    transition: ease-in 0.25s;
+    cursor: pointer; }
+  .fullscreen-container > .navigation-button i.fa.fa-bars {
+    color: black; }
+
+/* Navigation */
+.fullscreen-container > .navigation-container {
+  position: relative;
+  top: 0;
+  right: 0;
+  float: right;
+  margin-right: 10px;
+  font-size: 24px;
+  margin-top: 10px;
+  list-style: none;
+  /* TODO Change to other font */
+  font-family: "Segoe UI", sans-serif; }
+  .fullscreen-container > .navigation-container > ul.navigation-bar {
+    float: right;
+    padding: 0; }
+    .fullscreen-container > .navigation-container > ul.navigation-bar li {
+      display: inline-block;
+      margin: 0 10px; }
+      .fullscreen-container > .navigation-container > ul.navigation-bar li > a {
+        font-weight: 400;
+        color: white; }
+        .fullscreen-container > .navigation-container > ul.navigation-bar li > a:link, .fullscreen-container > .navigation-container > ul.navigation-bar li > a:visited, .fullscreen-container > .navigation-container > ul.navigation-bar li > a:hover, .fullscreen-container > .navigation-container > ul.navigation-bar li > a:active {
+          text-decoration: none; }
+        .fullscreen-container > .navigation-container > ul.navigation-bar li > a:hover {
+          color: #f2f2f2; }
+      .fullscreen-container > .navigation-container > ul.navigation-bar li > ul.sub-navigation-bar {
+        display: none;
+        position: relative;
+        z-index: 1;
+        padding: 0;
+        margin-top: 10px;
+        text-align: left; }
+        .fullscreen-container > .navigation-container > ul.navigation-bar li > ul.sub-navigation-bar li {
+          display: block;
+          font-size: 20px;
+          margin: 2px 0; }
+          .fullscreen-container > .navigation-container > ul.navigation-bar li > ul.sub-navigation-bar li > a {
+            color: black; }
+  .fullscreen-container > .navigation-container.sticky-navigation {
+    position: fixed;
+    z-index: 1;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-right: 100px;
+    padding-left: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 192, 0.25); }
+    .fullscreen-container > .navigation-container.sticky-navigation > ul.navigation-bar {
+      float: left; }
+      .fullscreen-container > .navigation-container.sticky-navigation > ul.navigation-bar li {
+        display: block;
+        margin: 15px 0; }
+        .fullscreen-container > .navigation-container.sticky-navigation > ul.navigation-bar li > a {
+          color: black; }
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  max-height: 100%;
+  max-width: 100%;
+  overflow: hidden; }
+
+.svg-container {
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  height: 90px;
+  z-index: 0; }
+  .svg-container.first-svg {
+    margin-top: -90px; }
+  .svg-container.flip-horizontal-and-180-degree {
+    -webkit-transform: scale(-1, -1);
+    -moz-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    transform: scale(-1, -1); }
+
+#about-me-container {
+  position: relative;
+  min-height: 500px;
+  margin-top: -50px;
+  z-index: 0;
+  height: auto;
+  width: 100%; }
+  #about-me-container div.title-container {
+    height: 200px;
+    width: 100%;
+    background-color: transparent; }
+    #about-me-container div.title-container h1 {
+      font-size: 48px;
+      text-align: center;
+      font-weight: 600;
+      font-family: "Segoe UI", Arial, serif;
+      color: #FBF6F6;
+      line-height: 200px;
+      margin: 0; }
+
+#about-me-container > #about-me-content-container {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding-bottom: 200px;
+  margin-top: 50px;
+  background-color: white; }
+
+#about-me-container > #about-me-content-container #introduction-container {
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  margin-bottom: 40px; }
+
+#about-me-container > #about-me-content-container #introduction-container h1 {
+  font-size: 39px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif; }
+
+#personality-container {
+  margin-top: 40px; }
+
+#personality-container p {
+  margin: 0 0 15px;
+  font-size: 25px;
+  text-align: right; }
+
+#skills-container {
+  margin-top: 20px; }
+  #skills-container p {
+    font-size: 25px;
+    text-align: center; }
+  #skills-container .skill-tags-container {
+    display: block;
+    margin-top: 15px; }
+    #skills-container .skill-tags-container div {
+      margin-bottom: 10px; }
+      #skills-container .skill-tags-container div span {
+        display: inline-block; }
+
+.skill-tag {
+  font-size: 25px;
+  padding: 5px 12.5px;
+  margin: 0 5px;
+  background-color: rgba(0, 255, 192, 0.1875);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 500; }
+  .skill-tag:hover {
+    background-color: rgba(0, 255, 192, 0.25); }
+
+.social-links {
+  margin: 10px 50px 0;
+  text-align: center; }
+  .social-links p {
+    font-size: 25px;
+    text-align: center; }
+  .social-links a.social-icon {
+    font-size: 60px;
+    margin: 7.5px;
+    color: #333333; }
+    .social-links a.social-icon:link, .social-links a.social-icon:visited, .social-links a.social-icon:active {
+      color: #333333; }
+    .social-links a.social-icon:hover {
+      color: rgba(0, 255, 192, 0.5);
+      cursor: pointer; }
+
+#about-me-container > #about-me-content-container img.pixelated-image {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+#about-me-container #education-container {
+  margin-bottom: 15px; }
+
+/*
+  Experiences container
+ */
+#experiences-container {
+  background-color: white;
+  overflow: hidden; }
+  #experiences-container h1.experience-section-name {
+    font-family: "Segoe UI", Arial, serif;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: left; }
+  #experiences-container div.row {
+    margin: 0; }
+  #experiences-container hr.horizontal-line {
+    border-top: 1.25px solid #9C9C9C; }
+
+#education-container .container {
+  width: 75%;
+  padding: 0; }
+
+/*
+  Education courses
+ */
+.education-course {
+  text-align: left; }
+  .education-course .education-course-header > h2.education-course-name {
+    font-family: "Segoe UI", Arial, serif;
+    font-size: 33px;
+    font-weight: 400;
+    color: #333333; }
+  .education-course .education-course-header > h3.education-course-subtitle {
+    font-family: "Segoe UI", Arial, serif;
+    font-size: 25px;
+    color: #6B6B6B;
+    margin: 11px 0; }
+  .education-course div.education-course-info {
+    margin-top: 20px;
+    font-size: 21px;
+    color: #4F4F4F;
+    padding-right: 22.5px; }
+
+#contact-container {
+  height: 200px;
+  background-color: rgba(0, 255, 192, 0.15); }
+
+#footer-container {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-color: rgba(0, 255, 192, 0.15); }
+
+/*# sourceMappingURL=home.css.map */
