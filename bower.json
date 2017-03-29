@@ -7,7 +7,10 @@
   "private": true,
   "dependencies": {
     "bootstrap": "*",
-    "jquery": "*"
+    "jquery": "*",
+    "components-font-awesome": "*",
+    "normalize-css": "^5.0.0",
+    "particles.js": "^2.0.0"
   },
   "ignore": [
     "**/.*",

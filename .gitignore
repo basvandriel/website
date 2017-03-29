@@ -1,3 +1,7 @@
+# SCSS output
+*.css
+*.css.map
+
 # Composer
 composer.phar
 vendor/
@@ -5,8 +9,8 @@ vendor/
 # Bower
 var/public/bower/
 
-# IDE specific files
+## IDE specific files
 
-## IntelliJ
+# IntelliJ
 .idea/
 *.iml

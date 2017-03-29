@@ -1,0 +1,157 @@
+#about-me-container {
+  position:   relative;
+
+  min-height: 500px;
+  margin-top: -50px;
+
+  z-index:    0;
+
+  height:     auto;
+  width:      100%;
+
+  div.title-container {
+    height:           200px;
+    width:            100%;
+
+    background-color: transparent;
+
+    h1 {
+      font-size:   48px;
+      text-align:  center;
+      font-weight: 600;
+      font-family: "Segoe UI", Arial, serif;
+      color:       #FBF6F6;
+      line-height: 200px;
+      margin:      0;
+
+    }
+  }
+
+}
+
+#about-me-container > #about-me-content-container {
+  position:         relative;
+
+  height:           auto;
+  width:            auto;
+
+  padding-bottom:   200px;
+
+  margin-top:       50px;
+
+  background-color: white;
+}
+
+#about-me-container > #about-me-content-container #introduction-container {
+  text-align:    center;
+  font-family:   "Segoe UI", sans-serif;
+
+  margin-bottom: 40px;
+}
+
+#about-me-container > #about-me-content-container #introduction-container h1 {
+  font-size:   39px;
+  text-align:  center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#personality-container {
+  margin-top: 40px;
+}
+
+#personality-container p {
+  margin:     0 0 15px;
+  font-size:  25px;
+  text-align: right;
+}
+
+#skills-container {
+  margin-top: 20px;
+
+  p {
+    font-size:  25px;
+    text-align: center;
+  }
+
+  .skill-tags-container {
+    display:    block;
+    margin-top: 15px;
+
+    div {
+      margin-bottom: 10px;
+
+      span {
+        display: inline-block;
+      }
+    }
+
+  }
+}
+
+.skill-tag {
+  font-size:          25px;
+  padding:            5px 12.5px;
+
+  margin:             0 5px;
+
+  background-color:   rgba(0, 255, 192, 0.1875);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+
+  border-radius:      10px;
+
+  vertical-align:     middle;
+  text-align:         center;
+
+  font-weight:        500;
+
+  &:hover {
+    background-color: rgba(0, 255, 192, 0.25);
+  }
+}
+
+.social-links {
+  margin:     10px 50px 0;
+
+  text-align: center;
+
+  p {
+    font-size:  25px;
+    text-align: center;
+  }
+
+  a.social-icon {
+    // TODO color them
+    font-size: 60px;
+    margin:    7.5px;
+    color:     #333333; //a
+
+    &:link, &:visited, &:active {
+      color: #333333;
+    }
+
+    &:hover {
+      color:  rgba(0, 255, 192, 0.50);
+      cursor: pointer;
+    }
+  }
+}
+
+#about-me-container > #about-me-content-container img.pixelated-image {
+  position: relative;
+
+  //TODO fix because it makes page more width
+  height:   350px;
+  width:    350px;
+
+  margin:   0;
+  padding:  0;
+
+  overflow: hidden;
+}
+
+#about-me-container #education-container {
+  margin-bottom: 15px;
+}
