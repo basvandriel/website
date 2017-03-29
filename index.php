@@ -319,7 +319,7 @@
                                    Cisco equipment.</p>
 
                                 <p>
-                                    This training belonged to the Medewerker Beheer ICT training.
+                                    This course belonged to the Medewerker Beheer ICT training.
                                 </p>
                             </div>
                         </div>
@@ -395,7 +395,7 @@
 
                         <hr class="horizontal-line">
 
-                        <!-- Medewerker ICT course -->
+                        <!-- Medewerker ICT training -->
                         <div class="education-course">
                             <div class="education-course-header">
                                 <h2 class="education-course-name">Medewerker ICT</h2>
@@ -473,7 +473,7 @@
                     </div>
                 </div>
             </div>
-            <hr class="horizontal-line">
+            <hr class="horizontal-line" style="margin-bottom: 0;">
 
             <div id="work-experience-container">
                 <div class="container">
@@ -482,71 +482,145 @@
                     </div>
 
                     <div class="col-md-7 col-md-offset-2" style="padding: 0">
+                        <!-- Service Support at scalda internship work experience  -->
+                        <div class="work-experience">
+                            <div class="work-experience-header">
+                                <h2 class="work-experience-name">Service support employee (internship)</h2>
+                                <h3 class="work-experience-subtitle">Scalda</h3>
+                                <h3 class="work-experience-subtitle"><i class="fa fa-map-marker"
+                                                                        aria-hidden="true"></i> Terneuzen,
+                                                                                                Netherlands
+                                </h3>
+                                <h3 class="work-experience-subtitle"><i class="fa fa-clock-o"
+                                                                        aria-hidden="true"></i> 2015 - 2016
+                                </h3>
+                            </div>
+                            <div class="work-experience-info">
+                                <p>The activities I did on this function were solving IT related problems
+                                   from employees and students. These activities included installing, removing and
+                                   maintaining IT related hardware (computers, printers, label-printers, smart-phones,
+                                   etc) and
+                                   software.
+                                </p>
 
+                                <p>The activities that we we're doing had to be managed in a ticket-system called
+                                   TopDesk. When we solved or gathered information about the ticket, we had to log this
+                                   into the ticket-system.</p>
+
+                                <p>This internship belonged to the Medewerker Beheer ICT training.</p>
+                            </div>
+                        </div>
+
+                        <hr class="horizontal-line">
+
+
+                        <!-- OVET B.V. internship work experience                       -->
                         <div class="work-experience">
                             <div class="work-experience-header">
                                 <h2 class="work-experience-name">IT servicedesk employee (internship)</h2>
                                 <h3 class="work-experience-subtitle">OVET B.V.</h3>
                                 <h3 class="work-experience-subtitle"><i class="fa fa-map-marker"
-                                                                         aria-hidden="true"></i> Terneuzen,
-                                                                                                 Netherlands
+                                                                        aria-hidden="true"></i> Terneuzen,
+                                                                                                Netherlands
                                 </h3>
                                 <h3 class="work-experience-subtitle"><i class="fa fa-clock-o"
-                                                                         aria-hidden="true"></i> 2016 - until
-                                                                                                 now
+                                                                        aria-hidden="true"></i> 2015
                                 </h3>
                             </div>
                             <div class="work-experience-info">
-                                <p>This training is teaching the technical part of
-                                   application
-                                   development. It starts with learning the syntax of the Java programming
-                                   language using small assignments. After that the student learns
-                                   best practices for object-oriented programming by doing real-world
-                                   projects
-                                   within a team of
-                                   other students. In these projects the students also learns to use the
-                                   necessary too ls for building the application.</p>
-
-                                <p>Besides programming the students also learn the essentials of using
-                                   databases and project-management using SCRUM.</p>
-
-                                <p>
-                                    Within this training, the students have to do 2 internships. These are
-                                    mostly focused on learning the technical part of application
-                                    development In a real-world working environment.
-                                    The first internship
-                                    is 10 weeks and is aimed at orientating at the job itself.
-
-                                    The second internship is for the examination of the student.
+                                <p>The activities I did on this function were solving IT related problems
+                                   from employees of the company. These activities included installing, removing and
+                                   maintaining IT related hardware (computers, printers, label-printers, smart-phones,
+                                   etc) and
+                                   software.
                                 </p>
 
-                                <p>
-                                    This training is based on
-                                    level 4 MBO (secondary vocational education).
-                                </p>
+                                <p>The software problems we're solved remotely using remote-desktop software.</p>
+
+                                <p>The activities that we we're doing had to be managed in a ticket-system. When I
+                                   solved or gathered information about the ticket, I logged this into the ticket
+                                   system.</p>
+
+                                <p>This internship belonged to the Medewerker ICT
+                                   training.</p>
                             </div>
                         </div>
 
+                        <hr class="horizontal-line">
+
+                        <!-- Service Support at scalda internship work experience                       -->
+                        <div class="work-experience">
+                            <div class="work-experience-header">
+                                <h2 class="work-experience-name">Service support employee (internship)</h2>
+                                <h3 class="work-experience-subtitle">Scalda</h3>
+                                <h3 class="work-experience-subtitle"><i class="fa fa-map-marker"
+                                                                        aria-hidden="true"></i> Terneuzen,
+                                                                                                Netherlands
+                                </h3>
+                                <h3 class="work-experience-subtitle"><i class="fa fa-clock-o"
+                                                                        aria-hidden="true"></i> 2013 - 2014
+                                </h3>
+                            </div>
+                            <div class="work-experience-info">
+
+                                <p>The activities I did on this function were solving IT related problems
+                                   from employees and students. These activities included installing, removing and
+                                   maintaining IT related hardware (computers, printers, label-printers, smart-phones,
+                                   etc)
+                                   and
+                                   software.
+                                </p>
+
+                                <p>The activities that we we're doing had to be managed in a ticket-system called
+                                   TopDesk. When we solved or gathered information about the ticket, we had to log this
+                                   into the ticket-system.</p>
+
+                                <p>This internship belonged to the Arbeidsmarkt Gekwalificeerd Assistent, Handel
+                                   training.</p>
+                            </div>
+                        </div>
 
                         <hr class="horizontal-line">
 
-                        <!-- Medewerker Beheer ICT course -->
+                        <!-- Gemeente Terneuzen internship work experience                       -->
+                        <!--                        <div class="work-experience">
+                                                    <div class="work-experience-header">
+                                                        <h2 class="work-experience-name">Bode (internship)</h2>
+                                                        <h3 class="work-experience-subtitle">Gemeente Terneuzen</h3>
+                                                        <h3 class="work-experience-subtitle"><i class="fa fa-map-marker"
+                                                                                                aria-hidden="true"></i> Terneuzen,
+                                                                                                                        Netherlands
+                                                        </h3>
+                                                        <h3 class="work-experience-subtitle"><i class="fa fa-clock-o"
+                                                                                                aria-hidden="true"></i> 2013 - 2014
+                                                        </h3>
+                                                    </div>
+                                                    <div class="work-experience-info">
+                                                        <p>The activities I did at this internship was receiving people at the head office of
+                                                           the company and leading them to the right department.</p>
+                                                    </div>
+                                                </div>-->
 
                     </div>
+
+                    <!--                    <hr class="horizontal-line">-->
+
+
                 </div>
             </div>
         </div>
+    </div>
 
-        <div id="contact-container">
-            <div class="container">
-
-            </div>
-        </div>
-
-        <div id="footer-container">
-
+    <div id="contact-container">
+        <div class="container">
 
         </div>
+    </div>
+
+    <div id="footer-container">
+
+
+    </div>
 
 </body>
 </html>
