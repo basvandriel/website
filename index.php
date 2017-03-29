@@ -79,14 +79,14 @@
                     </ul>
                 </li>
                 <!-- TODO Create portfolio page -->
-<!--                <li>
-                    <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
-                    <ul class="sub-navigation-bar">
-                        <li><a href="#">PROJECTS</a></li>
-                        <li><a href="#">ASSIGNMENTS</a></li>
-                        <li><a href="#">SCRAPBOARD</a></li>
-                    </ul>
-                </li>-->
+                <!--                <li>
+                                    <a href="https://www.github.com/basvandriel">PORTFOLIO</a>
+                                    <ul class="sub-navigation-bar">
+                                        <li><a href="#">PROJECTS</a></li>
+                                        <li><a href="#">ASSIGNMENTS</a></li>
+                                        <li><a href="#">SCRAPBOARD</a></li>
+                                    </ul>
+                                </li>-->
                 <li>
                     <a href="#contact-container">CONTACT</a>
                 </li>
@@ -606,21 +606,18 @@
 
                 </div>
             </div>
-
-            <hr class="horizontal-line">
         </div>
     </div>
 
-    <div id="contact">
+    <div class="title-container" id="contact-title-container">
+        <h1>CONTACT</h1>
+        <h2></h2>
+    </div>
+
+    <div id="contact" class="contact-container">
         <div class="container">
 
         </div>
     </div>
-
-    <div id="footer-container">
-
-
-    </div>
-
 </body>
 </html>

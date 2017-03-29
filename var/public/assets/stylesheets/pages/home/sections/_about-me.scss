@@ -8,26 +8,24 @@
 
   height:     auto;
   width:      100%;
+}
 
-  div.title-container {
-    height:           200px;
-    width:            100%;
+div.title-container {
+  height:           200px;
+  width:            100%;
 
-    background-color: transparent;
+  background-color: transparent;
 
-    h1 {
-      font-size:   48px;
-      text-align:  center;
-      font-weight: 600;
-      font-family: "Segoe UI", Arial, serif;
-      color:       #FBF6F6;
-      line-height: 200px;
-      margin:      0;
-
-    }
+  h1 {
+    font-size:   48px;
+    text-align:  center;
+    font-weight: 600;
+    font-family: "Segoe UI", Arial, serif;
+    color:       #FBF6F6;
+    line-height: 200px;
+    margin:      0;
 
   }
-
 }
 
 #about-me-container > #about-me-content-container {
@@ -37,7 +35,7 @@
   width:            auto;
 
   margin-top:       50px;
-  padding-bottom:    25px;
+  padding-bottom:   25px;
 
   background-color: white;
 }
