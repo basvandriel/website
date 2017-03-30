@@ -5,6 +5,7 @@
   "author": "Bas van Driel",
   "license": "MIT",
   "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "^2.2.0"
   },
   "dependencies": {
