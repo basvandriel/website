@@ -5,16 +5,23 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
+        processhtml: {
+            dist: {
+                files: {
+                    'dist/index.html': ['index.php']
+                }
+            }
+        },
         /*
-
+            Uglify JS files
          */
         uglify: {
             my_target: {
                 files: {
-                    'dist/public/assets/scripts/libraries.min.js': ['var/public/bower/jquery/dist/jquery.min.js',
+                    'dist/var/public/assets/scripts/libraries.min.js': ['var/public/bower/jquery/dist/jquery.min.js',
                         'var/public/bower/bootstrap/dist/js/bootstrap.min.js',
                         'var/public/bower/particles.js/particles.js'],
-                    'dist/public/assets/scripts/bootstrap.min.js': ['var/public/assets/scripts/bootstrap.js']
+                    'dist/var/public/assets/scripts/bootstrap.min.js': ['var/public/assets/scripts/bootstrap.js']
                 }
             }
         },
@@ -36,7 +43,7 @@ module.exports = function (grunt) {
      * Load tasks
      */
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-processhtml');
     grunt.loadNpmTasks('grunt-git-deploy');
 
     // Default tasks

@@ -5,6 +5,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <!-- JavaScript libraries -->
+    <!-- build:js var/public/assets/scripts/libraries.min.js -->
     <!-- jQuery JavaScript script -->
     <script src="var/public/bower/jquery/dist/jquery.min.js"></script>
 
@@ -13,20 +15,33 @@
 
     <!-- particles.js library JavaScript script -->
     <script src="var/public/bower/particles.js/particles.js"></script>
+    <!-- /build -->
 
+    <!-- JavaScript bootstrap file (main.js)   -->
+    <!-- build:js var/public/assets/scripts/bootstrap.min.js -->
     <!-- Bootstrap JavaScript script -->
     <script src="var/public/assets/scripts/bootstrap.js"></script>
+    <!-- /build -->
 
+    <!-- Library stylesheets  -->
+    <!-- build:css var/public/assets/stylesheets/libraries.min.css -->
     <!-- Font awesome-->
     <link rel="stylesheet" href="var/public/bower/components-font-awesome/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="var/public/bower/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!-- /build -->
+
+    <!-- Bootstrap stylesheets  -->
+    <!-- build:css var/public/assets/stylesheets/bootstrap.min.css -->
     <!-- The bootstrap CSS file    -->
     <link rel="stylesheet" href="var/public/assets/stylesheets/bootstrap.css">
+    <!-- /build -->
 
     <!-- The specific page CSS file    -->
+    <!-- build:css var/public/assets/stylesheets/pages/home/home.min.css -->
     <link rel="stylesheet" href="var/public/assets/stylesheets/pages/home/home.css">
+    <!-- /build -->
 
     <!-- Favicon collection for most devices -->
     <link rel="apple-touch-icon" sizes="57x57" href="var/public/assets/images/favicon/apple-icon-57x57.png">
