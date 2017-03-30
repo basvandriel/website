@@ -9,6 +9,9 @@ vendor/
 # Bower
 var/public/bower/
 
+# Grunt
+node_modules/
+
 ## IDE specific files
 
 # IntelliJ

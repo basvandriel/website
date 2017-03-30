@@ -1,0 +1,13 @@
+{
+  "name": "basvandriel.nl",
+  "description": "My personal website for sharing my experiences, portfolio and biography",
+  "version": "0.9.0",
+  "author": "Bas van Driel",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-uglify": "^2.2.0"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
