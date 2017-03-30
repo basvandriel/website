@@ -12,6 +12,8 @@ var/public/bower/
 # Grunt
 node_modules/
 
+
+dist/
 ## IDE specific files
 
 # IntelliJ
