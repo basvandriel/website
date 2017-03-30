@@ -1,0 +1,6 @@
+{
+  "name": "WWW",
+  "devDependencies": {
+    "grunt-contrib-uglify": "^2.2.0"
+  }
+}
