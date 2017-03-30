@@ -1,4 +1,4 @@
-# http://www.basvandriel.nl/ <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" height="140px" width="140px" align="right" />
+# http://www.basvandriel.nl/ <img src="var/public/assets/images/profile-pictures/profile-picture-pixelated.png" height="140px" width="140px" align="right" />
 [![Build Status](https://travis-ci.org/basvandriel/WWW.svg?branch=master)](https://travis-ci.org/basvandriel/WWW)
 [![license](https://img.shields.io/github/license/basvandriel/WWW.svg)](LICENSE.md)
 
