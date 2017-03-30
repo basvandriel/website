@@ -1,5 +1,8 @@
 {
-  "name": "WWW",
+  "name": "basvandriel.nl",
+  "description": "",
+  "version": "0.9.0",
+  "author": "Bas van Driel",
   "devDependencies": {
     "grunt-contrib-uglify": "^2.2.0"
   }
