@@ -160,7 +160,7 @@
                         </div>
                         <div class="col-md-offset-2"></div>
                         <div class="col-md-5">
-                            <img src="var/public/assets/images/profile-pictures/bas-pixelated-white.png" alt=""
+                            <img src="var/public/assets/images/profile-pictures/profile-picture-pixelated.png" alt=""
                                  class="pixelated-image">
                         </div>
                     </div>
