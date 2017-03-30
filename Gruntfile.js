@@ -38,7 +38,7 @@ module.exports = function (grunt) {
                     ],
 
                     'dist/var/public/assets/stylesheets/pages/home/home.min.css': [
-                        '../var/public/assets/stylesheets/pages/home/home.css'
+                        './var/public/assets/stylesheets/pages/home/home.css'
                     ]
                 }
             }
