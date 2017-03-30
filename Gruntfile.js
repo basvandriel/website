@@ -9,4 +9,10 @@ module.exports = function (grunt) {
     // Default tasks
     grunt.registerTask('default', []);
 
+    /**
+     * Deploy to a server
+     */
+    grunt.registerTask('deploy', "Deploys to a server", function () {
+
+    });
 };
