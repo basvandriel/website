@@ -34,7 +34,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-git-deploy');
 
     // Default tasks
-    grunt.registerTask('default', ['concat']);
+    grunt.registerTask('default', []);
 
     /**
      * Deploy to a server
