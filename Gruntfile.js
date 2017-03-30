@@ -21,10 +21,6 @@ module.exports = function (grunt) {
         },
 
         cssmin: {
-            options: {
-                root: "",
-                sourceMap: true
-            },
             target: {
                 files: {
                     './dist/var/public/assets/stylesheets/libraries.min.css': [
@@ -78,7 +74,7 @@ module.exports = function (grunt) {
                 options: {
                     url: 'https://github.com/basvandriel/basvandriel.nl.git'
                 },
-                src: './dist/'
+                src: 'dist/'
             }
         }
     });
