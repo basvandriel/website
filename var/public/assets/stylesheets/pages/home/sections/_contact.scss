@@ -1,15 +1,34 @@
 .contact-container {
   background-color: white;
 
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 25px;
 
 
   input.form-control {
-    height: 50px;
+    height: 45px;
   }
 
   textarea.form-control {
     height: 225px;
+    resize: vertical;
+    max-height: 400px;
+  }
+
+  input#submit {
+    background: transparent none;
+
+    border:     1.5px solid #333333;
+
+    color:      #333333;
+
+    padding:    10px 20px;
+
+    width: 100%;
+  }
+
+  p {
+    font-size: 21px;
+    color: #333333;
   }
 }

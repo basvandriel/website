@@ -631,36 +631,44 @@
 
     <div id="contact" class="contact-container">
         <div class="container">
-            <form class="form-horizontal" role="form" method="post" action="index.php">
-                <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">Full name</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Full name" value="">
+
+            <div class="col-md-4">
+                <p>You can send me a message using the form at the right or write me at <a
+                            href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
+            </div>
+            <div class="col-md-8">
+                <form class="form-horizontal" role="form" method="post" action="index.php">
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Full name"
+                                   value="">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="email" class="col-sm-2 control-label">Email</label>
-                    <div class="col-sm-10">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
+                                   value="">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="message" class="col-sm-2 control-label">Message</label>
-                    <div class="col-sm-10">
-                        <textarea class="form-control" rows="4" name="message"></textarea>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                        <textarea class="form-control" rows="4" name="message" title="message"
+                                  placeholder="Your message"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-10 col-sm-offset-2">
-                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-sm-10 col-sm-offset-2">
-                        <! Will be used to display an alert to the user>
+                    <div class="form-group">
+                        <div class="col-sm-10 col-sm-offset-2">
+                            <! Will be used to display an alert to the user>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
+
+            </div>
         </div>
     </div>
 </body>
