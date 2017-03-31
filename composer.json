@@ -1,6 +1,6 @@
 {
-  "name": "basvandriel/WWW",
-  "description": "This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.",
+  "name": "basvandriel/basvandriel.nl",
+  "description": "My personal website for sharing my experiences, portfolio and biography.",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "MIT",
