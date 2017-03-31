@@ -12,8 +12,10 @@ var/public/bower/
 # Grunt
 node_modules/
 
-
+# Deployment
 dist/
+.ftppass
+
 ## IDE specific files
 
 # IntelliJ

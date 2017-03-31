@@ -106,15 +106,18 @@ module.exports = function (grunt) {
         },
 
         /**
-         * Github deployment
+         * FTP deployment
          *
          */
-        git_deploy: {
-            your_target: {
-                options: {
-                    url: 'https://github.com/basvandriel/basvandriel.nl.git'
+        'ftp-deploy': {
+            build: {
+                auth: {
+                    host: 'ftp.strato.com',
+                    port: 21,
+                    authKey: 'key1'
                 },
-                src: 'dist/'
+                src: 'dist/',
+                dest: '/'
             }
         }
     });
@@ -126,7 +129,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.loadNpmTasks('grunt-git-deploy');
+    grunt.loadNpmTasks('grunt-ftp-deploy');
+
 
     // Default tasks
     grunt.registerTask('default', []);
@@ -134,12 +138,11 @@ module.exports = function (grunt) {
     /**
      * Deploy to a server
      */
-    grunt.registerTask('deploy', "Deploys to a server", function () {
-        grunt.task.run('uglify');
-        grunt.task.run('cssmin');
-        grunt.task.run('copy');
-        grunt.task.run('processhtml');
-
-        //TODO deploy to git
-    });
+    grunt.registerTask('deploy', "Deploys to a FTP server server", [
+        'uglify',
+        'cssmin',
+        'copy',
+        'processhtml',
+        'ftp-deploy']
+    );
 };
