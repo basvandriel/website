@@ -37,7 +37,7 @@ module.exports = function (grunt) {
                     // Bootstrap stylesheets
                     {
                         expand: true,
-                        cwd: 'var/public/assets/stylesheets/*',
+                        cwd: 'var/public/assets/stylesheets/',
                         src: ['*.css'],
                         dest: 'dist/var/public/assets/stylesheets/',
                         ext: '.min.css'
