@@ -5,7 +5,6 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-
         /**
          * Minifies and uglifies javascript scripts
          */
@@ -25,21 +24,34 @@ module.exports = function (grunt) {
          */
         cssmin: {
             target: {
-                files: {
-                    './dist/var/public/assets/stylesheets/libraries.min.css': [
-                        './var/public/bower/components-font-awesome/css/font-awesome.min.css',
-                        './var/public/bower/bootstrap/dist/css/bootstrap.min.css',
-                        './var/public/bower/bootstrap/dist/css/bootstrap-theme.min.css'
-                    ],
+                files: [
+                    // Library stylesheets
+                    {
+                        './dist/var/public/assets/stylesheets/libraries.min.css': [
+                            './var/public/bower/components-font-awesome/css/font-awesome.min.css',
+                            './var/public/bower/bootstrap/dist/css/bootstrap.min.css',
+                            './var/public/bower/bootstrap/dist/css/bootstrap-theme.min.css'
+                        ]
+                    },
 
-                    'dist/var/public/assets/stylesheets/bootstrap.min.css': [
-                        './var/public/assets/stylesheets/bootstrap.css'
-                    ],
+                    // Bootstrap stylesheets
+                    {
+                        expand: true,
+                        cwd: 'var/public/assets/stylesheets/*',
+                        src: ['*.css'],
+                        dest: 'dist/var/public/assets/stylesheets/',
+                        ext: '.min.css'
+                    },
 
-                    'dist/var/public/assets/stylesheets/pages/home/home.min.css': [
-                        './var/public/assets/stylesheets/pages/home/home.css'
-                    ]
-                }
+                    // Specific page stylesheets
+                    {
+                        expand: true,
+                        cwd: 'var/public/assets/stylesheets/pages/',
+                        src: ['**/*.css'],
+                        dest: 'dist/var/public/assets/stylesheets/pages/',
+                        ext: '.min.css'
+                    }
+                ]
             }
         },
 
@@ -82,6 +94,9 @@ module.exports = function (grunt) {
             }
         },
 
+        /**
+         * HTML deployment with changing links
+         */
         processhtml: {
             dist: {
                 files: {
@@ -90,8 +105,9 @@ module.exports = function (grunt) {
             }
         },
 
-        /*
-         Deployment
+        /**
+         * Github deployment
+         *
          */
         git_deploy: {
             your_target: {
@@ -119,6 +135,11 @@ module.exports = function (grunt) {
      * Deploy to a server
      */
     grunt.registerTask('deploy', "Deploys to a server", function () {
+        grunt.task.run('uglify');
+        grunt.task.run('cssmin');
+        grunt.task.run('copy');
+        grunt.task.run('processhtml');
 
+        //TODO deploy to git
     });
 };
