@@ -631,8 +631,9 @@
 
     <div id="contact" class="contact-container">
         <div class="container">
-
-            <div class="col-md-4">
+            <p style="text-align: center">You can send me a message at <a
+                        href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
+<!--            <div class="col-md-4">
                 <p>You can send me a message using the form at the right or write me at <a
                             href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
             </div>
@@ -644,12 +645,21 @@
                                    value="">
                         </div>
                     </div>
+
                     <div class="form-group">
                         <div class="col-sm-10">
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
                                    value="">
                         </div>
                     </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="subject" name="subject" placeholder="Subject"
+                                   value="">
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <div class="col-sm-10">
                         <textarea class="form-control" rows="4" name="message" title="message"
@@ -668,7 +678,7 @@
                     </div>
                 </form>
 
-            </div>
+            </div>-->
         </div>
     </div>
 </body>
