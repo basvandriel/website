@@ -6,8 +6,8 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
 
-        /*
-         Uglify JS files
+        /**
+         * Minifies and uglifies javascript scripts
          */
         uglify: {
             my_target: {
@@ -20,6 +20,9 @@ module.exports = function (grunt) {
             }
         },
 
+        /**
+         * Minifies stylesheets
+         */
         cssmin: {
             target: {
                 files: {
@@ -40,6 +43,9 @@ module.exports = function (grunt) {
             }
         },
 
+        /**
+         * Copies project assets
+         */
         copy: {
             main: {
                 files: [
@@ -50,6 +56,24 @@ module.exports = function (grunt) {
                             'var/public/assets/fonts/*',
                             'var/public/assets/images/**',
                             'var/public/assets/videos/**',
+                            'var/public/assets/particles.json'
+                        ],
+                        dest: 'dist/', filter: 'isFile'
+                    },
+
+                    // Font Awesome 4.7.0 deployment
+                    {
+                        expand: true,
+                        cwd: 'var/public/bower/components-font-awesome/fonts/',
+                        src: ['*'],
+                        dest: 'dist/var/public/assets/fonts/',
+                        filter: 'isFile'
+                    },
+
+                    // Particles.json deployment
+                    {
+                        expand: true,
+                        src: [
                             'var/public/assets/particles.json'
                         ],
                         dest: 'dist/', filter: 'isFile'
