@@ -11,12 +11,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "basvandriel\\nl\\": "src/basvandriel/basvandriel/nl"
+      "basvandriel\\": "src/basvandriel/basvandriel/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "basvandriel\\nl\\": "tests/basvandriel/WWW"
+      "basvandriel\\": "tests/basvandriel/basvandriel"
     }
   },
   "require": {
