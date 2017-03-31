@@ -61,7 +61,7 @@ module.exports = function (grunt) {
         copy: {
             main: {
                 files: [
-                    // includes files within path
+                    // Project fonts, images videos and configurations
                     {
                         expand: true,
                         src: [
