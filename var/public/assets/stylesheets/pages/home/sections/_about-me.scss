@@ -57,7 +57,7 @@ div.title-container {
   }
 }
 
-#about-me-container > #about-me-content-container #introduction-container
+#about-me-container > #about-me-content-container #introduction-container,
 #personality-container {
   margin-top: 40px;
 
@@ -98,7 +98,7 @@ div.title-container {
 
   margin:             0 5px;
 
-  background-color:   rgba(0, 255, 192, 0.1875);
+  border: 1.5px solid #333333;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing:    border-box;
