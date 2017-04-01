@@ -235,7 +235,7 @@
 
         </div>
 
-        <div class="title-container" id="experiences-title-container">
+        <div class="section-title-container" id="experiences-title-container">
             <h1>EXPERIENCE</h1>
             <h2></h2>
         </div>
@@ -624,7 +624,7 @@
         </div>
     </div>
 
-    <div class="title-container" id="contact-title-container">
+    <div class="section-title-container" id="contact-title-container">
         <h1>CONTACT</h1>
         <h2></h2>
     </div>
