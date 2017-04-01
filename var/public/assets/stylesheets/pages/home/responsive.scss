@@ -1,0 +1,26 @@
+$landscape_phones_and_down: "only screen and (min-width: 480px)";
+$tablets_and_large_phones: "only screen and (min-width: 600px)";
+$large_tablets: "only screen and (min-width: 768)";
+$horizontal_tablet_and_laptops: "only screen and (min-width: 992px)";
+$extra_large_screens: "only screen and (min-width: 1382px)";
+$extra_large_screens: "only screen and (min-width: 1200px)";
+
+// Little larger screen
+@media #{$landscape_phones_and_down} {
+
+}
+
+// Pads and larger phones
+@media #{$tablets_and_large_phones}{
+
+}
+
+// Larger pads
+@media #{$large_tablets} {
+
+}
+
+// Horizontal pads and laptops
+@media #{$horizontal_tablet_and_laptops} {
+
+}
