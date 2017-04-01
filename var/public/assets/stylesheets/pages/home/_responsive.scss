@@ -1,0 +1,62 @@
+$small_phones: "only screen and (max-width: 360px)";
+$landscape_phones_and_down: "only screen and (max-width: 480px)";
+$tablets_and_large_phones: "only screen and (max-width: 600px)";
+$large_tablets: "only screen and (max-width: 768px)";
+$horizontal_tablet_and_laptops: "only screen and (max-width: 992px)";
+$large_screens: "only screen and (max-width: 1200px)";
+$extra_large_screens: "only screen and (max-width: 1382px)";
+
+@media #{$small_phones} {
+
+}
+
+@media #{$large_tablets} {
+  // Disable video for tablets and below
+  .fixed-fullscreen-video-container video {
+    display: none;
+  }
+
+  h1.main-title {
+    font-size: 55px !important;
+  }
+
+  h2.sub-title {
+    font-size: 25px !important;
+  }
+
+  .navigation-button {
+    display: block !important;
+  }
+
+  .navigation-container {
+    display: none;
+  }
+
+  .first-svg {
+    display: none;
+  }
+
+}
+
+@media #{$horizontal_tablet_and_laptops} {
+  #about-me-container > #about-me-content-container #introduction-container #personality-container {
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fixed-fullscreen-video-container video {
+    height: 300%;
+    top:    -100%;
+  }
+
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fixed-fullscreen-video-container video {
+    width: 300%;
+    left:  -100%;
+  }
+}
