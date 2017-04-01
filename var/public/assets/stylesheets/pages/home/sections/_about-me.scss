@@ -16,6 +16,8 @@ div.title-container {
 
   background-color: transparent;
 
+  overflow: hidden;
+
   h1 {
     font-size:   48px;
     text-align:  center;
@@ -143,16 +145,19 @@ div.title-container {
 }
 
 #about-me-container > #about-me-content-container img.pixelated-image {
-  position: relative;
+  position:   relative;
 
   //TODO fix because it makes page more width
-  height:   350px;
-  width:    350px;
+  height:     45%;
+  width:      45%;
 
-  margin:   0;
-  padding:  0;
+  max-height: 50%;
+  max-width:  50%;
 
-  overflow: hidden;
+  margin:     0;
+  padding:    0;
+
+  overflow:   hidden;
 }
 
 #about-me-container #education-container {
