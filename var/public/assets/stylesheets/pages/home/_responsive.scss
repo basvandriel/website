@@ -1,27 +1,48 @@
-$small_phones: "only screen and (max-width: 360px)";
-$landscape_phones_and_down: "only screen and (max-width: 480px)";
-$tablets_and_large_phones: "only screen and (max-width: 600px)";
-$large_tablets: "only screen and (max-width: 768px)";
-$horizontal_tablet_and_laptops: "only screen and (max-width: 992px)";
-$large_screens: "only screen and (max-width: 1200px)";
-$extra_large_screens: "only screen and (max-width: 1382px)";
+@import "../../layout/screen-sizes";
 
-@media #{$small_phones} {
-
+@media only screen and (min-width: #{$xs-phones}) {
+  h1.main-title {
+    font-size: 40px !important;
+  }
+  h2.sub-title {
+    font-size: 20px !important;
+  }
 }
 
-@media #{$large_tablets} {
-  // Disable video for tablets and below
-  .fixed-fullscreen-video-container video {
-    display: none;
-  }
-
+@media only screen and (min-width: #{$small_phones}) {
   h1.main-title {
-    font-size: 55px !important;
+    font-size: 50px !important;
   }
 
   h2.sub-title {
     font-size: 25px !important;
+  }
+}
+
+
+@media only screen and (min-width: #{$landscape_phones_and_down}) {
+  h1.main-title {
+    font-size: 65px !important;
+  }
+  h2.sub-title {
+    font-size: 30px !important;
+  }
+}
+
+@media only screen and (max-width: #{$tablets_and_large_phones}) {
+  // Disable video for tablets and below
+  .fixed-fullscreen-video-container video,
+  .fullscreen-container #particles-js {
+    display: none;
+  }
+
+  h1.main-title {
+    font-size:     65px;
+    margin-bottom: 0;
+  }
+
+  h2.sub-title {
+    font-size: 25px;
   }
 
   .navigation-button {
@@ -35,16 +56,67 @@ $extra_large_screens: "only screen and (max-width: 1382px)";
   .first-svg {
     display: none;
   }
-
 }
 
-@media #{$horizontal_tablet_and_laptops} {
+@media only screen and (min-width: #{$tablets_and_large_phones}) {
+  h1.main-title {
+    font-size: 75px !important;
+  }
+}
+
+@media only screen and (max-width: $large_tablets) {
+  // Disable video for tablets and below
+  .fixed-fullscreen-video-container video,
+  .fullscreen-container #particles-js {
+    display: none;
+  }
+
+  h1.main-title {
+    margin-bottom: 0;
+  }
+
+  h2.sub-title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: #{$large_tablets}) {
+
+  h1.main-title {
+    font-size: 85px !important;
+  }
+}
+
+@media only screen and (min-width: #{$horizontal_tablet_and_laptops}) {
+
+  .title-container div.center-block.col-md-5 {
+    width: 100%;
+  }
+
+  h1.main-title {
+    font-size: 90px !important;
+  }
+}
+
+@media only screen and (min-width: #{$medium_screens}) {
+  h1.main-title {
+    font-size: 95px !important;
+  }
+}
+
+@media only screen and (min-width: #{$large_screens}) {
+  h1.main-title {
+    font-size: 115px !important;
+  }
+}
+
+/*@media #{$horizontal_tablet_and_laptops} {
   #about-me-container > #about-me-content-container #introduction-container #personality-container {
     p {
       text-align: center;
     }
   }
-}
+}*/
 
 @media (max-aspect-ratio: 16/9) {
   .fixed-fullscreen-video-container video {
