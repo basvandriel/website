@@ -135,6 +135,17 @@ module.exports = function (grunt) {
     // Default tasks
     grunt.registerTask('default', []);
 
+
+    /**
+     * Builds
+     */
+    grunt.registerTask('build', "Builds", [
+        'uglify',
+        'cssmin',
+        'copy',
+        'processhtml']
+    );
+
     /**
      * Deploy to a server
      */
