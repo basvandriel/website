@@ -58,6 +58,27 @@
   }
 }
 
+@media only screen and (max-width: #{$horizontal_tablet_and_laptops}) {
+  #about-me-container > #about-me-content-container #introduction-container #personality-container {
+    p {
+      text-align: center;
+    }
+
+    img.pixelated-image {
+      height: 35%;
+      width: 35%;
+
+      margin-top: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: #{$small_screens}) {
+  .skill-tag {
+    margin: 5px;
+  }
+}
+
 @media only screen and (min-width: #{$tablets_and_large_phones}) {
   h1.main-title {
     font-size: 75px !important;
@@ -109,14 +130,6 @@
     font-size: 115px !important;
   }
 }
-
-/*@media #{$horizontal_tablet_and_laptops} {
-  #about-me-container > #about-me-content-container #introduction-container #personality-container {
-    p {
-      text-align: center;
-    }
-  }
-}*/
 
 @media (max-aspect-ratio: 16/9) {
   .fixed-fullscreen-video-container video {
