@@ -19,6 +19,7 @@ $navigationBarWidth: 650px;
 }
 
 .fixed-fullscreen-video-container {
+  background-color: grey;
   position: fixed;
 
   top:      0;
@@ -60,7 +61,6 @@ $navigationBarWidth: 650px;
     font-family: "Segoe UI", Arial, serif;
     color:       #E6E1E1;
   }
-
 }
 
 .fullscreen-container {
