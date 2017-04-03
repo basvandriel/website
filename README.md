@@ -2,9 +2,9 @@
 [![Build Status](https://travis-ci.org/basvandriel/WWW.svg?branch=master)](https://travis-ci.org/basvandriel/WWW)
 [![license](https://img.shields.io/github/license/basvandriel/WWW.svg)](LICENSE.md)
 
-This project contains my personal website, for sharing information about who I am, contacting me, reading my resume and blogs.
+This project contains the source code for my personal website for sharing my experiences, portfolio and biography.
 
-The idea initially came from that I needed to learn more about principles about object-oriented programming.
+The reason I started this project was because I wanted to learn more about object-oriented programming principles and front-end development.
 
 ## Contribution
 Contributions to the project are currently closed - see the [CONTRIBUTION.md](CONTRIBUTION.md) file for details.
