@@ -241,7 +241,6 @@
 
         <div class="section-title-container" id="experiences-title-container">
             <h1>EXPERIENCE</h1>
-            <h2></h2>
         </div>
 
         <div id="experiences-container">
@@ -270,26 +269,26 @@
                                 </h3>
                             </div>
                             <div class="education-course-info">
-                                <p>This training is teaching the technical part of
+                                <p>This training teaches the technical part of
                                    application
-                                   development. It starts with learning the syntax of the Java programming
+                                   development. It starts with the syntax of the Java programming
                                    language using small assignments. After that the student learns
                                    best practices for object-oriented programming by doing real-world
                                    projects
                                    within a team of
-                                   other students. In these projects the students also learns to use the
-                                   necessary too ls for building the application.</p>
+                                   other students. In these projects the students also learn to use the
+                                   necessary tools for building the application.</p>
 
                                 <p>Besides programming the students also learn the essentials of using
-                                   databases and project-management using SCRUM.</p>
+                                   databases and scrum.</p>
 
                                 <p>
                                     Within this training, the students have to do 2 internships. These are
                                     mostly focused on learning the technical part of application
-                                    development In a real-world working environment.
+                                    development in a real-world working environment.
                                     The first internship
                                     is 10 weeks and is aimed at orientating at the job itself.
-
+j
                                     The second internship is for the examination of the student.
                                 </p>
 
