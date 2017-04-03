@@ -156,7 +156,7 @@
 
                             <p>I stand for quality, small details, structure and perfection in all the work I do. For
                                my
-                               preference I like working together in a group, it gives me the ability to be more
+                               preference I like working together in a group. It gives me the ability to be more
                                precise in my work. I'm always in to show commitment, initiative and flexibility whenever
                                I
                                can.</p>
@@ -167,10 +167,10 @@
                                once in a while.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
-                               object-oriented programming, database essentials and project-management.</p>
+                               object-oriented programming, database essentials and scrum.</p>
 
-                            <p>This project is created for learning more about modern web development, where I am mostly
-                               focusing on the design and JavaScript programming. This project is also open-source and
+                            <p>This project was created for learning more about modern web development, where I am mostly
+                               focused on front-end design and JavaScript programming. This project is also open-source and
                                 <a href="http://www.github.com/basvandriel/WWW">can be found on GitHub.</a></p>
                         </div>
                         <div class="col-md-offset-2"></div>
