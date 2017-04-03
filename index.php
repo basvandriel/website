@@ -198,6 +198,10 @@
                                 <span class="skill-tag">CSS</span>
                                 <span class="skill-tag">SCSS</span>
                                 <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Spring MVC</span>
+                                <span class="skill-tag">Struts2</span>
+                                <span class="skill-tag">Composer</span>
+                                <span class="skill-tag">Bower</span>
                             </div>
 
                             <div>
