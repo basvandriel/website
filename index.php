@@ -222,7 +222,7 @@
                 <div class="row social-links">
                     <h2>LINKS</h2>
 
-                    <p>I can also be found on the following links:</p>
+                    <p>I can be found on the following links:</p>
                     <a class="social-icon" href="http://www.github.com/basvandriel"><i class="fa fa-github"
                                                                                        aria-hidden="true"></i></a>
                     <a class="social-icon" href="https://bitbucket.org/basvandriel94/"><i class="fa fa-bitbucket"
