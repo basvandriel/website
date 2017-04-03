@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/basvandriel/WWW.svg?branch=master)](https://travis-ci.org/basvandriel/WWW)
 [![license](https://img.shields.io/github/license/basvandriel/WWW.svg)](LICENSE.md)
 
-This project contains my personal website for sharing my biography, work and education experience and portfolio.
+This project contains my personal website for sharing my biography, work- and education experience and portfolio.
 
 The reason I started this project was because I wanted to learn more about object-oriented programming principles and front-end development.
 
@@ -19,5 +19,5 @@ This project was initially created by [Bas van Driel](https://github.com/basvand
 ## Links
 
 * [Website](http://basvandriel.github.io/basvandriel.nl/) (currently hosted at Github Pages)
-* [Issue tracker](https://github.com/basvandriel/WWW/issues)
-* [Source code](https://github.com/basvandriel/WWW)
+* [Issue tracker](https://github.com/basvandriel/basvandriel.nl/issues)
+* [Source code](https://github.com/basvandriel/basvandriel.nl)
