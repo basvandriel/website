@@ -154,9 +154,9 @@
                             <p>My name is Bas van Driel, I'm 22 years old and live in a town called Terneuzen in the
                                Netherlands.</p>
 
-                            <p>I stand for quality, little details, structure and perfection in all the work I do. For
+                            <p>I stand for quality, small details, structure and perfection in all the work I do. For
                                my
-                               preference I like working together in a group, it gives me the ability to be more
+                               preference I like working together in a group. It gives me the ability to be more
                                precise in my work. I'm always in to show commitment, initiative and flexibility whenever
                                I
                                can.</p>
@@ -167,10 +167,10 @@
                                once in a while.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
-                               object-oriented programming, database essentials and project-management.</p>
+                               object-oriented programming, database essentials and scrum.</p>
 
-                            <p>This project is created for learning more about modern web development, where I am mostly
-                               focusing on the design and JavaScript programming. This project is also open-source and
+                            <p>This project was created for learning more about modern web development, where I am mostly
+                               focused on front-end design and JavaScript programming. This project is also open-source and
                                 <a href="http://www.github.com/basvandriel/WWW">can be found on GitHub.</a></p>
                         </div>
                         <div class="col-md-offset-2"></div>
@@ -198,6 +198,10 @@
                                 <span class="skill-tag">CSS</span>
                                 <span class="skill-tag">SCSS</span>
                                 <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Spring MVC</span>
+                                <span class="skill-tag">Struts2</span>
+                                <span class="skill-tag">Composer</span>
+                                <span class="skill-tag">Bower</span>
                             </div>
 
                             <div>
@@ -218,7 +222,7 @@
                 <div class="row social-links">
                     <h2>LINKS</h2>
 
-                    <p>I can also be found on the following links:</p>
+                    <p>I can be found on the following links:</p>
                     <a class="social-icon" href="http://www.github.com/basvandriel"><i class="fa fa-github"
                                                                                        aria-hidden="true"></i></a>
                     <a class="social-icon" href="https://bitbucket.org/basvandriel94/"><i class="fa fa-bitbucket"
@@ -237,7 +241,6 @@
 
         <div class="section-title-container" id="experiences-title-container">
             <h1>EXPERIENCE</h1>
-            <h2></h2>
         </div>
 
         <div id="experiences-container">
@@ -266,26 +269,26 @@
                                 </h3>
                             </div>
                             <div class="education-course-info">
-                                <p>This training is teaching the technical part of
+                                <p>This training teaches the technical part of
                                    application
-                                   development. It starts with learning the syntax of the Java programming
+                                   development. It starts with the syntax of the Java programming
                                    language using small assignments. After that the student learns
                                    best practices for object-oriented programming by doing real-world
                                    projects
                                    within a team of
-                                   other students. In these projects the students also learns to use the
-                                   necessary too ls for building the application.</p>
+                                   other students. In these projects the students also learn to use the
+                                   necessary tools for building the application.</p>
 
                                 <p>Besides programming the students also learn the essentials of using
-                                   databases and project-management using SCRUM.</p>
+                                   databases and scrum.</p>
 
                                 <p>
                                     Within this training, the students have to do 2 internships. These are
                                     mostly focused on learning the technical part of application
-                                    development In a real-world working environment.
+                                    development in a real-world working environment.
                                     The first internship
                                     is 10 weeks and is aimed at orientating at the job itself.
-
+j
                                     The second internship is for the examination of the student.
                                 </p>
 
