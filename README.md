@@ -18,6 +18,6 @@ This project was initially created by [Bas van Driel](https://github.com/basvand
 
 ## Links
 
-* [Website](http://basvandriel.github.io/basvandriel.nl/) _(currently hosted at Github Pages)_
+* [Website](http://basvandriel.github.io/basvandriel.nl/) (currently hosted at Github Pages)
 * [Issue tracker](https://github.com/basvandriel/WWW/issues)
 * [Source code](https://github.com/basvandriel/WWW)
