@@ -169,8 +169,10 @@
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                                object-oriented programming, database essentials and scrum.</p>
 
-                            <p>This project was created for learning more about modern web development, where I am mostly
-                               focused on front-end design and JavaScript programming. This project is also open-source and
+                            <p>This project was created for learning more about modern web development, where I am
+                               mostly
+                               focused on front-end design and JavaScript programming. This project is also open-source
+                               and
                                 <a href="http://www.github.com/basvandriel/WWW">can be found on GitHub.</a></p>
                         </div>
                         <div class="col-md-offset-2"></div>
@@ -288,7 +290,7 @@
                                     development in a real-world working environment.
                                     The first internship
                                     is 10 weeks and is aimed at orientating at the job itself.
-j
+                                    j
                                     The second internship is for the examination of the student.
                                 </p>
 
@@ -319,21 +321,21 @@ j
                                 <p>This course taught me how to set up and configure a
                                    network. I learnt
                                    how to configure network equipment such as routers, switches, hubs and
-                                   the workstation itself for working in the corresponding network. I also
+                                   workstations for working in the corresponding network. I also
                                    learnt how to make network cables (cross-over, straight
                                    through) for a specific
-                                   network configuration.
+                                   device-to-device connection.
                                 </p>
 
                                 <p>
-                                    This by
-                                    doing assignments in the Cisco Packet Tracer software for simulating the
-                                    network the assignment wanted me to build.
+                                    I trained myself by
+                                    doing assignments in the Cisco Packet Tracer software. This software is used for
+                                    simulating networks.
                                 </p>
 
                                 <p>During the training, I mostly configured networks for using sub-networks
                                    and
-                                   security essentials. For the actual exam I had to do all this with actual
+                                   security purposes. For the actual exam I had to do all this with actual
                                    Cisco equipment.</p>
 
                                 <p>
@@ -369,9 +371,10 @@ j
                                     computer hardware and solving software problems with in-depth knowledge of them.
                                 </p>
 
-                                <p>Within this training I had to do 1 internship for 20 weeks. This internship was
+                                <p>Within this training I had to do one internship for a period  of 20 weeks. This
+                                   internship was
                                    focused on getting better in-depth knowledge about IT related technologies and
-                                   getting more experience on a service desk. </p>
+                                   getting more experience on a service desk.</p>
                                 <p>
                                     This training is based on
                                     level 3 MBO.
@@ -396,14 +399,14 @@ j
                                 </h3>
                             </div>
                             <div class="education-course-info">
-                                <p>This course was about learning how to work with the basics and the more
+                                <p>This course taught me how to work with the basics and the more
                                    advanced
-                                   functions of Office 2013. The programs I learned to work with were
+                                   functions of Microsoft Office 2013. The programs I learned more about were
                                    Word, Excel, PowerPoint and Outlook.</p>
 
                                 <p>During the assignments it gave me a better understanding of the
                                    software and made me more
-                                   productive because of all the functions I didn't know about.</p>
+                                   productive because of all the functions I did not know about.</p>
 
                                 <p>
                                     This course belonged to the Medewerker ICT training.
@@ -636,52 +639,52 @@ j
         <div class="container">
             <p style="text-align: center">You can send me a message at <a
                         href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
-<!--            <div class="col-md-4">
-                <p>You can send me a message using the form at the right or write me at <a
-                            href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
-            </div>
-            <div class="col-md-8">
-                <form class="form-horizontal" role="form" method="post" action="index.php">
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Full name"
-                                   value="">
+            <!--            <div class="col-md-4">
+                            <p>You can send me a message using the form at the right or write me at <a
+                                        href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
                         </div>
-                    </div>
+                        <div class="col-md-8">
+                            <form class="form-horizontal" role="form" method="post" action="index.php">
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full name"
+                                               value="">
+                                    </div>
+                                </div>
 
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
-                                   value="">
-                        </div>
-                    </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email address"
+                                               value="">
+                                    </div>
+                                </div>
 
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="subject" name="subject" placeholder="Subject"
-                                   value="">
-                        </div>
-                    </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="subject" name="subject" placeholder="Subject"
+                                               value="">
+                                    </div>
+                                </div>
 
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                        <textarea class="form-control" rows="4" name="message" title="message"
-                                  placeholder="Your message"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-10 col-sm-offset-2">
-                            <! Will be used to display an alert to the user>
-                        </div>
-                    </div>
-                </form>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                    <textarea class="form-control" rows="4" name="message" title="message"
+                                              placeholder="Your message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10 col-sm-offset-2">
+                                        <! Will be used to display an alert to the user>
+                                    </div>
+                                </div>
+                            </form>
 
-            </div>-->
+                        </div>-->
         </div>
     </div>
 </body>
