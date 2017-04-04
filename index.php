@@ -399,14 +399,14 @@
                                 </h3>
                             </div>
                             <div class="education-course-info">
-                                <p>This course was about learning how to work with the basics and the more
+                                <p>This course taught me how to work with the basics and the more
                                    advanced
-                                   functions of Office 2013. The programs I learned to work with were
+                                   functions of Microsoft Office 2013. The programs I learned more about were
                                    Word, Excel, PowerPoint and Outlook.</p>
 
                                 <p>During the assignments it gave me a better understanding of the
                                    software and made me more
-                                   productive because of all the functions I didn't know about.</p>
+                                   productive because of all the functions I did not know about.</p>
 
                                 <p>
                                     This course belonged to the Medewerker ICT training.
