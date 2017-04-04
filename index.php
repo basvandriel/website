@@ -371,9 +371,10 @@
                                     computer hardware and solving software problems with in-depth knowledge of them.
                                 </p>
 
-                                <p>Within this training I had to do 1 internship for 20 weeks. This internship was
+                                <p>Within this training I had to do one internship for a period  of 20 weeks. This
+                                   internship was
                                    focused on getting better in-depth knowledge about IT related technologies and
-                                   getting more experience on a service desk. </p>
+                                   getting more experience on a service desk.</p>
                                 <p>
                                     This training is based on
                                     level 3 MBO.
