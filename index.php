@@ -371,7 +371,7 @@
                                     computer hardware and solving software problems with in-depth knowledge of them.
                                 </p>
 
-                                <p>Within this training I had to do one internship for a period  of 20 weeks. This
+                                <p>Within this training I had to do one internship for a period of 20 weeks. This
                                    internship was
                                    focused on getting better in-depth knowledge about IT related technologies and
                                    getting more experience on a service desk.</p>
@@ -432,10 +432,11 @@
                             </div>
                             <div class="education-course-info">
                                 <p>
-                                    This training was focused on teaching the basics of solving
-                                    IT related problems customers have. This included correctly building a
-                                    computer and knowing the parts
-                                    that are in it. I learnt this by working at a service desk.
+                                    This training taught me the basics of solving
+                                    IT related problems on a service-desk. This included correctly building and
+                                    repairing a
+                                    computer and knowing the function of the parts
+                                    that are in it. I learnt this by working at a service-desk on my internship.
                                 </p>
 
                                 <p>I learnt the general knowledge of working with common used software. This
@@ -445,7 +446,7 @@
                                 <p>
                                     Within this training, I had to do 2 internships. These were
                                     mostly focused on learning how to work with actual customers in a
-                                    real-world working environment on a service desk.
+                                    real-world working environment on a service-desk.
                                     The first internship
                                     was 10 weeks long and was aimed at orientating at the job itself.
 
