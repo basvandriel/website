@@ -441,14 +441,14 @@
 
                                 <p>I learnt the general knowledge of working with common used software. This
                                    gave me the the ability to be more productive in my own working
-                                   environment and help others with their IT problems.</p>
+                                   environment.</p>
 
                                 <p>
                                     Within this training, I had to do 2 internships. These were
-                                    mostly focused on learning how to work with actual customers in a
+                                    mostly focused on learning what's is like working in a
                                     real-world working environment on a service-desk.
                                     The first internship
-                                    was 10 weeks long and was aimed at orientating at the job itself.
+                                    was 10 weeks long and was intended for orientating at the job itself.
 
                                     The second internship was 20 weeks long was for my examination.
                                 </p>
