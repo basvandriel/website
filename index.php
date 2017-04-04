@@ -404,7 +404,7 @@
                                    functions of Microsoft Office 2013. The programs I learned more about were
                                    Word, Excel, PowerPoint and Outlook.</p>
 
-                                <p>During the assignments it gave me a better understanding of the
+                                <p>The assignments I did during the course gave me a better understanding of the
                                    software and made me more
                                    productive because of all the functions I did not know about.</p>
 
