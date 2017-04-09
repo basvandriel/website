@@ -1,4 +1,4 @@
-# [http&#58;//www\.basvandriel.nl/](http://basvandriel.github.io/basvandriel.nl/) <img src="var/public/assets/images/profile-pictures/profile-picture-pixelated.png" height="10%" width="10%" align="right" />
+# [https://basvandriel.github.io/](http://basvandriel.github.io/) <img src="var/public/assets/images/profile-pictures/profile-picture-pixelated.png" height="10%" width="10%" align="right" />
 [![Build Status](https://travis-ci.org/basvandriel/WWW.svg?branch=master)](https://travis-ci.org/basvandriel/WWW)
 [![license](https://img.shields.io/github/license/basvandriel/WWW.svg)](LICENSE.md)
 
@@ -18,6 +18,6 @@ This project was initially created by [Bas van Driel](https://github.com/basvand
 
 ## Links
 
-* [Website](http://basvandriel.github.io/basvandriel.nl/) (currently hosted at Github Pages)
+* [Website](http://basvandriel.github.io/) (currently hosted at Github Pages)
 * [Issue tracker](https://github.com/basvandriel/basvandriel.nl/issues)
 * [Source code](https://github.com/basvandriel/basvandriel.nl)
