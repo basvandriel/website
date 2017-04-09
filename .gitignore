@@ -1,7 +1,3 @@
-# SCSS output
-*.css
-*.css.map
-
 # Composer
 composer.phar
 vendor/
