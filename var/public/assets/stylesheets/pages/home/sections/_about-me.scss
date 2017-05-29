@@ -16,7 +16,7 @@ div.section-title-container {
 
   background-color: transparent;
 
-  overflow: hidden;
+  overflow:         hidden;
 
   h1 {
     font-size:   48px;
@@ -83,8 +83,6 @@ div.section-title-container {
     margin-top: 15px;
 
     div {
-      margin-bottom: 10px;
-
       span {
         display: inline-block;
       }
@@ -97,7 +95,7 @@ div.section-title-container {
   font-size:          25px;
   padding:            5px 12.5px;
 
-  margin:             0 5px;
+  margin:             5px 5px;
 
   border:             1.5px solid #333333;
 

@@ -163,8 +163,7 @@
 
                             <p>For my hobbies I love to make music, interest myself in IT technologies, do sports
                                and
-                               play some games
-                               once in a while.</p>
+                               play some games.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                                object-oriented programming, database essentials and scrum.</p>
@@ -456,39 +455,6 @@
                                 <p>
                                     This training is based on
                                     level 2 MBO.
-                                </p>
-                            </div>
-                        </div>
-
-                        <hr class="horizontal-line">
-
-                        <!-- Arbeidsmarkt Gekwalificeerd Assistent course -->
-                        <div class="education-course">
-                            <div class="education-course-header">
-                                <h2 class="education-course-name">Arbeidsmarkt Gekwalificeerd Assistent, Handel</h2>
-                                <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
-                                                                      Design"</h3>
-                                <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
-                                                                         aria-hidden="true"></i> Terneuzen,
-                                                                                                 Netherlands
-                                </h3>
-                                <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
-                                                                         aria-hidden="true"></i> 2012 - 2013
-                                </h3>
-                            </div>
-                            <div class="education-course-info">
-
-                                <p>This training was focused on teaching the essentials of working in a store and
-                                   maintaining
-                                   the administration for this.</p>
-
-                                <p>Within this training I worked as an intern for 2 days a week. This was part of the
-                                   examination of the
-                                   training.</p>
-
-                                <p>
-                                    This training is based on
-                                    level 1 MBO.
                                 </p>
                             </div>
                         </div>
