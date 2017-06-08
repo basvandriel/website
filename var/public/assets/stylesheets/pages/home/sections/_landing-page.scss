@@ -39,9 +39,12 @@ $navigationBarWidth: 650px;
   z-index:          -1;
 
   video {
-    height:   100% !important;
-    width:    auto;
-    overflow: hidden;
+    min-height: 100%;
+    min-width:  100%;
+
+    height:     auto;
+    width:      auto;
+    overflow:   hidden;
   }
 }
 
@@ -242,6 +245,6 @@ $navigationBarWidth: 650px;
 
   svg {
     display: block;
-    margin: auto;
+    margin:  auto;
   }
 }
