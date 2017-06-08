@@ -65,12 +65,12 @@
     <title>Bas van Driel</title>
 </head>
 <body>
-        <div class="fixed-fullscreen-video-container">
-            <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
-                <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
-                Your browser does not support the video tag. I suggest you upgrade your browser.
-            </video>
-        </div>
+    <div class="fixed-fullscreen-video-container">
+        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
+            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
+            Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    </div>
 
     <div class="fullscreen-container">
         <div id="particles-js"></div>
@@ -108,18 +108,24 @@
 
 
         <div class="title-container">
-            <div class="row">
-                <div class="center-block col-md-5" style="float: none;">
-                    <h1 class="main-title">
-                        Bas van Driel
-                    </h1>
+            <h1 class="main-title">
+                Bas van Driel
+            </h1>
 
-                    <h2 class="sub-title">
-                        APPLICATION DEVELOPER
-                    </h2>
-                </div>
+            <h2 class="sub-title">
+                APPLICATION DEVELOPER
+            </h2>
+            <!--            <div class="row">
+                            <div class="center-block col-md-5" style="float: none;">
+                                <h1 class="main-title">
+                                    Bas van Driel
+                                </h1>
 
-            </div>
+                                <h2 class="sub-title">
+                                    APPLICATION DEVELOPER
+                                </h2>
+                            </div>
+                        </div>-->
         </div>
 
         <div class="svg-container">

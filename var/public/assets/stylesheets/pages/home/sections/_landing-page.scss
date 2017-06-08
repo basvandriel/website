@@ -51,10 +51,13 @@ $navigationBarWidth: 650px;
 .fullscreen-container .title-container {
   position:   absolute;
 
-  top:        35%;
+  background: none;
 
-  width:      100%;
-  max-width:  100%;
+  top:        35%;
+  left:       50%;
+  transform:  translateX(-50%);
+
+  width:      auto;
 
   margin:     0 auto;
   text-align: center;
