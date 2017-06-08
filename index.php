@@ -65,15 +65,15 @@
     <title>Bas van Driel</title>
 </head>
 <body>
-    <!--    <div class="fixed-fullscreen-video-container">-->
-    <!--        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>-->
-    <!--            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">-->
-    <!--            Your browser does not support the video tag. I suggest you upgrade your browser.-->
-    <!--        </video>-->
-    <!--    </div>-->
+        <div class="fixed-fullscreen-video-container">
+            <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
+                <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
+        </div>
 
     <div class="fullscreen-container">
-        <!--        <div id="particles-js"></div>-->
+        <div id="particles-js"></div>
         <div class="navigation-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
         <div class="navigation-container">
             <ul class="navigation-bar">

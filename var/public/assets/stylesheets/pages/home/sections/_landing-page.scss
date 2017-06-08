@@ -18,8 +18,6 @@ $navigationBarWidth: 650px;
   min-height: 100%;
   min-width:  100%;
 
-  background: lime;
-
   overflow:   hidden;
 }
 
@@ -241,11 +239,9 @@ $navigationBarWidth: 650px;
   height:           90px;
 
   z-index:          0;
-  text-align: center;
-
 
   svg {
     display: block;
-    margin: 0 auto;
+    margin: auto;
   }
 }
