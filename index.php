@@ -112,19 +112,11 @@
             </h1>
 
             <h2 class="sub-title">
-                APPLICATION DEVELOPER
+                BACK-END APPLICATION DEVELOPER
             </h2>
-            <!--            <div class="row">
-                            <div class="center-block col-md-5" style="float: none;">
-                                <h1 class="main-title">
-                                    Bas van Driel
-                                </h1>
+        </div>
 
-                                <h2 class="sub-title">
-                                    APPLICATION DEVELOPER
-                                </h2>
-                            </div>
-                        </div>-->
+        <div class="scrollbutton"><i class="fa fa-arrow-down" aria-hidden="true"></i>
         </div>
         <div class="svg-container">
             <svg width="1920" height="90" xmlns="http://www.w3.org/2000/svg">

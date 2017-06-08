@@ -60,8 +60,8 @@ $navigationBarWidth: 650px;
 
   width:      auto;
 
-  margin:     0 auto;
   text-align: center;
+  margin-top: -100px; //a
 
   h1.main-title {
     /*padding-bottom: 5px;*/
@@ -72,6 +72,8 @@ $navigationBarWidth: 650px;
     font-family:   "TalkingToTheMoon", Arial, serif;
     font-weight:   bold;
     color:         #FBF6F6;
+
+    margin-bottom: 15px;
   }
 
   h2.sub-title {
@@ -251,4 +253,10 @@ $navigationBarWidth: 650px;
     display: block;
     margin:  auto;
   }
+}
+
+.scrollbutton {
+  height: 30px;
+  width: 30px;
+
 }
