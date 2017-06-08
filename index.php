@@ -106,7 +106,6 @@
             </ul>
         </div>
 
-
         <div class="title-container">
             <h1 class="main-title">
                 Bas van Driel
@@ -127,7 +126,6 @@
                             </div>
                         </div>-->
         </div>
-
         <div class="svg-container">
             <svg width="1920" height="90" xmlns="http://www.w3.org/2000/svg">
                 <path
