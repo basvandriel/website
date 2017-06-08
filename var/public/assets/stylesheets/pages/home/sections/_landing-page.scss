@@ -9,27 +9,40 @@ $navigationBarWidth: 650px;
 .fixed-fullscreen-video-container, .fullscreen-container {
   position:   relative;
 
+  top:        0;
+  left:       0;
+
   height:     auto;
   width:      auto;
 
   min-height: 100%;
   min-width:  100%;
 
+  background: lime;
+
   overflow:   hidden;
+}
+
+.fullscreen-container {
+  top:    0;
+  left:   0;
+
+  height: auto;
+  width:  auto;
 }
 
 .fixed-fullscreen-video-container {
   background-color: grey;
-  position: fixed;
+  position:         fixed;
 
-  top:      0;
-  left:     0;
+  top:              0;
+  left:             0;
 
-  z-index:  -1;
+  z-index:          -1;
 
   video {
-    height: 100% !important;
-    width: auto;
+    height:   100% !important;
+    width:    auto;
     overflow: hidden;
   }
 }
@@ -219,24 +232,20 @@ $navigationBarWidth: 650px;
 
 .svg-container {
   background-color: transparent;
+  position:         absolute;
 
-  position:         relative;
+  bottom:           0;
+  left:             0;
 
   width:            100%;
   height:           90px;
 
-
   z-index:          0;
+  text-align: center;
 
-  &.first-svg {
-    margin-top:       -90px;
-  }
 
-  &.flip-horizontal-and-180-degree {
-    -webkit-transform: scale(-1, -1);
-    -moz-transform:    scale(-1, -1);
-    -ms-transform:     scale(-1, -1);
-    -o-transform:      scale(-1, -1);
-    transform:         scale(-1, -1);
+  svg {
+    display: block;
+    margin: 0 auto;
   }
 }

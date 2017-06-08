@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1">
 
     <!-- JavaScript libraries -->
     <!-- build:js var/public/assets/scripts/libraries.min.js -->
@@ -65,17 +65,15 @@
     <title>Bas van Driel</title>
 </head>
 <body>
-    <div class="fixed-fullscreen-video-container">
-
-        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
-            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
-            Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-    </div>
+    <!--    <div class="fixed-fullscreen-video-container">-->
+    <!--        <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>-->
+    <!--            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">-->
+    <!--            Your browser does not support the video tag. I suggest you upgrade your browser.-->
+    <!--        </video>-->
+    <!--    </div>-->
 
     <div class="fullscreen-container">
-        <div id="particles-js"></div>
-
+        <!--        <div id="particles-js"></div>-->
         <div class="navigation-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
         <div class="navigation-container">
             <ul class="navigation-bar">
@@ -123,17 +121,17 @@
 
             </div>
         </div>
+
+        <div class="svg-container">
+            <svg width="1920" height="90" xmlns="http://www.w3.org/2000/svg">
+                <path
+                        d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                        fill-opacity="null" fill="#fff">
+                </path>
+            </svg>
+        </div>
     </div>
 
-    <div class="svg-container first-svg">
-        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
-
-            <path
-                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
-                    fill-opacity="null" fill="#fff">
-            </path>
-        </svg>
-    </div>
 
     <div id="about-me-container">
 
