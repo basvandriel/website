@@ -116,7 +116,7 @@
             </h2>
         </div>
 
-        <div class="scrollbutton"><i class="fa fa-arrow-down" aria-hidden="true"></i>
+        <div class="explore-button"><i class="fa fa-arrow-down" aria-hidden="true"></i>
         </div>
         <div class="svg-container">
             <svg width="1920" height="90" xmlns="http://www.w3.org/2000/svg">
