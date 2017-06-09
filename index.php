@@ -233,7 +233,7 @@
         </div>
 
         <div class="section-title-container" id="experiences-title-container">
-            <h1>EXPERIENCE</h1>
+            <h1 class="section-title">EXPERIENCE</h1>
         </div>
 
         <div id="experiences">

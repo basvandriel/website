@@ -17,17 +17,6 @@ div.section-title-container {
   background-color: transparent;
 
   overflow:         hidden;
-
-  h1 {
-    font-size:   48px;
-    text-align:  center;
-    font-weight: 600;
-    font-family: "Segoe UI", Arial, serif;
-    color:       #FBF6F6;
-    line-height: 200px;
-    margin:      0;
-
-  }
 }
 
 #about-me > #about-me-content-container {
@@ -64,7 +53,7 @@ div.section-title-container {
 
   p {
     margin:     0 0 15px;
-    font-size:  25px;
+    //font-size:  23px;
     text-align: right;
   }
 
@@ -74,7 +63,7 @@ div.section-title-container {
   margin-top: 20px;
 
   p {
-    font-size:  25px;
+    //font-size:  23px;
     text-align: center;
   }
 
@@ -92,7 +81,6 @@ div.section-title-container {
 }
 
 .skill-tag {
-  font-size:          25px;
   padding:            5px 12.5px;
 
   margin:             5px 5px;
@@ -121,7 +109,6 @@ div.section-title-container {
   text-align: center;
 
   p {
-    font-size:  25px;
     text-align: center;
   }
 
