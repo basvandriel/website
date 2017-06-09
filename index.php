@@ -67,7 +67,7 @@
 <body>
     <div class="fixed-fullscreen-video-container">
         <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
-            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
+            <source src="var/public/assets/videos/632332824.mp4" type="video/mp4">
             Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </div>
