@@ -78,9 +78,9 @@
         <div class="navigation-container">
             <ul class="navigation-bar">
                 <li>
-                    <a href="#about-me-container">ABOUT ME</a>
+                    <a href="#about-me">ABOUT ME</a>
                     <ul class="sub-navigation-bar">
-                        <li><a href="#about-me-container">BIOGRAPHY</a></li>
+                        <li><a href="#about-me">BIOGRAPHY</a></li>
                         <li><a href="#skills-container">SKILLS</a></li>
                     </ul>
                 </li>
@@ -128,9 +128,7 @@
     </div>
 
 
-    <div id="about-me-container">
-
-
+    <div id="about-me">
         <div id="about-me-content-container">
             <div class="container" id="introduction-container">
                 <div id="introduction-text-container">
@@ -234,6 +232,7 @@
                                                                                             aria-hidden="true"></i></a>
                 </div>
             </div>
+            <hr>
 
         </div>
 

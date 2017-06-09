@@ -55,7 +55,7 @@
 }
 
 @media only screen and (max-width: #{$horizontal_tablet_and_laptops}) {
-  #about-me-container > #about-me-content-container #introduction-container #personality-container {
+  #about-me > #about-me-content-container #introduction-container #personality-container {
     p {
       text-align: center;
     }

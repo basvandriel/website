@@ -56,7 +56,7 @@ $(document).ready(function () {
 
     $(".explore-button").on("click", function () {
         $('html, body').animate({
-            scrollTop: $('#about-me-container').offset().top
+            scrollTop: $('#about-me').offset().top
         }, 1000);
     });
 

@@ -1,4 +1,4 @@
-#about-me-container {
+#about-me {
   position:   relative;
 
   min-height: 500px;
@@ -30,7 +30,7 @@ div.section-title-container {
   }
 }
 
-#about-me-container > #about-me-content-container {
+#about-me > #about-me-content-container {
   position:         relative;
 
   height:           auto;
@@ -42,7 +42,7 @@ div.section-title-container {
   background-color: white;
 }
 
-#about-me-container > #about-me-content-container #introduction-container {
+#about-me > #about-me-content-container #introduction-container {
   text-align:    center;
   font-family:   "Segoe UI", sans-serif;
 
@@ -59,7 +59,7 @@ div.section-title-container {
   }
 }
 
-#about-me-container > #about-me-content-container #introduction-container #personality-container {
+#about-me > #about-me-content-container #introduction-container #personality-container {
   margin-top: 40px;
 
   p {
@@ -142,7 +142,7 @@ div.section-title-container {
   }
 }
 
-#about-me-container > #about-me-content-container img.pixelated-image {
+#about-me > #about-me-content-container img.pixelated-image {
   position:   relative;
 
   //TODO fix because it makes page more width
@@ -158,6 +158,6 @@ div.section-title-container {
   overflow:   hidden;
 }
 
-#about-me-container #education-container {
+#about-me #education-container {
   margin-bottom: 15px;
 }
