@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
 
     <!-- JavaScript libraries -->
     <script src="var/public/assets/scripts/libraries.min.js"></script>
@@ -43,23 +43,21 @@
 </head>
 <body>
     <div class="fixed-fullscreen-video-container">
-
         <video autoplay="" loop="" class="fillWidth fadeIn animated" id="video-background" muted>
-            <source src="var/public/assets/videos/636781313.mp4" type="video/mp4">
+            <source src="var/public/assets/videos/632332824.mp4" type="video/mp4">
             Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
     </div>
 
     <div class="fullscreen-container">
         <div id="particles-js"></div>
-
         <div class="navigation-button"><i class="fa fa-bars" aria-hidden="true"></i></div>
         <div class="navigation-container">
             <ul class="navigation-bar">
                 <li>
-                    <a href="#about-me-container">ABOUT ME</a>
+                    <a href="#about-me">ABOUT ME</a>
                     <ul class="sub-navigation-bar">
-                        <li><a href="#about-me-container">BIOGRAPHY</a></li>
+                        <li><a href="#about-me">BIOGRAPHY</a></li>
                         <li><a href="#skills-container">SKILLS</a></li>
                     </ul>
                 </li>
@@ -67,7 +65,7 @@
                     <a href="#experiences-title-container">EXPERIENCE</a>
                     <ul class="sub-navigation-bar">
                         <li><a href="#education-container">EDUCATIONS</a></li>
-                        <li><a href="#jobs-container">WORK EXPERIENCE</a></li>
+                        <li><a href="#work-experience-container">WORK EXPERIENCE</a></li>
                     </ul>
                 </li>
                 <!-- TODO Create portfolio page -->
@@ -85,36 +83,29 @@
             </ul>
         </div>
 
-
         <div class="title-container">
-            <div class="row">
-                <div class="center-block col-md-5" style="float: none;">
-                    <h1 class="main-title">
-                        Bas van Driel
-                    </h1>
+            <h1 class="main-title">
+                Bas van Driel
+            </h1>
+            <h2 class="sub-title">
+                BACK-END APPLICATION DEVELOPER
+            </h2>
+        </div>
 
-                    <h2 class="sub-title">
-                        APPLICATION DEVELOPER
-                    </h2>
-                </div>
-
-            </div>
+        <div class="explore-button"><i class="fa fa-arrow-down" aria-hidden="true"></i>
+        </div>
+        <div class="svg-container">
+            <svg width="1920" height="90" xmlns="http://www.w3.org/2000/svg">
+                <path
+                        d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
+                        fill-opacity="null" fill="#fff">
+                </path>
+            </svg>
         </div>
     </div>
 
-    <div class="svg-container first-svg">
-        <svg width="100%" height="90" xmlns="http://www.w3.org/2000/svg">
 
-            <path
-                    d="m-10.00014,16.25l594.37513,12.5l615.00004,-8.75l563.75005,16.25l221.25001,-22.5l-153.75001,290.00002l-1867.50014,-65"
-                    fill-opacity="null" fill="#fff">
-            </path>
-        </svg>
-    </div>
-
-    <div id="about-me-container">
-
-
+    <div id="about-me">
         <div id="about-me-content-container">
             <div class="container" id="introduction-container">
                 <div id="introduction-text-container">
@@ -140,8 +131,7 @@
 
                             <p>For my hobbies I love to make music, interest myself in IT technologies, do sports
                                and
-                               play some games
-                               once in a while.</p>
+                               play some games.</p>
 
                             <p>I'm currently studying at <a href="http://www.scalda.nl">Scalda</a>, learning more about
                                object-oriented programming, database essentials and scrum.</p>
@@ -177,8 +167,12 @@
                                 <span class="skill-tag">CSS</span>
                                 <span class="skill-tag">SCSS</span>
                                 <span class="skill-tag">MySQL</span>
+                            </div>
+
+                            <div>
                                 <span class="skill-tag">Spring MVC</span>
                                 <span class="skill-tag">Struts2</span>
+                                <span class="skill-tag">GIT</span>
                                 <span class="skill-tag">Composer</span>
                                 <span class="skill-tag">Bower</span>
                             </div>
@@ -187,13 +181,9 @@
                                 <span class="skill-tag">JSON</span>
                                 <span class="skill-tag">XML</span>
                                 <span class="skill-tag">YAML</span>
-                                <span class="skill-tag">GIT</span>
-
+                                <span class="skill-tag">Markdown</span>
+                                <span class="skill-tag">INI</span>
                             </div>
-
-                            <div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -215,6 +205,7 @@
                                                                                             aria-hidden="true"></i></a>
                 </div>
             </div>
+<!--            <hr>-->
 
         </div>
 
@@ -222,7 +213,7 @@
             <h1>EXPERIENCE</h1>
         </div>
 
-        <div id="experiences-container">
+        <div id="experiences">
 
             <div id="education-container">
                 <div class="container">
@@ -436,39 +427,6 @@
                                 </p>
                             </div>
                         </div>
-
-                        <hr class="horizontal-line">
-
-                        <!-- Arbeidsmarkt Gekwalificeerd Assistent course -->
-                        <div class="education-course">
-                            <div class="education-course-header">
-                                <h2 class="education-course-name">Arbeidsmarkt Gekwalificeerd Assistent, Handel</h2>
-                                <h3 class="education-course-subtitle">Scalda, "College voor Techniek en
-                                                                      Design"</h3>
-                                <h3 class="education-course-subtitle"><i class="fa fa-map-marker"
-                                                                         aria-hidden="true"></i> Terneuzen,
-                                                                                                 Netherlands
-                                </h3>
-                                <h3 class="education-course-subtitle"><i class="fa fa-clock-o"
-                                                                         aria-hidden="true"></i> 2012 - 2013
-                                </h3>
-                            </div>
-                            <div class="education-course-info">
-
-                                <p>This training was focused on teaching the essentials of working in a store and
-                                   maintaining
-                                   the administration for this.</p>
-
-                                <p>Within this training I worked as an intern for 2 days a week. This was part of the
-                                   examination of the
-                                   training.</p>
-
-                                <p>
-                                    This training is based on
-                                    level 1 MBO.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -573,36 +531,10 @@
                                 <p>The activities that we we're doing had to be managed in a ticket-system called
                                    TopDesk. When we solved or gathered information about the ticket, we had to log this
                                    into the ticket-system.</p>
-
-                                <p>This internship belonged to the Arbeidsmarkt Gekwalificeerd Assistent, Handel
-                                   training.</p>
                             </div>
                         </div>
 
-                        <!-- Gemeente Terneuzen internship work experience                       -->
-                        <!--                        <div class="work-experience">
-                                                    <div class="work-experience-header">
-                                                        <h2 class="work-experience-name">Bode (internship)</h2>
-                                                        <h3 class="work-experience-subtitle">Gemeente Terneuzen</h3>
-                                                        <h3 class="work-experience-subtitle"><i class="fa fa-map-marker"
-                                                                                                aria-hidden="true"></i> Terneuzen,
-                                                                                                                        Netherlands
-                                                        </h3>
-                                                        <h3 class="work-experience-subtitle"><i class="fa fa-clock-o"
-                                                                                                aria-hidden="true"></i> 2013 - 2014
-                                                        </h3>
-                                                    </div>
-                                                    <div class="work-experience-info">
-                                                        <p>The activities I did at this internship was receiving people at the head office of
-                                                           the company and leading them to the right department.</p>
-                                                    </div>
-                                                </div>-->
-
                     </div>
-
-                    <!--                    <hr class="horizontal-line">-->
-
-
                 </div>
             </div>
         </div>
@@ -616,7 +548,7 @@
     <div id="contact" class="contact-container">
         <div class="container">
             <p style="text-align: center">You can send me a message at <a
-                        href="index.php">basvandriel94@gmail.com</a>.</p>
+                        href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
             <!--            <div class="col-md-4">
                             <p>You can send me a message using the form at the right or write me at <a
                                         href="mailto:basvandriel94@gmail.com">basvandriel94@gmail.com</a>.</p>
