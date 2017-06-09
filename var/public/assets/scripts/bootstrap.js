@@ -16,10 +16,10 @@ $(document).ready(function () {
     /**
      * Animated scrolls
      */
-    $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    $('a[href*="#"]:not([href="#"])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html, body').animate({
                     scrollTop: target.offset().top
@@ -33,6 +33,8 @@ $(document).ready(function () {
     particlesJS.load('particles-js', 'var/public/assets/particles.json', function () {
         console.log('callback - particles.js config loaded');
     });
+
+
     /**
      * Fixed navigation menu
      */
@@ -51,4 +53,11 @@ $(document).ready(function () {
             $(this).children("i.fa-bars").removeClass("fa-bars").addClass("fa-times");
         }
     });
+
+    $(".explore-button").on("click", function () {
+        $('html, body').animate({
+            scrollTop: $('#about-me-container').offset().top
+        }, 1000);
+    });
+
 });
