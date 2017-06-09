@@ -7,58 +7,58 @@ $navigationFontColor: white;
 $navigationBarWidth: 650px;
 
 .fixed-fullscreen-video-container, .fullscreen-container {
-  position: relative;
+  position:   relative;
 
-  top: 0;
-  left: 0;
+  top:        0;
+  left:       0;
 
-  height: auto;
-  width: auto;
+  height:     auto;
+  width:      auto;
 
   min-height: 100%;
-  min-width: 100%;
+  min-width:  100%;
 
-  overflow: hidden;
+  overflow:   hidden;
 }
 
 .fullscreen-container {
-  top: 0;
-  left: 0;
+  top:    0;
+  left:   0;
 
   height: auto;
-  width: auto;
+  width:  auto;
 }
 
 .fixed-fullscreen-video-container {
   background-color: grey;
-  position: fixed;
+  position:         fixed;
 
-  top: 0;
-  left: 0;
+  top:              0;
+  left:             0;
 
-  z-index: -1;
+  z-index:          -1;
 
   video {
     min-height: 100%;
-    min-width: 100%;
+    min-width:  100%;
 
-    height: auto;
-    width: auto;
-    overflow: hidden;
+    height:     auto;
+    width:      auto;
+    overflow:   hidden;
   }
 }
 
 .fullscreen-container .title-container {
-  position: absolute;
+  position:   absolute;
 
   background: none;
 
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top:        50%;
+  transform:  translate(-50%, -50%);
 
-  left: 50%;
+  left:       50%;
 
-  width: auto;
+  width:      auto;
 
   text-align: center;
   margin-top: -100px; //a
@@ -68,56 +68,61 @@ $navigationBarWidth: 650px;
 
     border-bottom: 1px solid white;
 
-    font-size: 115px;
-    font-family: "TalkingToTheMoon", Arial, serif;
-    font-weight: bold;
-    color: #FBF6F6;
+    font-size:     115px;
+    font-family:   "TalkingToTheMoon", Arial, serif;
+    font-weight:   bold;
+    color:         #FBF6F6;
 
     margin-bottom: 15px;
   }
 
+  .skill-tag {
+    display: inline;
+    border:  2px solid #E6E1E1;
+    color:   #E6E1E1;
+  }
   h2.sub-title {
-    font-size: 30px;
+    font-size:   30px;
     font-family: "Segoe UI", Arial, serif;
-    color: #E6E1E1;
+    color:       #E6E1E1;
   }
 }
 
 .fullscreen-container {
   > .navigation-button {
-    display: none;
-    position: fixed;
+    display:       none;
+    position:      fixed;
 
-    z-index: 2;
+    z-index:       2;
 
-    right: 0;
+    right:         0;
 
-    width: 55px;
-    height: 55px;
+    width:         55px;
+    height:        55px;
 
     border-radius: 10px;
 
-    margin-right: 50px;
-    margin-top: 35px;
+    margin-right:  50px;
+    margin-top:    35px;
 
-    font-size: 26px;
-    text-align: center; //a
-    line-height: 55px;
+    font-size:     26px;
+    text-align:    center; //a
+    line-height:   55px;
 
     &.active:hover {
       background-color: transparent;
     }
 
     &:hover {
-      background-color: rgba(0, 255, 192, 0.25);
+      background-color:   rgba(0, 255, 192, 0.25);
 
       -webkit-transition: ease-in 0.25s;
-      -moz-transition: ease-in 0.25s;
-      -ms-transition: ease-in 0.25s;
-      -o-transition: ease-in 0.25s;
-      transition: ease-in 0.25s;
+      -moz-transition:    ease-in 0.25s;
+      -ms-transition:     ease-in 0.25s;
+      -o-transition:      ease-in 0.25s;
+      transition:         ease-in 0.25s;
 
-      cursor: pointer;
+      cursor:             pointer;
     }
 
     i.fa.fa-bars {
@@ -128,34 +133,34 @@ $navigationBarWidth: 650px;
 
 /* Navigation */
 .fullscreen-container > .navigation-container {
-  position: relative;
-  top: 0;
-  right: 0;
+  position:     relative;
+  top:          0;
+  right:        0;
 
-  float: right;
+  float:        right;
 
   margin-right: 10px;
 
-  font-size: $navigationFontSize;
+  font-size:    $navigationFontSize;
 
-  margin-top: 10px;
+  margin-top:   10px;
 
-  list-style: none;
+  list-style:   none;
 
   /* TODO Change to other font */
-  font-family: "Segoe UI", sans-serif;
+  font-family:  "Segoe UI", sans-serif;
 
   > ul.navigation-bar {
-    float: right;
+    float:   right;
     padding: 0;
 
     li {
       display: inline-block;
-      margin: 0 10px;
+      margin:  0 10px;
 
       > a {
         font-weight: 400;
-        color: $navigationFontColor;
+        color:       $navigationFontColor;
 
         &:link, &:visited, &:hover, &:active {
           text-decoration: none;
@@ -167,20 +172,20 @@ $navigationBarWidth: 650px;
       }
 
       > ul.sub-navigation-bar {
-        display: none;
-        position: relative;
+        display:    none;
+        position:   relative;
 
-        z-index: 1;
-        padding: 0;
+        z-index:    1;
+        padding:    0;
 
         margin-top: 10px;
 
         text-align: left;
 
         li {
-          display: block;
+          display:   block;
           font-size: $navigationFontSize - 4;
-          margin: 2px 0;
+          margin:    2px 0;
 
           > a {
             color: black;
@@ -192,27 +197,23 @@ $navigationBarWidth: 650px;
   }
 
   &.sticky-navigation {
-    position: fixed;
-    z-index: 1;
+    position:              fixed;
+    z-index:               1;
 
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top:            20px;
+    margin-right:          20px;
 
-    padding-right: 100px;
-    padding-left: 20px;
+    padding-right:         100px;
+    padding-left:          20px;
 
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-
-    background-color: rgba(0, 255, 192, 0.25);
+    border: 2px solid #5ea8a7;
 
     > ul.navigation-bar {
       float: left;
 
       li {
         display: block;
-        margin: 15px 0;
+        margin:  15px 0;
 
         > a {
           color: black;
@@ -223,35 +224,35 @@ $navigationBarWidth: 650px;
 }
 
 #particles-js {
-  position: fixed;
+  position:   fixed;
 
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
+  top:        0;
+  right:      0;
+  bottom:     0;
+  left:       0;
+  z-index:    0;
 
   max-height: 100%;
-  max-width: 100%;
+  max-width:  100%;
 
-  overflow: hidden;
+  overflow:   hidden;
 }
 
 .svg-container {
   background-color: transparent;
-  position: absolute;
+  position:         absolute;
 
-  bottom: 0;
-  left: 0;
+  bottom:           0;
+  left:             0;
 
-  width: 100%;
-  height: 90px;
+  width:            100%;
+  height:           90px;
 
-  z-index: 0;
+  z-index:          0;
 
   svg {
     display: block;
-    margin: auto;
+    margin:  auto;
   }
 }
 
@@ -268,44 +269,44 @@ $navigationBarWidth: 650px;
 }
 
 .explore-button {
-  position: absolute;
+  position:                absolute;
 
-  left: 0;
-  right: 0;
+  left:                    0;
+  right:                   0;
 
-  margin: 0 auto;
+  margin:                  0 auto;
 
-  bottom: 135px;
+  bottom:                  135px;
 
-  border: 2px solid white;
+  border:                  1px solid white;
 
-  height: 45px;
-  width: 45px;
+  height:                  45px;
+  width:                   45px;
 
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  text-align: center;
-  vertical-align: middle;
+  -webkit-border-radius:   100%;
+  -moz-border-radius:      100%;
+  border-radius:           100%;
+  text-align:              center;
+  vertical-align:          middle;
 
-  animation: wobble 1s 4 ease-out;
+  animation:               wobble 1s 4 ease-out;
   -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay: 0.5s;
-  animation-delay: 0.5s;
+  -moz-animation-delay:    0.5s;
+  -o-animation-delay:      0.5s;
+  animation-delay:         0.5s;
 
   i {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position:  absolute;
+    left:      50%;
+    top:       50%;
     transform: translate(-50%, -50%);
 
     font-size: 25px;
-    color: #E6E1E1;
+    color:     #E6E1E1;
   }
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.45);
-    cursor: pointer;
+    cursor:           pointer;
   }
 }

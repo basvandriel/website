@@ -88,7 +88,7 @@
                     <a href="#experiences-title-container">EXPERIENCE</a>
                     <ul class="sub-navigation-bar">
                         <li><a href="#education-container">EDUCATIONS</a></li>
-                        <li><a href="#jobs-container">WORK EXPERIENCE</a></li>
+                        <li><a href="#work-experience-container">WORK EXPERIENCE</a></li>
                     </ul>
                 </li>
                 <!-- TODO Create portfolio page -->
@@ -110,7 +110,6 @@
             <h1 class="main-title">
                 Bas van Driel
             </h1>
-
             <h2 class="sub-title">
                 BACK-END APPLICATION DEVELOPER
             </h2>
@@ -193,8 +192,12 @@
                                 <span class="skill-tag">CSS</span>
                                 <span class="skill-tag">SCSS</span>
                                 <span class="skill-tag">MySQL</span>
+                            </div>
+
+                            <div>
                                 <span class="skill-tag">Spring MVC</span>
                                 <span class="skill-tag">Struts2</span>
+                                <span class="skill-tag">GIT</span>
                                 <span class="skill-tag">Composer</span>
                                 <span class="skill-tag">Bower</span>
                             </div>
@@ -203,8 +206,8 @@
                                 <span class="skill-tag">JSON</span>
                                 <span class="skill-tag">XML</span>
                                 <span class="skill-tag">YAML</span>
-                                <span class="skill-tag">GIT</span>
-
+                                <span class="skill-tag">Markdown</span>
+                                <span class="skill-tag">INI</span>
                             </div>
 
                             <div>
@@ -556,36 +559,10 @@
                                 <p>The activities that we we're doing had to be managed in a ticket-system called
                                    TopDesk. When we solved or gathered information about the ticket, we had to log this
                                    into the ticket-system.</p>
-
-                                <p>This internship belonged to the Arbeidsmarkt Gekwalificeerd Assistent, Handel
-                                   training.</p>
                             </div>
                         </div>
 
-                        <!-- Gemeente Terneuzen internship work experience                       -->
-                        <!--                        <div class="work-experience">
-                                                    <div class="work-experience-header">
-                                                        <h2 class="work-experience-name">Bode (internship)</h2>
-                                                        <h3 class="work-experience-subtitle">Gemeente Terneuzen</h3>
-                                                        <h3 class="work-experience-subtitle"><i class="fa fa-map-marker"
-                                                                                                aria-hidden="true"></i> Terneuzen,
-                                                                                                                        Netherlands
-                                                        </h3>
-                                                        <h3 class="work-experience-subtitle"><i class="fa fa-clock-o"
-                                                                                                aria-hidden="true"></i> 2013 - 2014
-                                                        </h3>
-                                                    </div>
-                                                    <div class="work-experience-info">
-                                                        <p>The activities I did at this internship was receiving people at the head office of
-                                                           the company and leading them to the right department.</p>
-                                                    </div>
-                                                </div>-->
-
                     </div>
-
-                    <!--                    <hr class="horizontal-line">-->
-
-
                 </div>
             </div>
         </div>
