@@ -240,7 +240,7 @@
             <h1>EXPERIENCE</h1>
         </div>
 
-        <div id="experiences-container">
+        <div id="experiences">
 
             <div id="education-container">
                 <div class="container">
