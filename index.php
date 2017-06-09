@@ -207,10 +207,6 @@
                                 <span class="skill-tag">Markdown</span>
                                 <span class="skill-tag">INI</span>
                             </div>
-
-                            <div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -232,7 +228,7 @@
                                                                                             aria-hidden="true"></i></a>
                 </div>
             </div>
-            <hr>
+<!--            <hr>-->
 
         </div>
 
