@@ -1,7 +1,9 @@
+'use strict';
+
 /**
  * Import path dependency
  */
-import path from 'path';
+const path = require('path');
 
 /**
  * Get the root path
@@ -16,22 +18,15 @@ const root = path.resolve(__dirname, '..');
 const lib = path.resolve(root, 'src');
 
 /**
- * Get the assets path
- *
- * @type {*|string|*}
- */
-const assets = path.join(lib, 'assets');
-
-/**
  * Return the global paths
  *
  * @type {Object}
  */
-export default {
+module.exports = {
     ROOT: root,
+    PUBLIC: path.resolve(root, 'build'),
     LIB: lib,
     PAGES: path.resolve(lib, 'pages'),
-    ASSETS: assets,
-    PUBLIC: path.resolve(root, 'build'),
+    ASSETS: path.join(lib, 'assets'),
     VENDOR: /node_modules/
 };
