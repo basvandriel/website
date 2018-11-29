@@ -1,27 +1,53 @@
-const path  = require('path'),
-      paths = require('../paths');
+import {DEV_MODE} from "../common";
+import path from 'path';
+import paths from '../paths';
 
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
-let config = {
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+/**
+ *
+ */
+const plugins = [
+    new HtmlWebpackPlugin({
+        filename: 'index.html',
+        template: path.resolve(paths.PAGES, 'index.pug'),
+        inject: true
+    }),
+    new MiniCssExtractPlugin({
+        filename: "style/[name].[hash].css",
+        chunkFilename: "style/[id].[hash].css"
+    })
+];
+
+const config = {
+    mode: DEV_MODE ? 'development' : 'production',
     entry: {
-        index: path.resolve(paths.ROOT, 'src', 'index.js')
+        master: path.resolve(paths.ROOT, 'src', 'master.js')
     },
     output: {
         path: paths.PUBLIC,
-        publicPath: paths.PUBLIC,
-        filename: "js/[name].js"
+        filename: DEV_MODE ? "js/[name].js" : "js/[name].[chunkhash].js",
+        chunkFilename: DEV_MODE ? "js/[name].js" : "js/[name].[chunkhash].js",
     },
-    plugins: [
-        new MiniCssExtractPlugin({
-                                     filename: "style/[name].[hash].css",
-                                     chunkFilename: "style/[id].[hash].css"
-                                 })
-    ],
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                chunks: 'initial',
+                vendors: {
+                    test: paths.VENDOR,
+                    name: 'vendors'
+                },
+            }
+        }
+    },
+    plugins: plugins,
     module: {
         rules: [
             {
                 test: /\.js$/,
+                include: paths.LIB,
                 exclude: paths.VENDOR,
                 use: {
                     loader: "babel-loader",
@@ -31,7 +57,12 @@ let config = {
                 }
             },
             {
+                test: /\.pug$/,
+                use: ['html-loader?attrs=false', 'pug-html-loader']
+            },
+            {
                 test: /\.scss$/,
+                include: paths.ASSETS,
                 exclude: paths.VENDOR,
                 use: [
                     {
@@ -39,6 +70,23 @@ let config = {
                     },
                     {
                         loader: 'css-loader'
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            ident: 'postcss',
+                            sourceMap: false,
+                            plugins: (() => {
+                                return [
+                                    require('autoprefixer')(),
+                                    require('cssnano')({
+                                        preset: ['default', {
+                                            minifySelectors: true
+                                        }]
+                                    })
+                                ]
+                            })()
+                        }
                     },
                     {
                         loader: 'sass-loader'
@@ -49,4 +97,4 @@ let config = {
     }
 };
 
-module.exports = config;
+export default config;
