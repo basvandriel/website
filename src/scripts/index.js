@@ -1,7 +1,7 @@
 /**
  * Import the styles
  */
-import './assets/style/master.scss'
+import '../assets/style/master.scss'
 
 /**
  * Import the script dependencies

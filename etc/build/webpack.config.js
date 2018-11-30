@@ -26,7 +26,8 @@ const optimization = {
 module.exports = {
     mode: config.DEV_MODE ? 'development' : 'production',
     entry: {
-        master: path.resolve(paths.ROOT, 'src', 'master.js')
+        index: path.resolve(paths.LIB, 'scripts', 'index.js'),
+        about: path.resolve(paths.LIB, 'scripts', 'about.js'),
     },
     output: {
         path: paths.PUBLIC,
@@ -34,6 +35,7 @@ module.exports = {
         chunkFilename: config.DEV_MODE ? "js/[name].js" : "js/[name].[chunkhash].js",
     },
     optimization: optimization,
+    stats: {children: false},
     plugins: plugins,
     module: {
         rules: rules
