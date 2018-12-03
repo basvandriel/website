@@ -1,7 +1,7 @@
 /**
  * Node environment
  */
-const NODE_ENV = process.env.NODE_ENV;
+const NODE_ENV = process.env.NODE_ENV || 'production';
 
 /**
  * Check if the application runs in development mode

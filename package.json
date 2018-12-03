@@ -39,8 +39,11 @@
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
-    "glob": "latest"
+    "glob": "latest",
+    "webpack-manifest-plugin": "^2.0.4"
   },
   "author": "Bas van Driel",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+  }
 }
