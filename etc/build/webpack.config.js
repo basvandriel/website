@@ -7,7 +7,7 @@ module.exports = {
     mode: config.NODE_ENV,
     entry: {
         index: path.resolve(paths.LIB, 'scripts', 'index.js'),
-        about: path.resolve(paths.LIB, 'scripts', 'about.js'),
+        about: path.resolve(paths.LIB, 'scripts', 'about.js')
     },
     output: {
         path: paths.PUBLIC,
@@ -16,7 +16,14 @@ module.exports = {
     },
     optimization: require('./optimization'),
     stats: {
-        children: false
+        colors: true,
+        hash: true,
+        timings: true,
+        assets: true,
+        chunks: true,
+        chunkModules: true,
+        modules: true,
+        children: false,
     },
     plugins: require('./plugins'),
     module: {

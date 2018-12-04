@@ -6,7 +6,7 @@ module.exports = {
                 test: require('../paths').VENDOR,
                 name: 'vendors',
                 enforce: true,
-            },
+            }
         }
     }
 };
