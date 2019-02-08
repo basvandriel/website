@@ -28,5 +28,5 @@ module.exports = {
     LIB: lib,
     PAGES: path.resolve(lib, 'pages'),
     ASSETS: path.join(lib, 'assets'),
-    VENDOR: /node_modules/
+    VENDOR: /(node_modules|bower_components)/
 };
