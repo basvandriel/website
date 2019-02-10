@@ -3,10 +3,8 @@
   "version": "0.0.0",
   "description": "The source code for my personal website 🎓💻",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production parcel build src/pages/*.pug --public-url ./ -d build/",
-    "clean": "node node_modules/gulp/bin/gulp.js clean",
-    "serve": "webpack-dev-server"
+    "build": "cross-env NODE_ENV=production gulp build",
+    "clean": "node node_modules/gulp/bin/gulp.js clean"
   },
   "repository": {
     "type": "git",
@@ -22,6 +20,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/register": "^7.0.0",
     "autoprefixer": "^9.4.7",
+    "babel-loader": "^8.0.5",
     "bootstrap": "^4.2.1",
     "cross-env": "^5.2.0",
     "cssnano": "^4.1.8",
@@ -37,7 +36,10 @@
     "jquery": "^3.3.1",
     "node-sass-tilde-importer": "^1.0.2",
     "popper.js": "^1.14.7",
+    "require-dir": "^1.2.0",
+    "run-sequence": "^2.2.1",
     "vinyl-named": "^1.1.0",
+    "vinyl-named-with-path": "^1.0.0",
     "webpack": "^4.29.3",
     "webpack-stream": "^5.2.1"
   },

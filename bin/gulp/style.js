@@ -5,22 +5,27 @@ import clean from 'gulp-clean-css'
 import post_css from 'gulp-postcss'
 import auto_prefix from 'autoprefixer'
 
-import paths from '../../etc/paths'
+import {BUILD, STYLESHEETS} from '../../etc/paths'
+
+/**
+ * The SCSS input files
+ *
+ * @type {string}
+ */
+const input = STYLESHEETS + "/**/*.scss";
 
 /**
  * Build the sass files
- *
- * @returns {void}
  */
 const build = () => gulp
-    .src(paths.ASSETS + '/style/**/*.scss')
+    .src(input)
     .pipe(sass({
         importer: importer,
         style: 'compressed'
     }).on('error', sass.logError))
     .pipe(post_css([auto_prefix()]))
     .pipe(clean())
-    .pipe(gulp.dest(paths.PUBLIC + "/style"));
+    .pipe(gulp.dest(BUILD + "/style"));
 
 /**
  * Task: CSS Compile

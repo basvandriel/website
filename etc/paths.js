@@ -1,32 +1,45 @@
 'use strict';
 
-/**
- * Import path dependency
- */
-const path = require('path');
+import path from 'path';
 
 /**
  * Get the root path
  *
  * @type {*|*|string}
  */
-const root = path.resolve(__dirname, '..');
+export const ROOT = path.resolve(__dirname, '..');
 
 /**
  * Get the src directory
  */
-const lib = path.resolve(root, 'src');
+export const LIB = path.resolve(ROOT, 'src');
 
 /**
- * Return the global paths
- *
- * @type {Object}
+ * Get the stylesheets
  */
-module.exports = {
-    ROOT: root,
-    PUBLIC: path.resolve(root, 'build'),
-    LIB: lib,
-    PAGES: path.resolve(lib, 'pages'),
-    ASSETS: path.join(lib, 'assets'),
-    VENDOR: /(node_modules|bower_components)/
-};
+export const SCRIPTS_PATH = path.resolve(LIB, 'scripts/');
+
+/**
+ * Get the fonts
+ */
+export const FONTS_PATH = path.resolve(LIB, 'fonts');
+
+/**
+ * Get the stylesheets
+ */
+export const STYLESHEETS = path.resolve(LIB, 'stylesheets');
+
+/**
+ * Get the stylesheets
+ */
+export const PAGES = path.resolve(LIB, 'pages');
+
+/**
+ * Get the build path
+ */
+export const BUILD = path.resolve(ROOT, 'build');
+
+/**
+ * Vendor packages
+ */
+export const VENDOR_PACKAGES = /(node_modules|bower_components)/;
