@@ -7,7 +7,21 @@ import {BUILD, LIB, SCRIPTS_PATH} from '../../etc/paths'
 // Build all JS files
 const build = () => gulp.src([LIB + '/*.js', SCRIPTS_PATH + '/**/*.js'])
     .pipe(named())
-    .pipe(webpack(require("../../etc/webpack/webpack.common")))
+    .pipe(webpack(
+        {
+            mode: "production",
+            module: {
+                rules: [
+
+                    {
+                        test: /\.js?$/,
+                        exclude: /(node_modules|bower_components)/,
+                        loader: 'babel-loader',
+                    },
+                ],
+            },
+        }
+    ))
     .pipe(gulp.dest(BUILD + "/scripts/"));
 
 // Register the Gulp task

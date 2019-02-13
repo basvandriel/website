@@ -8,5 +8,9 @@ gulp.task('copy:fonts', () => gulp
 
 // Build the fonts
 gulp.task('copy:misc', () => gulp
-    .src(LIB + "/*")
+    .src(LIB + "/.*")
     .pipe(gulp.dest(BUILD)));
+
+// Add default built tasks
+gulp.task('build:assets', gulp.parallel('build:style', 'build:scripts', 'copy:fonts', 'copy:misc'));
+gulp.task('build', gulp.series('clean', gulp.parallel('build:assets', 'build:markup')));
