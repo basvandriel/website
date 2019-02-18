@@ -26,3 +26,4 @@ const build = () => gulp.src([LIB + '/*.js', SCRIPTS_PATH + '/**/*.js'])
 
 // Register the Gulp task
 gulp.task('build:scripts', build);
+gulp.task('watch:scripts', () => gulp.watch(SCRIPTS_PATH, gulp.series('build:scripts')));

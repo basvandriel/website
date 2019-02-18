@@ -11,6 +11,11 @@ gulp.task('copy:misc', () => gulp
     .src(LIB + "/.*")
     .pipe(gulp.dest(BUILD)));
 
+// Build assets task
+const buildAssets = gulp.parallel('build:style', 'build:scripts', 'copy:fonts', 'copy:misc', 'build:markup');
+
 // Add default built tasks
-gulp.task('build:assets', gulp.parallel('build:style', 'build:scripts', 'copy:fonts', 'copy:misc'));
-gulp.task('build', gulp.series('clean', gulp.parallel('build:assets', 'build:markup')));
+gulp.task('build', gulp.series('clean', buildAssets));
+
+// Serve
+gulp.task('serve', gulp.parallel('watch:markup', 'watch:style', 'watch:scripts'));
