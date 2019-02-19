@@ -25,11 +25,6 @@ export const SCRIPTS_PATH = path.resolve(LIB, 'scripts/');
 export const FONTS_PATH = path.resolve(LIB, 'fonts');
 
 /**
- * Get the statics path
- */
-export const STATICS_PATH = path.resolve(LIB, 'statics');
-
-/**
  * Get the stylesheets
  */
 export const STYLESHEETS = path.resolve(LIB, 'stylesheets');
