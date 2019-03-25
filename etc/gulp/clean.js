@@ -1,7 +1,7 @@
 import gulp from 'gulp'
 import del from 'del'
 
-import {BUILD} from '../../etc/paths'
+import {BUILD} from '../paths'
 
 /**
  * Clean the build directory

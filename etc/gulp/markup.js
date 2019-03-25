@@ -1,7 +1,7 @@
 import gulp from 'gulp'
 import pug from 'gulp-pug';
 
-import {BUILD, PAGES} from '../../etc/paths'
+import {BUILD, PAGES} from '../paths'
 
 // Build function
 const build = () => gulp.src(PAGES + "/**/*.pug").pipe(pug({

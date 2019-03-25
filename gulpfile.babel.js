@@ -2,23 +2,29 @@
 
 import gulp from 'gulp'
 
-import './tasks/gulp/clean'
-import './tasks/gulp/style'
-import './tasks/gulp/markup'
-import './tasks/gulp/scripts'
-import './tasks/gulp/fonts'
-import './tasks/gulp/statics'
+import './etc/gulp/clean'
+import './etc/gulp/style'
+import './etc/gulp/markup'
+import './etc/gulp/scripts'
+import './etc/gulp/fonts'
+import './etc/gulp/statics'
 
-/*
- * Clean and builds the project
+/**
+ * Task: Cleans and builds the project
+ *
+ * @param {Object} cb - Gulp callback function
+ * @returns {Object}
  */
 export const build = gulp.series(
     'clean',
     gulp.parallel('build:style', 'build:scripts', 'copy:fonts', 'copy:statics', 'build:markup')
 );
 
-/*
- * Serves up the project by watching the project for any file changes
+/**
+ * Task: Serves up the project by watching the project for any file changes
+ *
+ * @param {Object} cb - Gulp callback function
+ * @returns {Object}
  */
 export const serve = gulp.series(
     build,

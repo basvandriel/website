@@ -6,7 +6,7 @@ import path from 'path'
 import post_css from 'gulp-postcss'
 import auto_prefix from 'autoprefixer'
 
-import {BUILD, STYLESHEETS} from '../../etc/paths'
+import {BUILD, STYLESHEETS} from '../paths'
 
 /**
  * Build the sass files

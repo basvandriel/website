@@ -1,5 +1,5 @@
 import gulp from 'gulp'
-import {BUILD, LIB} from "../../etc/paths";
+import {BUILD, LIB} from "../paths";
 
 // Build the fonts
 gulp.task('copy:statics', () => gulp.src([LIB + "/*.*", "!" + LIB + "/*.js"]).pipe(gulp.dest(BUILD)));
