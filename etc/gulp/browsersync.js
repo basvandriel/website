@@ -4,6 +4,7 @@ import { series } from 'gulp'
 
 /**
  * Initialize BrowserSync
+ *
  * @returns {Object}
  */
 function setupBrowserSync() {
