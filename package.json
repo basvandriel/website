@@ -1,49 +1,31 @@
 {
-  "name": "basvandriel.github.io",
-  "version": "0.0.0",
-  "description": "The source code for my personal website 🎓💻",
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
   "scripts": {
-    "build": "cross-env NODE_ENV=production gulp build",
-    "clean": "node node_modules/gulp/bin/gulp.js clean"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.26",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basvandriel/basvandriel.github.io"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
-  "keywords": [
-    "portfolio",
-    "portfolio-website",
-    "personal-website"
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/register": "^7.0.0",
-    "autoprefixer": "^9.4.7",
-    "babel-loader": "^8.0.5",
-    "bootstrap": "^4.3.1",
-    "browser-sync": "^2.26.3",
-    "cross-env": "^5.2.0",
-    "cssnano": "^4.1.8",
-    "del": "^3.0.0",
-    "glob": "latest",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-hub": "^4.2.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.2",
-    "jquery": "^3.5.0",
-    "node-sass-tilde-importer": "^1.0.2",
-    "popper.js": "^1.14.7",
-    "run-sequence": "^2.2.1",
-    "vinyl-named": "^1.1.0",
-    "vinyl-named-with-path": "^1.0.0",
-    "webpack": "^4.29.3",
-    "webpack-stream": "^5.2.1"
-  },
-  "author": "Bas van Driel",
-  "license": "MIT",
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
 }
