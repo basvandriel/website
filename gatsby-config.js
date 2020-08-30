@@ -22,6 +22,7 @@ module.exports = {
     description: `Bas van Driel is een software ontwikkelaar in Terneuzen die specialiseserd in het maken van exceptionele websites, applicaties en alles tussen in.`
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

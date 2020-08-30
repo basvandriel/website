@@ -3,8 +3,17 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+
 
 import Head from '@components/head';
+import Footer from '@components/footer';
+
+const Fullscreen = styled.div`
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+`;
 
 const Layout = ({ children }) => {
     return (
@@ -22,7 +31,14 @@ const Layout = ({ children }) => {
                     }
                 }`}
             render={({ site }) => (
-                <Head metadata={site.siteMetadata} />
+                <div id="root">
+                    <Head metadata={site.siteMetadata} />
+
+                    <Fullscreen>
+                        {children}
+                        <Footer />
+                    </Fullscreen>
+                </div>
             )}
         />
     );

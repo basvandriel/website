@@ -32,7 +32,6 @@ const Head = ({ metadata }) => (
         <meta itemProp="name" content={metadata.title} />
         <meta itemProp="description" content={metadata.description} />
 
-
         <link rel="apple-touch-icon" sizes="57x57" href={appleIcon57x57} />
         <link rel="apple-touch-icon" sizes="72x72" href={appleIcon72x72} />
         <link rel="apple-touch-icon" sizes="76x76" href={appleIcon76x76} />
