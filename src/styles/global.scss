@@ -1,45 +1,9 @@
-$primary-color: #00b0a5;
-$secondary-color: #00cdac;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 
-$white-color: #fbfbf2;
+$enable-responsive-font-sizes: true;
 
-$dark-grey: #333333;
+body { font-family: 'Montserrat' }
 
-$text-color: #0e131f; // For Headings
+section {  padding: 5rem 0rem }
 
-@import 'typography';
-
-body {
-    font-family: 'CocoGoose';
-}
-
-section {
-    padding: 5rem 0rem;
-}
-
-.hero-pretitle {
-    // text-transform: uppercase;
-    font-weight: 300;
-}
-.hero-title {
-    font-size: $big-font-size;
-    color: $primary-color;
-}
-.hero-subtitle {
-    // font-family: 'CocoGoose';
-}
-
-#hero {
-    display: inherit;
-    width: 100%;
-    align-items: center;
-    background: $white-color;
-    font-weight: 400;
-    color: $text-color;
-    padding: 0rem 5.6rem;
-}
-
-.logo {
-    height: 150px;
-    width: 150px;
-}
+.logo img { width: 50px }

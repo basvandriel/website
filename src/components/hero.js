@@ -1,35 +1,50 @@
 import React from 'react';
 
-import logo from '@images/logo.png'
-
 import { Container, Button } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
+import styled from 'styled-components';
+import theme from '../theme';
+
+const TITLE_SIZE = '4.5rem';
+
+const StyledSection = styled.section`
+    display: inherit;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;`;
+
+const StyledTitle = styled.h1`
+    font-size: ${TITLE_SIZE};
+    color: ${theme.colors.primary};
+    font-weight: 700;
+    font-family: 'Lemon Milk';
+`;
 
 const Hero = () => {
     return (
-        <section id="hero" style={{ background: 'inherit' }} >
+        <StyledSection id="hero" style={{ background: 'inherit' }} >
             <Container>
                 <Fade duration={1000} delay={500} distance="30px">
-                    <p className='hero-pretitle mb-1'>Mijn naam is</p>
-                    {/* <img src={logo} alt='' className='logo mb-3' /> */}
-
-                    <h1 className="hero-title">
+                    <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
+                    <StyledTitle>
                         Bas van Driel 👋
-                    </h1>
+                    </StyledTitle>
 
-                    <h2 className='hero-subtitle'>
-                        {"Softwareontwikkelaar, ICT-consultant en fotograaf. 🚀"}
+                    <h2 className='mb-4' style={{ fontWeight: 400 }}>
+                        Softwareontwikkelaar, ICT-consultant en fotograaf 🚀
                     </h2>
                 </Fade>
                 <Fade duration={1000} delay={1000} distance="30px">
-                    <p className="hero-cta">
-                        <a className="cta-btn cta-btn--hero" href='mailto:contact@basvandriel.nl'>
-                            Neem contact op
-                        </a>
-                    </p>
+
+                    <h2>
+                        <Button variant='link' className='d-inline-block mt-2 p-0' to='mailto:contact@basvandriel.nl'>
+                            contact@basvandriel.nl
+                        </Button>
+                    </h2>
+
                 </Fade>
             </Container>
-        </section>
+        </StyledSection>
     );
 };
 

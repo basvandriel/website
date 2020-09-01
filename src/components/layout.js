@@ -3,6 +3,7 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
 import PropTypes from 'prop-types';
+import theme from '../theme';
 import styled from 'styled-components';
 
 import Head from '@components/head';
@@ -12,12 +13,15 @@ import Nav from '@components/nav';
 
 import '@styles/global.scss'
 
+const { colors } = theme;
 
 const Fullscreen = styled.div`
-    border-top: .3rem solid #00b0a5;
+    border-top: .3rem solid ${colors.primary};
     min-height: 100vh;
-    height: 100vh;
     display: flex;
+    flex-direction: column;
+    background: ${colors.white_background};
+    color: ${colors.text_color};
     `;
 
 const Layout = ({ children }) => {
@@ -42,8 +46,8 @@ const Layout = ({ children }) => {
                     <Fullscreen>
                         <Nav />
                         {children}
+                        <Footer />
                     </Fullscreen>
-                    <Footer />
                 </div>
             )}
         />
