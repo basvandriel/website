@@ -36,7 +36,7 @@ const StyledListItem = styled.li`
     text-transform: uppercase;
     color: ${colors.text_color};
     font-size: ${fontSizes.sm};
-    font-weight: 300;
+    font-weight: 500;
     margin: 0 10px;
 `;
 
@@ -61,14 +61,14 @@ class Nav extends React.Component {
                         <Fade duration={1000} delay={500} distance="30px">
 
                             <StyledListItem className='nav-item'>
-                                <StyledListLink to='/'>Wie ben ik</StyledListLink>
+                                <StyledListLink to='/'>Over mij</StyledListLink>
                             </StyledListItem>
                             <StyledListItem className='nav-item'>
                                 <StyledListLink to='/'>Diensten</StyledListLink>
                             </StyledListItem>
-                            <StyledListItem className='nav-item'>
+                            {/* <StyledListItem className='nav-item'>
                                 <StyledListLink to='/'>Case studies</StyledListLink>
-                            </StyledListItem>
+                            </StyledListItem> */}
                             <StyledListItem className='nav-item'>
                                 <StyledListLink to='/' variant="outline-primary">Contact</StyledListLink>
                             </StyledListItem>
