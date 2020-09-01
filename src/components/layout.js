@@ -7,7 +7,6 @@ import theme from '../theme';
 import styled from 'styled-components';
 
 import Head from '@components/head';
-import Footer from '@components/footer';
 
 import Nav from '@components/nav';
 
@@ -16,12 +15,12 @@ import '@styles/global.scss'
 const { colors } = theme;
 
 const Fullscreen = styled.div`
-    border-top: .3rem solid ${colors.primary};
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background: ${colors.white_background};
     color: ${colors.text_color};
+    overflow-y: hidden;
     `;
 
 const Layout = ({ children }) => {
@@ -46,7 +45,7 @@ const Layout = ({ children }) => {
                     <Fullscreen>
                         <Nav />
                         {children}
-                        <Footer />
+                        {/* <Footer /> */}
                     </Fullscreen>
                 </div>
             )}

@@ -57,19 +57,19 @@ class Nav extends React.Component {
                         </div>
                     </Fade>
 
-                    <ul class="nav justify-content-end align-items-center">
+                    <ul className="nav justify-content-end align-items-center">
                         <Fade duration={1000} delay={500} distance="30px">
 
-                            <StyledListItem class='nav-item'>
+                            <StyledListItem className='nav-item'>
                                 <StyledListLink to='/'>Wie ben ik</StyledListLink>
                             </StyledListItem>
-                            <StyledListItem class='nav-item'>
+                            <StyledListItem className='nav-item'>
                                 <StyledListLink to='/'>Diensten</StyledListLink>
                             </StyledListItem>
-                            <StyledListItem class='nav-item'>
+                            <StyledListItem className='nav-item'>
                                 <StyledListLink to='/'>Case studies</StyledListLink>
                             </StyledListItem>
-                            <StyledListItem class='nav-item'>
+                            <StyledListItem className='nav-item'>
                                 <StyledListLink to='/' variant="outline-primary">Contact</StyledListLink>
                             </StyledListItem>
                         </Fade>

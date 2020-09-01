@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -16,9 +16,9 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.11.1",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.24.26",
+    "gatsby": "^2.24.53",
     "gatsby-plugin-config": "^1.0.7",
-    "gatsby-plugin-manifest": "^2.4.26",
+    "gatsby-plugin-manifest": "^2.4.27",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-styled-components": "^3.3.10",
