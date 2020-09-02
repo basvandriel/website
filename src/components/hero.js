@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
+import _ from 'lodash';
 
-import { Container, Button, ButtonGroup } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
 import theme from '../theme';
@@ -34,39 +35,53 @@ const StyledButton = styled(Button)`
 
     &:hover { background-color: ${theme.colors.primary}; border-color: ${theme.colors.primary};}
 `;
-const Hero = () => {
-    const [hovered, setHovered] = useState(false);
-    const toggleHover = () => setHovered(!hovered);
 
-    return (
-        <StyledSection id="hero" style={{ background: 'inherit' }} >
-            <Container>
-                <Fade duration={1000} delay={500} distance="30px">
-                    <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
-                    <StyledTitle>
-                        <span className='first'>Bas</span> van Driel&nbsp;
-                        <a onMouseEnter={toggleHover} onMouseLeave={toggleHover} href>
-                            <span className={hovered ? 'wave' : ''}
-                                role='img' aria-label='wave'>
-                                👋
-                            </span>
-                        </a>
+class Hero extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = { hovered: false };
+        this.toggleHover = this.toggleHover.bind(this);
+    }
+    componentDidMount() {
+        this.toggleHover();
 
-                    </StyledTitle>
+        setTimeout(() => { this.toggleHover() }, 2500);
+    }
+    toggleHover() {
+        this.setState({ hovered: !this.state.hovered });
+    }
+    render() {
+        return (
+            <StyledSection id="hero" style={{ background: 'inherit' }} >
+                <Container>
+                    <Fade duration={1000} delay={500} distance="30px">
+                        <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
+                        <StyledTitle>
+                            Bas van Driel&nbsp;
+                            <a onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} href>
+                                <span className={this.state.hovered ? 'wave' : ''}
+                                    role='img' aria-label='wave'>
+                                    👋
+                                </span>
+                            </a>
+                        </StyledTitle>
 
-                    <h2 className='mb-4' style={{ fontWeight: 400 }}>
-                        Softwareontwikkelaar, ICT-consultant en fotograaf <span role='img' aria-label='wave'>🚀</span>
-                    </h2>
+                        <h2 className='mb-4' style={{ fontWeight: 400 }}>
+                            Full-stack developer, ICT-consultant en fotograaf <span role='img' aria-label='wave'></span>
+                        </h2>
 
-                    <StyledDescription className='mb-1'>
-                        Ik ben een een full-stack developer uit Terneuzen, gespecialiseerd in het maken en ontwerpen van exceptionele websites, applicaties en alles daar tussen in.</StyledDescription>
-                </Fade>
-                <Fade duration={1000} delay={500} distance="30px">
-                    <StyledButton variant='outline-primary' size='lg' className='mt-4'>Meer weten?</StyledButton>
-                </Fade>
-            </Container>
-        </StyledSection >
-    );
-};
+                        <StyledDescription className='mb-1'>
+                            Ik ben een een full-stack developer en ICT'er uit Terneuzen, gespecialiseerd in het maken en ontwerpen van exceptionele websites, applicaties en alles daar tussen in.</StyledDescription>
+                    </Fade>
+                    <Fade duration={1000} delay={500} distance="30px">
+                        <div className='mt-4'>
+                            <StyledButton variant='outline-primary' size='lg' className='mr-2'>Meer weten?</StyledButton>
+                        </div>
+                    </Fade>
+                </Container>
+            </StyledSection >
+        );
+    }
+}
 
 export default Hero;
