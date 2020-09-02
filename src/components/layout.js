@@ -8,7 +8,6 @@ import styled from 'styled-components';
 
 import Head from '@components/head';
 import Nav from '@components/nav';
-import Contact from '@components/contact';
 import Footer from '@components/footer';
 
 import '@styles/global.scss'
