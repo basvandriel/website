@@ -4,15 +4,12 @@ import { Container } from 'react-bootstrap';
 import theme from '../theme';
 import { Link } from 'gatsby'
 
-
 import styled from 'styled-components';
 
-import logo from '@images/logo_new.png';
-
 const StyledFooter = styled.footer`
-    padding: 15px;
-    height: auto;
-    background-color: ${theme.colors.white_background};
+    padding: 20px;
+    align-items: center;
+    min-height: 75px;
 `;
 
 const StyledContainer = styled(Container)`
@@ -21,21 +18,21 @@ const StyledContainer = styled(Container)`
     font-size: ${theme.fontSizes.sm};
     font-weight: 300;
     justify-content: space-between;
+    align-items: center;
     color: ${theme.colors.text_color};
 `;
 
 const Footer = () => {
     return (
-        <StyledFooter className='border-top'>
-            <StyledContainer>
-                <div className='logo'>
-                    <Link to='/'><img src={logo} alt='' className='mr-2' />
-                     Ontworpen en ontwikkeld door Bas van Driel
-                    </Link>
+        <StyledFooter>
+            <StyledContainer className='text-secondary'>
+
+                <div>
+                    Copyright © 2020 Bas van Driel
                 </div>
-            </StyledContainer>
-        </StyledFooter>
+            </StyledContainer >
+        </StyledFooter >
     );
 };
 
-export default Footer;
+export default Footer;  

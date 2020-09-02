@@ -7,8 +7,9 @@ import theme from '../theme';
 import styled from 'styled-components';
 
 import Head from '@components/head';
-
 import Nav from '@components/nav';
+import Contact from '@components/contact';
+import Footer from '@components/footer';
 
 import '@styles/global.scss'
 
@@ -45,7 +46,8 @@ const Layout = ({ children }) => {
                     <Fullscreen>
                         <Nav />
                         {children}
-                        {/* <Footer /> */}
+                        <Footer />
+
                     </Fullscreen>
                 </div>
             )}

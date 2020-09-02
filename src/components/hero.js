@@ -20,8 +20,6 @@ const StyledTitle = styled.h1`
     color: ${theme.colors.primary};
     font-weight: 700;
     font-family: 'LEMON MILK';
-
-    span { color: ${theme.colors.text_color}; }
 `;
 
 const StyledDescription = styled.p`
