@@ -1,5 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
 
 import { Container, Button } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
@@ -64,12 +63,12 @@ class Hero extends React.Component {
                             </a>
                         </StyledTitle>
 
-                        <h2 className='mb-4' style={{ fontWeight: 400 }}>
-                            Full-stack developer, ICT-consultant en fotograaf <span role='img' aria-label='wave'></span>
+                        <h2 className='mb-4' style={{ fontWeight: 300, textTransform: 'uppercase' }}>
+                            Full-stack developer en ICT-beheerder <span role='img' aria-label='wave'></span>
                         </h2>
 
                         <StyledDescription className='mb-1'>
-                            Ik ben een een full-stack developer en ICT'er uit Terneuzen, gespecialiseerd in het maken en ontwerpen van exceptionele websites, applicaties en alles daar tussen in.</StyledDescription>
+                            Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.</StyledDescription>
                     </Fade>
                     <Fade duration={1000} delay={500} distance="30px">
                         <div className='mt-4'>

@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Container } from 'react-bootstrap';
 import theme from '../theme';
-import { Link } from 'gatsby'
 
 import styled from 'styled-components';
 
