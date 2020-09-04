@@ -49,7 +49,7 @@ const StyledIcon = styled.img`
 const Services = () => {
     return (
         <StyledSection>
-            <StyledContainer id='services' className='py-2'>
+            <StyledContainer id='services' className='py-3'>
                 <StyledTitle className='mb-4 border-bottom pb-2'>Diensten <span aria-label='rocket' role='img'>🚀</span></StyledTitle>
 
                 <Row className='justify-content-between'>

@@ -34,7 +34,7 @@ const StyledParagraph = styled.p`
 const About = () => {
     return (
         <StyledSection>
-            <StyledContainer id='about' className='py-2'>
+            <StyledContainer id='about' className='py-3'>
                 <StyledTitle className='mb-4 border-bottom pb-2'>Over mij <span role='img' aria-label='tech'>👨‍💻</span></StyledTitle>
 
                 <Row className='justify-content-between'>
