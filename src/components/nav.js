@@ -4,10 +4,11 @@ import { Fade } from 'react-awesome-reveal';
 
 import styled from 'styled-components';
 import theme from '../theme';
+import media from '../media';
 
 import logo from '@images/logo_new.png';
 
-import 'bootstrap-icons/bootstrap-icons.svg';
+import icons from 'bootstrap-icons/bootstrap-icons.svg';
 
 const { colors, fontSizes } = theme;
 
@@ -27,8 +28,31 @@ const StyledContainer = styled.header`
 
 const StyledHamburger = styled.div`
     display: none;
+    cursor: pointer;
+    align-items: center;
+    
 
-    @media (max-width: 768em) {display: flex;}
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    ${media.tablet`display: flex;`};
+`;
+
+const StyledMobileMenu = styled.div`
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+
+    border-top: .3em solid ${theme.colors.black_background};
+
+    background-color: ${theme.colors.white_background};
+    z-index: 10;
 `;
 
 const StyledNav = styled.nav`
@@ -46,6 +70,8 @@ const StyledListItem = styled.li`
     font-size: ${fontSizes.sm};
     font-weight: 500;
     margin: 0 10px;
+
+    ${media.tablet`display: none;`};
 `;
 
 const StyledListLink = styled(Link)`
@@ -60,20 +86,19 @@ class Nav extends React.Component {
     }
 
     componentDidMount() {
-        // window.addEventListener('resize', () => {
-        //     this.handleResize();
-        //     console.log(window.innerWidth);
-        // });
+        window.addEventListener('resize', () => this.handleResize());
     }
+    componentWillUnmount() {
+        window.removeEventListener('resize', () => this.handleResize());
+    }
+
     toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
-    handleResize = () => (window.innerWidth > 768 && this.state.menuOpen) ? this.toggleMenu() : undefined;
+    handleResize = () => (window.innerWidth > 768 && this.state.menuOpen) ? this.toggleMenu() : void 0;
 
     render() {
         return (
             <StyledContainer>
-
                 <StyledNav>
-                    {/* <Fade duration={1000} delay={500} distance="30px"> */}
                     <div className='logo'>
                         <Link to='/'><img src={logo} alt='' /></Link>
                     </div>
@@ -85,20 +110,26 @@ class Nav extends React.Component {
                         <StyledListItem className='nav-item'>
                             <StyledListLink to='/#services'>Diensten</StyledListLink>
                         </StyledListItem>
-                        {/* <StyledListItem className='nav-item'>
-                                <StyledListLink to='/'>Case studies</StyledListLink>
-                            </StyledListItem> */}
                         <StyledListItem className='nav-item'>
                             <StyledListLink to='/#contact' variant="outline-primary">Contact</StyledListLink>
                         </StyledListItem>
                     </ul>
+
+                    <StyledHamburger onClick={this.toggleMenu}>
+                        <svg class="bi" width="35" height="35" fill="currentColor">
+                            <use xlinkHref={icons + (this.state.menuOpen ? '#x' : '#list')} />
+                        </svg>
+                    </StyledHamburger>
                 </StyledNav>
 
-                <StyledHamburger>
-                    <svg width="40PX" height="40PX" viewBox="0 0 16 16" className="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fillRule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                    </svg>
-                </StyledHamburger>
+
+
+
+
+                <StyledMobileMenu className={this.state.menuOpen ? 'd-flex' : 'd-none'}>
+
+                </StyledMobileMenu>
+
 
             </StyledContainer >
         );
