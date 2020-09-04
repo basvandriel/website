@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import layers from 'bootstrap-icons/icons/layers.svg';
 import shield from 'bootstrap-icons/icons/shield-check.svg';
-// import layers from 'bootstrap-icons/icons/layers.svg';
+import gear from 'bootstrap-icons/icons/gear.svg';
 
 
 import theme from '../theme';
@@ -72,7 +72,7 @@ const Services = () => {
                         </StyledParagraph>
                     </Col>
                     <Col md={4}>
-                        <StyledIcon src={layers} alt="" className='mb-4' />
+                        <StyledIcon src={gear} alt="" className='mb-4' />
                         <StyledService>Reparatie- en onderhoud</StyledService>
                         <StyledParagraph>
                             Mocht u computer stoppen met werken door bijvoorbeeld een software fout of mogelijk defecte hardware
