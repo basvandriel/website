@@ -53,6 +53,8 @@ const StyledMobileMenu = styled.div`
 
     background-color: ${theme.colors.white_background};
     z-index: 10;
+
+    overflow-y: hidden;
 `;
 
 const StyledNav = styled.nav`
@@ -86,15 +88,25 @@ class Nav extends React.Component {
     }
 
     componentDidMount() {
+        window.addEventListener('scroll', () => this.handleScroll());
         window.addEventListener('resize', () => this.handleResize());
     }
     componentWillUnmount() {
+        window.removeEventListener('scroll', () => this.handleScroll());
         window.removeEventListener('resize', () => this.handleResize());
+
     }
 
     toggleMenu = () => this.setState({ menuOpen: !this.state.menuOpen });
-    handleResize = () => (window.innerWidth > 768 && this.state.menuOpen) ? this.toggleMenu() : void 0;
 
+    handleResize = () => (window.innerWidth > 768 && this.state.menuOpen) ? this.toggleMenu() : void 0;
+    handleScroll = () => {
+        if (this.state.menuOpen) {
+            console.log('hey');
+            return;
+        }
+
+    }
     render() {
         return (
             <StyledContainer>
@@ -116,20 +128,25 @@ class Nav extends React.Component {
                     </ul>
 
                     <StyledHamburger onClick={this.toggleMenu}>
-                        <svg class="bi" width="35" height="35" fill="currentColor">
+                        <svg className="bi" width="35" height="35" fill="currentColor">
                             <use xlinkHref={icons + (this.state.menuOpen ? '#x' : '#list')} />
                         </svg>
                     </StyledHamburger>
                 </StyledNav>
 
-
-
-
-
                 <StyledMobileMenu className={this.state.menuOpen ? 'd-flex' : 'd-none'}>
-
+                    <ul className="nav justify-content-center align-items-center text-center w-100">
+                        <li className='nav-item'>
+                            <StyledListLink to='/#about'>Over mij</StyledListLink>
+                        </li>
+                        <li className='nav-item'>
+                            <StyledListLink to='/#services'>Diensten</StyledListLink>
+                        </li>
+                        <li className='nav-item'>
+                            <StyledListLink to='/#contact' variant="outline-primary">Contact</StyledListLink>
+                        </li>
+                    </ul>
                 </StyledMobileMenu>
-
 
             </StyledContainer >
         );
