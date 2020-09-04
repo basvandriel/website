@@ -61,16 +61,16 @@ class Nav extends React.Component {
                         <Fade duration={1000} delay={500} distance="30px">
 
                             <StyledListItem className='nav-item'>
-                                <StyledListLink to='/'>Over mij</StyledListLink>
+                                <StyledListLink to='/#about'>Over mij</StyledListLink>
                             </StyledListItem>
                             <StyledListItem className='nav-item'>
-                                <StyledListLink to='/'>Diensten</StyledListLink>
+                                <StyledListLink to='/#services'>Diensten</StyledListLink>
                             </StyledListItem>
                             {/* <StyledListItem className='nav-item'>
                                 <StyledListLink to='/'>Case studies</StyledListLink>
                             </StyledListItem> */}
                             <StyledListItem className='nav-item'>
-                                <StyledListLink to='/' variant="outline-primary">Contact</StyledListLink>
+                                <StyledListLink to='/#contact' variant="outline-primary">Contact</StyledListLink>
                             </StyledListItem>
                         </Fade>
                     </ul>

@@ -1,6 +1,8 @@
 import React from 'react';
 
+import { Link } from 'gatsby';
 import { Container, Button } from 'react-bootstrap';
+
 import Fade from 'react-reveal/Fade';
 import styled from 'styled-components';
 import theme from '../theme';
@@ -72,7 +74,12 @@ class Hero extends React.Component {
                     </Fade>
                     <Fade duration={1000} delay={500} distance="30px">
                         <div className='mt-4'>
-                            <StyledButton variant='outline-primary' size='lg' className='mr-2'>Meer weten?</StyledButton>
+                            <Link to='/#about'>
+                                <StyledButton variant='outline-primary' size='lg' className='mr-2'>
+                                    Meer weten?
+                                </StyledButton>
+                            </Link>
+
                         </div>
                     </Fade>
                 </Container>

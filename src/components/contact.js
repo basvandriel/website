@@ -32,14 +32,14 @@ const StyledDescription = styled.p`
 
 const Contact = () => (
     <StyledSection>
-        <StyledContainer>
+        <StyledContainer id='contact'>
             <StyledTitle>Contact</StyledTitle>
 
             <StyledDescription className='mb-3'>
                 Voor vragen en offertes kunt u vrijblijvend contact opnemen.
             </StyledDescription>
 
-            <div style={{ fontSize: theme.fontSizes.xl }}>
+            <div style={{ fontSize: theme.fontSizes.xl, fontWeight: 400 }}>
                 <span role='img' aria-label='phone' className='mr-3'>
                     📞&nbsp;
                     <a href='tel:0683864762'>06 83 86 47 62</a>
