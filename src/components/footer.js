@@ -25,10 +25,13 @@ const Footer = () => {
     return (
         <StyledFooter>
             <StyledContainer className='text-secondary'>
-
+                <div>
+                    KVK 80077501
+                </div>
                 <div>
                     Copyright © 2020 Bas van Driel
                 </div>
+
             </StyledContainer >
         </StyledFooter >
     );
