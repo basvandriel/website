@@ -48,7 +48,7 @@ const About = () => {
                             Hiernaast vind ik het leuk om te adviseren en ondersteunen bij computerproblemen.
                         </StyledParagraph>
                         <StyledParagraph>
-                            Wilt u meer weten? Bekijk dan mijn aanbod van diensten of stuur me gerust een bericht en misschien kan ik u wel helpen!
+                            Wilt u meer weten? Bekijk dan mijn aanbod van diensten of stuur me gerust een bericht en wellicht kan ik u wel helpen!
                         </StyledParagraph>
 
 

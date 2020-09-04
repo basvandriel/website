@@ -74,8 +74,8 @@ const Services = () => {
                         <StyledIcon src={gear} alt="" className='mb-4' />
                         <StyledService>Reparatie- en onderhoud</StyledService>
                         <StyledParagraph>
-                            Mocht u computer stoppen met werken door bijvoorbeeld een software fout of mogelijk defecte hardware
-                            kunt bij mij terecht. Ik zal er voor zorgen dat deze weer zoals behoren werkt.
+                            Mocht uw computer stoppen met werken door bijvoorbeeld een software fout of mogelijk defecte hardware, dan
+                            kunt u bij mij terecht. Ik zal ervoor zorgen dat deze weer naar behoren werkt.
                         </StyledParagraph>
                     </Col>
                 </Row>
