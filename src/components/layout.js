@@ -26,7 +26,7 @@ const Fullscreen = styled.div`
     flex-direction: column;
     background: ${colors.white_background};
     color: ${colors.text_color};
-    overflow-y: hidden;
+    overflow: hidden;
     `;
 
 

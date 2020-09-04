@@ -20,7 +20,6 @@ const StyledContainer = styled(Container)`
     flex-direction: column;
     font-weight: 300;
     justify-content: space-between;
-    padding: 15px 0;
     a { color: ${theme.colors.text_color}}
 `;
 
@@ -50,7 +49,7 @@ const StyledIcon = styled.img`
 const Services = () => {
     return (
         <StyledSection>
-            <StyledContainer id='services'>
+            <StyledContainer id='services' className='py-2'>
                 <StyledTitle className='mb-4 border-bottom pb-2'>Diensten <span aria-label='rocket' role='img'>🚀</span></StyledTitle>
 
                 <Row className='justify-content-between'>

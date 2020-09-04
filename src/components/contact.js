@@ -15,7 +15,6 @@ const StyledContainer = styled(Container)`
     font-weight: 300;
     text-align: center;
     justify-content: space-between;
-    padding: 15px 0;
 
     a { color: ${theme.colors.text_color}}
 `;
@@ -32,7 +31,7 @@ const StyledDescription = styled.p`
 
 const Contact = () => (
     <StyledSection>
-        <StyledContainer id='contact'>
+        <StyledContainer id='contact' >
             <StyledTitle>Contact</StyledTitle>
 
             <StyledDescription className='mb-3'>
