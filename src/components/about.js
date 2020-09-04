@@ -54,7 +54,7 @@ const About = () => {
 
 
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className='text-center'>
                         <Image thumbnail src={me} alt='Een foto van mij!' className='img-responsive' style={{ maxWidth: '85%' }} />
                     </Col>
 
