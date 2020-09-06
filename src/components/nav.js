@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
-import { Fade } from 'react-awesome-reveal';
+import Helmet from 'react-helmet';
 
 import styled from 'styled-components';
 import theme from '../theme';
@@ -9,6 +9,9 @@ import media from '../media';
 import logo from '@images/logo_new.png';
 
 import icons from 'bootstrap-icons/bootstrap-icons.svg';
+
+import { slide as Menu } from 'react-burger-menu'
+
 
 const { colors, fontSizes } = theme;
 
@@ -20,8 +23,6 @@ const StyledContainer = styled.header`
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    padding: 0px 50px;
-    z-index: 11;
     height: 125px;
     width: 100%;
     `;
@@ -40,24 +41,8 @@ const StyledHamburger = styled.div`
     ${media.tablet`display: flex;`};
 `;
 
-const StyledMobileMenu = styled.div`
-    display: none;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-
-    border-top: .3em solid ${theme.colors.black_background};
-
-    background-color: ${theme.colors.white_background};
-    z-index: 10;
-
-    overflow-y: hidden;
-`;
-
 const StyledNav = styled.nav`
+    padding: 0px 50px;
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -78,6 +63,19 @@ const StyledListItem = styled.li`
 
 const StyledListLink = styled(Link)`
   padding: 12px 10px;
+`;
+
+const StyledHamburgerContainer = styled.div`
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    outline: 0;
+    opacity: 0.5;
+    background-color: ${theme.colors.black_background};
 `;
 
 class Nav extends React.Component {
@@ -110,6 +108,9 @@ class Nav extends React.Component {
     render() {
         return (
             <StyledContainer>
+                <Helmet>
+                    <body className={this.state.menuOpen ? 'no-scroll' : ''} />
+                </Helmet>
                 <StyledNav>
                     <div className='logo'>
                         <Link to='/'><img src={logo} alt='' /></Link>
@@ -134,21 +135,21 @@ class Nav extends React.Component {
                     </StyledHamburger>
                 </StyledNav>
 
-                <StyledMobileMenu className={this.state.menuOpen ? 'd-flex' : 'd-none'}>
-                    <ul className="nav justify-content-center align-items-center text-center w-100">
-                        <li className='nav-item'>
-                            <StyledListLink to='/#about'>Over mij</StyledListLink>
-                        </li>
-                        <li className='nav-item'>
-                            <StyledListLink to='/#services'>Diensten</StyledListLink>
-                        </li>
-                        <li className='nav-item'>
-                            <StyledListLink to='/#contact' variant="outline-primary">Contact</StyledListLink>
-                        </li>
-                    </ul>
-                </StyledMobileMenu>
 
+
+                <StyledHamburgerContainer className={this.state.menuOpen ? 'd-flex' : 'd-none'}>
+                    <StyledListItem className='nav-item'>
+                        <StyledListLink to='/#about' onClick={this.toggleMenu}>Over mij</StyledListLink>
+                    </StyledListItem>
+                    <StyledListItem className='nav-item'>
+                        <StyledListLink onClick={this.toggleMenu} to='/#services'>Diensten</StyledListLink>
+                    </StyledListItem>
+                    <StyledListItem className='nav-item'>
+                        <StyledListLink onClick={this.toggleMenu} to='/#contact' variant="outline-primary">Contact</StyledListLink>
+                    </StyledListItem>
+                </StyledHamburgerContainer>
             </StyledContainer >
+
         );
     }
 }
