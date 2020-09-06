@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Container, Button } from 'react-bootstrap';
 
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import styled from 'styled-components';
 import theme from '../theme';
 
@@ -53,35 +53,31 @@ class Hero extends React.Component {
         return (
             <StyledSection id="hero" style={{ background: 'inherit' }} >
                 <Container>
-                    <Fade duration={1000} delay={500} distance="30px">
-                        <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
-                        <StyledTitle>
-                            Bas van Driel&nbsp;
-                            <a onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} href>
-                                <span className={this.state.hovered ? 'wave' : ''}
-                                    role='img' aria-label='wave'>
-                                    👋
+                    <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
+                    <StyledTitle>
+                        Bas van Driel&nbsp;
+                            <a onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} href='#hero'>
+                            <span className={this.state.hovered ? 'wave' : ''}
+                                role='img' aria-label='wave'>
+                                👋
                                 </span>
-                            </a>
-                        </StyledTitle>
+                        </a>
+                    </StyledTitle>
 
-                        <h2 className='mb-4' style={{ fontWeight: 300, textTransform: 'uppercase' }}>
-                            Full-stack developer en ICT-beheerder <span role='img' aria-label='wave'></span>
-                        </h2>
+                    <h2 className='mb-4' style={{ fontWeight: 300, textTransform: 'uppercase' }}>
+                        Full-stack developer en ICT-beheerder <span role='img' aria-label='wave'></span>
+                    </h2>
 
-                        <StyledDescription className='mb-1'>
-                            Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.</StyledDescription>
-                    </Fade>
-                    <Fade duration={1000} delay={500} distance="30px">
-                        <div className='mt-4'>
-                            <Link to='/#about'>
-                                <StyledButton variant='outline-primary' size='lg' className='mr-2'>
-                                    Meer weten?
+                    <StyledDescription className='mb-1'>
+                        Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.</StyledDescription>
+                    <div className='mt-4'>
+                        <Link to='/#about'>
+                            <StyledButton variant='outline-primary' size='lg' className='mr-2'>
+                                Meer weten?
                                 </StyledButton>
-                            </Link>
+                        </Link>
 
-                        </div>
-                    </Fade>
+                    </div>
                 </Container>
             </StyledSection >
         );

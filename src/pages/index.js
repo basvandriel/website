@@ -9,10 +9,12 @@ import { About, Services } from '@components';
 export default () => {
   return (
     <Layout>
-      <Hero />
-      <About />
-      <Services />
-      <Contact />
+      <>
+        <Hero />
+        <About />
+        <Services />
+        <Contact />
+      </>
     </Layout>
   );
 };

@@ -51,6 +51,7 @@ const Layout = ({ children }) => {
 
                     <Fullscreen>
                         <Nav />
+
                         {children}
                         <Footer />
 
