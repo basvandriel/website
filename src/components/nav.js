@@ -48,7 +48,7 @@ const StyledNav = styled.nav`
     justify-content: space-between;
     width: 100%;
     counter-reset: item 0;
-    z-index: 12;
+    z-index: 2000;
   `;
 
 const StyledListItem = styled.li`
@@ -72,10 +72,17 @@ const StyledHamburgerContainer = styled.div`
     right: 0;
     width: 100%;
     height: 100vh;
-    z-index: 10;
+    z-index: 1000;
     outline: 0;
-    opacity: 0.5;
-    background-color: ${theme.colors.black_background};
+    background-color: ${theme.colors.white_background};
+    align-items: center;
+`;
+
+const StyledHamburgerNavigation = styled.div`
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: ${theme.fontSizes.lg};
+    > a { display: block; }
 `;
 
 class Nav extends React.Component {
@@ -135,21 +142,15 @@ class Nav extends React.Component {
                     </StyledHamburger>
                 </StyledNav>
 
-
-
                 <StyledHamburgerContainer className={this.state.menuOpen ? 'd-flex' : 'd-none'}>
-                    <StyledListItem className='nav-item'>
+
+                    <StyledHamburgerNavigation className='text-center w-100 pl-0'>
                         <StyledListLink to='/#about' onClick={this.toggleMenu}>Over mij</StyledListLink>
-                    </StyledListItem>
-                    <StyledListItem className='nav-item'>
-                        <StyledListLink onClick={this.toggleMenu} to='/#services'>Diensten</StyledListLink>
-                    </StyledListItem>
-                    <StyledListItem className='nav-item'>
-                        <StyledListLink onClick={this.toggleMenu} to='/#contact' variant="outline-primary">Contact</StyledListLink>
-                    </StyledListItem>
+                        <StyledListLink to='/#services' onClick={this.toggleMenu}>Diensten</StyledListLink>
+                        <StyledListLink to='/#contact' onClick={this.toggleMenu}>Contact</StyledListLink>
+                    </StyledHamburgerNavigation>
                 </StyledHamburgerContainer>
             </StyledContainer >
-
         );
     }
 }
