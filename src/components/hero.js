@@ -7,8 +7,6 @@ import styled from 'styled-components';
 import theme from '../theme';
 import media from '../media';
 
-import '@styles/transitions.scss';
-
 import { Fade } from "react-awesome-reveal";
 
 
