@@ -9,6 +9,8 @@ import media from '../media';
 import logo from '@images/logo_new.png';
 import icons from 'bootstrap-icons/bootstrap-icons.svg';
 
+import { Fade } from "react-awesome-reveal";
+
 const { colors, fontSizes } = theme;
 
 
@@ -81,6 +83,8 @@ const StyledHamburgerNavigation = styled.div`
     > a { display: block; }
 `;
 
+
+
 class Nav extends React.Component {
     constructor(props) {
         super(props);
@@ -114,22 +118,25 @@ class Nav extends React.Component {
                 <Helmet>
                     <body className={this.state.menuOpen ? 'no-scroll' : ''} />
                 </Helmet>
-                <StyledNav>
-                    <div className='logo'>
-                        <Link to='/'><img src={logo} alt='' /></Link>
-                    </div>
 
-                    <ul className="nav justify-content-end align-items-center">
-                        <StyledListItem className='nav-item'>
-                            <StyledListLink to='/#about'>Over mij</StyledListLink>
-                        </StyledListItem>
-                        <StyledListItem className='nav-item'>
-                            <StyledListLink to='/#services'>Diensten</StyledListLink>
-                        </StyledListItem>
-                        <StyledListItem className='nav-item'>
-                            <StyledListLink to='/#contact' variant="outline-primary">Contact</StyledListLink>
-                        </StyledListItem>
-                    </ul>
+                <StyledNav>
+                    <Fade className='logo'>
+                        <Link to='/'><img src={logo} alt='' /></Link>
+                    </Fade>
+
+                    <Fade className='nav justify-content-end align-items-center'>
+                        <ul>
+                            <StyledListItem className='nav-item'>
+                                <StyledListLink to='/#about'>Over mij</StyledListLink>
+                            </StyledListItem>
+                            <StyledListItem className='nav-item'>
+                                <StyledListLink to='/#services'>Diensten</StyledListLink>
+                            </StyledListItem>
+                            <StyledListItem className='nav-item'>
+                                <StyledListLink to='/#contact' variant="outline-primary">Contact</StyledListLink>
+                            </StyledListItem>
+                        </ul>
+                    </Fade>
 
                     <StyledHamburger onClick={this.toggleMenu}>
                         <svg className="bi" width="35" height="35" fill="currentColor">

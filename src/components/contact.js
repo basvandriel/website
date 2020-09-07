@@ -23,7 +23,7 @@ const Contact = () => (
         <StyledContainer id='contact' >
             <StyledSectionTitle>Contact</StyledSectionTitle>
 
-            <StyledParagraph className='mb-0 text-center'>
+            <StyledParagraph className='mb-3 text-center'>
                 Voor vragen en offertes kunt u vrijblijvend contact opnemen.
             </StyledParagraph>
 

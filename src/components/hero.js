@@ -9,7 +9,8 @@ import media from '../media';
 
 import '@styles/transitions.scss';
 
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import { Fade } from "react-awesome-reveal";
+
 
 const TITLE_SIZE = '72px';
 
@@ -80,37 +81,51 @@ class Hero extends React.Component {
         return (
             <StyledSection id="hero" style={{ background: 'inherit' }} >
                 <Container>
-                    <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
 
-                    <StyledTitle>
-                        Bas van Driel&nbsp;
-                        <a
-                            onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}
-                            style={{ cursor: 'default' }} href="#hero" disabled
-                        >
-                            <span className={this.state.hovered ? 'wave' : ''}
-                                role='img' aria-label='wave'>
-                                👋
+
+                    <Fade childClassName='mb-0' direction='up'>
+                        <p style={{ fontWeight: 300 }}>Mijn naam is</p>
+                    </Fade>
+
+                    <Fade direction='up'>
+                        <StyledTitle>
+                            Bas van Driel&nbsp;
+                                <a
+                                onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}
+                                style={{ cursor: 'default' }} href="#hero" disabled
+                            >
+                                <span className={this.state.hovered ? 'wave' : ''}
+                                    role='img' aria-label='wave'>
+                                    👋
                             </span>
-                        </a>
-                    </StyledTitle>
+                            </a>
+                        </StyledTitle>
+                    </Fade>
 
-                    <StyledSubtitle className='mb-4'>
-                        Full-stack developer en ICT-beheerder <span role='img' aria-label='wave'></span>
-                    </StyledSubtitle>
+                    <Fade childClassName='mb-4' direction='up'>
+                        <StyledSubtitle>
+                            Full-stack developer en ICT-beheerder <span role='img' aria-label='wave'></span>
+                        </StyledSubtitle>
+                    </Fade>
 
-                    <StyledDescription className='mb-1'>
-                        Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.
-                    </StyledDescription>
 
-                    <div className='mt-4'>
-                        <Link to='/#about'>
-                            <StyledButton variant='outline-primary' size='lg' className='mr-2'>
-                                Meer weten?
+                    <Fade childClassName='mb-1' direction='up'>
+                        <StyledDescription>
+                            Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.
+                        </StyledDescription>
+                    </Fade>
+
+                    <Fade className='mt-4' direction='up'>
+                        <div className='mt-4'>
+                            <Link to='/#about'>
+                                <StyledButton variant='outline-primary' size='lg' className='mr-2'>
+                                    Meer weten?
                                 </StyledButton>
-                        </Link>
+                            </Link>
 
-                    </div>
+                        </div>
+                    </Fade>
+
                 </Container>
             </StyledSection >
         );
