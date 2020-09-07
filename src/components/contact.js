@@ -21,10 +21,6 @@ const StyledContainer = styled(Container)`
     a { color: ${theme.colors.text_color}}
 `;
 
-const StyledDescription = styled.p`
-    font-size: ${theme.fontSizes.lg};
-`;
-
 const Contact = () => (
     <StyledSection>
         <StyledContainer id='contact' >
