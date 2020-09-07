@@ -1,20 +1,49 @@
-# [https://basvandriel.github.io/](http://basvandriel.github.io/) <img src="var/public/assets/images/profile-pictures/profile-picture-pixelated.png" height="10%" width="10%" align="right" />
-[![Build Status](https://travis-ci.org/basvandriel/WWW.svg?branch=master)](https://travis-ci.org/basvandriel/WWW)
-[![license](https://img.shields.io/github/license/basvandriel/WWW.svg)](LICENSE.md)
-This repository contains my personal website for sharing my biography, work-experience, education-experiences and portfolio
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/basvandriel/website/develop/src/images/logo_new.png" width="100" />
+</div>
+<h1 align="center">
+  basvandriel.nl -  v2
+</h1>
+<p align="center">
+  The second iteration of <a href="https://basvandriel.nl" target="_blank">my personal website</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>.</a>
+</p>
 
-The reason I started this project was because I wanted to learn more about object-oriented programming and front-end development.
+## Installation & setup 🛠
 
-## Contribution
-Contributions to the project are currently closed - see the [CONTRIBUTION.md](CONTRIBUTION.md) file for details.
+1. Install the Gatsby CLI
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+   ```sh
+   npm install -g gatsby-cli
+   ```
 
-## Authors
-This project was initially created by [Bas van Driel](https://github.com/basvandriel "GitHub page") ([@bvandriel](https://twitter.com/bvandriel "Twitter page")), where [these people](https://github.com/basvandriel/basvandriel.github.io/graphs/contributors) contributed to it.
+2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
 
-## Links
-* [Website](http://basvandriel.github.io/) (currently hosted at Github Pages)
-* [Issue tracker](https://github.com/basvandriel/basvandriel.nl/issues)
-* [Source code](https://github.com/basvandriel/basvandriel.nl)
+   ```sh
+   nvm install
+   ```
+
+3. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
+4. Start the development server
+
+   ```sh
+   npm start
+   ```
+
+## Building and running for production 🚀
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
+   ```
+
+1. Preview the site as it will appear once deployed
+
+   ```sh
+   npm run serve
+   ```
