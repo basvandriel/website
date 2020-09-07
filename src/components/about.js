@@ -7,6 +7,9 @@ import styled from 'styled-components';
 
 import me from '@images/me.png';
 
+import { StyledSectionTitle, StyledParagraph } from '@styles/GlobalStyle';
+
+
 const StyledSection = styled.section`
     padding: 100px 0;
 `;
@@ -19,23 +22,11 @@ const StyledContainer = styled(Container)`
     a { color: ${theme.colors.text_color}}
 `;
 
-const StyledTitle = styled.h2`
-    color: ${theme.colors.primary};
-    font-family: 'LEMON MILK';
-    font-size: 52px;
-`;
-
-const StyledParagraph = styled.p`
-    font-size: ${theme.fontSizes.lg};
-    text-align: left;
-`;
-
-
 const About = () => {
     return (
         <StyledSection>
             <StyledContainer id='about' className='py-3'>
-                <StyledTitle className='mb-4 border-bottom pb-2'>Over mij <span role='img' aria-label='tech'>👨‍💻</span></StyledTitle>
+                <StyledSectionTitle className='mb-4 border-bottom pb-2'>Over mij <span role='img' aria-label='tech'>👨‍💻</span></StyledSectionTitle>
 
                 <Row className='justify-content-between'>
                     <Col md={6}>

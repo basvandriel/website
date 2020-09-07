@@ -36,15 +36,18 @@ section {  padding: 5rem 0rem }
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
   }
+$font-sizes: (
+  "xs": '12px',
+  "smish": '13px',
+  "sm": '14px',
+  "md": '16px',
+  "lg": '18px',
+  "xl": '20px',
+  "xxl": '22px',
+  "h3": '32px',
+);
 
-  .overlayMenu {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 10;
-    outline: 0;
-    display: none;
-  }
+.paragraph {
+  font-size: map-get($font-sizes, "lg");
+  text-align: left;
+}

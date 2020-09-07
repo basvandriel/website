@@ -7,8 +7,11 @@ import gear from 'bootstrap-icons/icons/gear.svg';
 
 
 import theme from '../theme';
+import media from '../media';
 
 import styled from 'styled-components';
+
+import { StyledSectionTitle } from '@styles/GlobalStyle';
 
 const StyledSection = styled.section`
     padding: 100px 0;
@@ -23,19 +26,16 @@ const StyledContainer = styled(Container)`
     a { color: ${theme.colors.text_color}}
 `;
 
-const StyledTitle = styled.h2`
-    color: ${theme.colors.primary};
-    font-family: 'LEMON MILK';
-    font-size: 52px;
-`;
-
 const StyledService = styled.h3`
     font-size:  ${theme.fontSizes.lg};
+    ${media.tablet`font-size: ${theme.fontSizes.md}`} ;
 `;
 
 const StyledParagraph = styled.p`
     font-size: ${theme.fontSizes.lg};
     text-align: left;
+    
+    ${media.tablet`font-size: ${theme.fontSizes.md}`} ;
 `;
 
 const StyledIcon = styled.img`
@@ -44,13 +44,11 @@ const StyledIcon = styled.img`
     text-align: left;
 `;
 
-
-
 const Services = () => {
     return (
         <StyledSection>
             <StyledContainer id='services' className='py-3'>
-                <StyledTitle className='mb-4 border-bottom pb-2'>Diensten <span aria-label='rocket' role='img'>🚀</span></StyledTitle>
+                <StyledSectionTitle className='mb-4 border-bottom pb-2'>Diensten <span aria-label='rocket' role='img'>🚀</span></StyledSectionTitle>
 
                 <Row className='justify-content-between'>
                     <Col md={4}>

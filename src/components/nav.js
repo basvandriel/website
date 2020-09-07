@@ -7,11 +7,7 @@ import theme from '../theme';
 import media from '../media';
 
 import logo from '@images/logo_new.png';
-
 import icons from 'bootstrap-icons/bootstrap-icons.svg';
-
-import { slide as Menu } from 'react-burger-menu'
-
 
 const { colors, fontSizes } = theme;
 

@@ -2,6 +2,8 @@ import React from 'react';
 
 import { Container } from 'react-bootstrap';
 
+import { StyledSectionTitle, StyledParagraph } from '@styles/GlobalStyle';
+
 import styled from 'styled-components';
 import theme from '../theme';
 
@@ -19,12 +21,6 @@ const StyledContainer = styled(Container)`
     a { color: ${theme.colors.text_color}}
 `;
 
-const StyledTitle = styled.h2`
-    color: ${theme.colors.primary};
-    font-family: 'LEMON MILK';
-    font-size: 52px;
-`;
-
 const StyledDescription = styled.p`
     font-size: ${theme.fontSizes.lg};
 `;
@@ -32,11 +28,11 @@ const StyledDescription = styled.p`
 const Contact = () => (
     <StyledSection>
         <StyledContainer id='contact' >
-            <StyledTitle>Contact</StyledTitle>
+            <StyledSectionTitle>Contact</StyledSectionTitle>
 
-            <StyledDescription className='mb-3'>
+            <StyledParagraph className='mb-0 text-center'>
                 Voor vragen en offertes kunt u vrijblijvend contact opnemen.
-            </StyledDescription>
+            </StyledParagraph>
 
             <div style={{ fontSize: theme.fontSizes.xl, fontWeight: 400 }}>
                 <span role='img' aria-label='phone' className='mr-3'>
