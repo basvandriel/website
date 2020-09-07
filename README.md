@@ -2,13 +2,13 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/basvandriel/website/develop/src/images/logo_new.png" width="100" />
 </div>
 <h1 align="center">
-  https://www.basvandriel.nl -  v2
+  basvandriel.nl -  v2
 </h1>
 <p align="center">
   The second iteration of <a href="https://basvandriel.nl" target="_blank">my personal website</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a>.</a>
 </p>
 
-## 🛠 Installation & Set Up 💡
+## Installation & setup 🛠
 
 1. Install the Gatsby CLI
 
@@ -34,7 +34,7 @@
    npm start
    ```
 
-## Building and Running for Production 🚀
+## Building and running for production 🚀
 
 1. Generate a full static production build
 

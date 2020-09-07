@@ -17,7 +17,7 @@ module.exports = {
   siteMetadata: {
     title: `Bas van Driel`,
     siteUrl: `https://www.basvandriel.nl/`,
-    keywords: 'Vooral knap',
+    keywords: 'developer portfolio',
     locale: 'nl-NL',
     description: `Bas van Driel is een software ontwikkelaar in Terneuzen die specialiseserd in het maken van exceptionele websites, applicaties en alles tussen in.`
   },
@@ -30,7 +30,7 @@ module.exports = {
         name: `Bas van Driel`,
         short_name: `Bas`,
         start_url: `/`,
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/logo.png',
       },
     }
