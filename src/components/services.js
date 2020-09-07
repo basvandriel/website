@@ -12,11 +12,7 @@ import media from '../media';
 import styled from 'styled-components';
 
 import { StyledSectionTitle } from '@styles/GlobalStyle';
-
-const StyledSection = styled.section`
-    padding: 100px 0;
-    padding-bottom: 0;
-`;
+import StyledSection from '@styles/Section';
 
 const StyledContainer = styled(Container)`
     display: flex;
@@ -46,7 +42,7 @@ const StyledIcon = styled.img`
 
 const Services = () => {
     return (
-        <StyledSection>
+        <StyledSection className='pb-0'>
             <StyledContainer id='services' className='py-3'>
                 <StyledSectionTitle className='mb-4 border-bottom pb-2'>Diensten <span aria-label='rocket' role='img'>🚀</span></StyledSectionTitle>
 
@@ -77,7 +73,6 @@ const Services = () => {
                         </StyledParagraph>
                     </Col>
                 </Row>
-
             </StyledContainer>
         </StyledSection>
     );

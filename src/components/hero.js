@@ -3,10 +3,13 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Container, Button } from 'react-bootstrap';
 
-import { Fade } from 'react-awesome-reveal';
 import styled from 'styled-components';
 import theme from '../theme';
 import media from '../media';
+
+import '@styles/transitions.scss';
+
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 const TITLE_SIZE = '72px';
 
@@ -78,13 +81,17 @@ class Hero extends React.Component {
             <StyledSection id="hero" style={{ background: 'inherit' }} >
                 <Container>
                     <p style={{ fontWeight: 300 }} className='mb-0'>Mijn naam is</p>
+
                     <StyledTitle>
                         Bas van Driel&nbsp;
-                            <a onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+                        <a
+                            onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}
+                            style={{ cursor: 'default' }} href="#hero" disabled
+                        >
                             <span className={this.state.hovered ? 'wave' : ''}
                                 role='img' aria-label='wave'>
                                 👋
-                                </span>
+                            </span>
                         </a>
                     </StyledTitle>
 
@@ -93,7 +100,9 @@ class Hero extends React.Component {
                     </StyledSubtitle>
 
                     <StyledDescription className='mb-1'>
-                        Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.</StyledDescription>
+                        Gespecialiseerd in maatwerk oplossingen omtrent het ontwerpen en realiseren van websites, applicaties en alles daar tussen in.
+                    </StyledDescription>
+
                     <div className='mt-4'>
                         <Link to='/#about'>
                             <StyledButton variant='outline-primary' size='lg' className='mr-2'>

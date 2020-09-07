@@ -6,10 +6,7 @@ import { StyledSectionTitle, StyledParagraph } from '@styles/GlobalStyle';
 
 import styled from 'styled-components';
 import theme from '../theme';
-
-const StyledSection = styled.section`
-    padding: 150px 0;
-`;
+import StyledSection from '@styles/Section';
 
 const StyledContainer = styled(Container)`
     display: flex;
@@ -22,7 +19,7 @@ const StyledContainer = styled(Container)`
 `;
 
 const Contact = () => (
-    <StyledSection>
+    <StyledSection style={{ padding: "150px 0" }}>
         <StyledContainer id='contact' >
             <StyledSectionTitle>Contact</StyledSectionTitle>
 

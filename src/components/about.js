@@ -8,11 +8,7 @@ import styled from 'styled-components';
 import me from '@images/me.png';
 
 import { StyledSectionTitle, StyledParagraph } from '@styles/GlobalStyle';
-
-
-const StyledSection = styled.section`
-    padding: 100px 0;
-`;
+import StyledSection from '@styles/Section';
 
 const StyledContainer = styled(Container)`
     display: flex;
