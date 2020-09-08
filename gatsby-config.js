@@ -4,6 +4,8 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+const { GOOGLE_ANALYTICS_ID } = require('./src/secrets');
+
 // Initialize dotenv
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`, // or '.env'
@@ -33,6 +35,20 @@ module.exports = {
         display: 'standalone',
         icon: 'src/images/logo.png',
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: GOOGLE_ANALYTICS_ID,
+        head: false,
+        exclude: [],
+        pageTransitionDelay: 0,
+        variationId: "0",
+        defer: false,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "basvandriel.nl",
+      },
+    },
   ]
 }
