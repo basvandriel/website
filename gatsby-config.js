@@ -38,17 +38,7 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: GOOGLE_ANALYTICS_ID,
-        head: false,
-        exclude: [],
-        pageTransitionDelay: 0,
-        variationId: "0",
-        defer: false,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "basvandriel.nl",
-      },
+      options: { trackingId: GOOGLE_ANALYTICS_ID }
     },
   ]
 }
